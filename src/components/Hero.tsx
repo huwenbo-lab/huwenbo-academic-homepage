@@ -1,5 +1,5 @@
 import React from 'react'
-import { useLanguage } from '../hooks/useLanguage'
+import { useLanguage } from '../hooks/useLanguage.tsx'
 import { translations } from '../utils/translations'
 
 const Hero: React.FC = () => {
@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
       <div className="max-w-4xl mx-auto text-center">
         <div className="mb-8">
           <img
-            src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Professional%20academic%20portrait%2C%20clean%20background%2C%20formal%20attire%2C%20friendly%20smile%2C%20high%20quality%2C%20professional%20lighting&image_size=square"
+            src={import.meta.env.BASE_URL + 'profile.jpg'}
             alt="Profile"
             className="w-24 h-24 md:w-32 md:h-32 rounded-full mx-auto mb-6 object-cover shadow-lg"
           />

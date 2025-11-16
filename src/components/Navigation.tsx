@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useLanguage } from '../hooks/useLanguage'
+import { useLanguage } from '../hooks/useLanguage.tsx'
 import { translations } from '../utils/translations'
 
 const Navigation: React.FC = () => {
@@ -19,6 +19,7 @@ const Navigation: React.FC = () => {
     { id: 'home', label: content.nav.home },
     { id: 'research', label: content.nav.research },
     { id: 'publications', label: content.nav.publications },
+    { id: 'conference', label: content.nav.conference },
     { id: 'education', label: content.nav.education },
     { id: 'contact', label: content.nav.contact }
   ]
