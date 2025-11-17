@@ -20,6 +20,7 @@ const Hero: React.FC = () => {
           <img
             src={import.meta.env.BASE_URL + 'profile.jpg'}
             alt="Profile"
+            onError={(e) => { (e.currentTarget as HTMLImageElement).src = import.meta.env.BASE_URL + 'avatar.svg' }}
             className="w-24 h-24 md:w-32 md:h-32 rounded-full mx-auto mb-6 object-cover shadow-lg"
           />
         </div>
