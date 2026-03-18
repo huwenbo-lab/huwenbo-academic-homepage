@@ -22,7 +22,9 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   useEffect(() => {
     try {
       localStorage.setItem('language', language)
-    } catch {}
+    } catch {
+      return
+    }
   }, [language])
 
   const value = useMemo(() => ({ language, setLanguage }), [language])
