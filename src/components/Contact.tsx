@@ -1,5 +1,5 @@
 import React from 'react'
-import { useLanguage } from '../hooks/useLanguage'
+import { useLanguage } from '../hooks/useLanguage.tsx'
 import { translations } from '../utils/translations'
 
 const Contact: React.FC = () => {
@@ -13,6 +13,14 @@ const Contact: React.FC = () => {
           {content.contact.title}
         </h2>
         <div className="max-w-2xl mx-auto text-center space-y-6">
+          {content.contact.phone && (
+            <div className="flex items-center justify-center space-x-3">
+              <svg className="w-6 h-6 text-blue-400" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M2 3a1 1 0 011-1h3a1 1 0 011 .78l1 4a1 1 0 01-.52 1.14l-2 1a11.06 11.06 0 004.58 4.58l1-2a1 1 0 011.14-.52l4 1a1 1 0 01.78 1V17a1 1 0 01-1 1h-3a1 1 0 01-1-.78l-1-4a1 1 0 01.52-1.14l2-1A13.06 13.06 0 016.3 6.3l-1 2A1 1 0 014.14 9L0 8a1 1 0 01-1-.78V4a1 1 0 011-1h2z" />
+              </svg>
+              <span>{content.contact.phone}</span>
+            </div>
+          )}
           <div className="flex items-center justify-center space-x-3">
             <svg className="w-6 h-6 text-blue-400" fill="currentColor" viewBox="0 0 20 20">
               <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
@@ -39,6 +47,14 @@ const Contact: React.FC = () => {
             </svg>
             <span>{content.contact.university}</span>
           </div>
+          {content.contact.address && (
+            <div className="flex items-center justify-center space-x-3">
+              <svg className="w-6 h-6 text-blue-400" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
+              </svg>
+              <span>{content.contact.address}</span>
+            </div>
+          )}
         </div>
       </div>
     </section>
