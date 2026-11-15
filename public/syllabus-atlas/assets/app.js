@@ -27,30 +27,47 @@
     { name:"人口学方法与模拟",short:"人口学方法",letter:"M",c:"#4b97a1",t:"#e8f5f5" },
     { name:"研究设计、测量与网络",short:"研究设计",letter:"R",c:"#6c838a",t:"#eff2f3" }
   ];
-  const state = { view:"overview", query:"", topic:"", status:"", level:"", east:false, extracted:false, round2:false, libraryPage:1, workPage:1, workQuery:"", workDoi:"", mapFocus:"", readingId:readingSourceIds.includes("S072") ? "S072" : readingSourceIds[0] };
+  const state = { view:"overview", collection:"core", collapseVersions:true, mapScope:"core", query:"", topic:"", status:"", level:"", east:false, extracted:false, round2:false, libraryPage:1, workPage:1, workQuery:"", workDoi:"", mapFocus:"", readingId:readingSourceIds.includes("S072") ? "S072" : readingSourceIds[0] };
   const labels = { overview:"Overview", library:"Syllabus archive", map:"Knowledge map", reading:"Reading paths", works:"Bibliography", sources:"Sources & methods" };
   const perPage = 12;
+  const collectionMeta = {
+    core:{label:"核心课程",description:"与社会人口学、婚姻家庭、分层、生命历程、文化与相关方法直接关联的课程或书单。51条来源，包含同源版本，不是51门独立课程。"},
+    extended:{label:"扩展阅读",description:"主题相关但视角更宽泛、层级较低或主要作为方法与区域补充的18条资料。保留阅读价值，不混入博士核心。"},
+    pending:{label:"待补来源",description:"已经定位课程或来源线索，但缺乏足以编制完整阅读路径的正文或书单。待补不等于不重要。"},
+    archive:{label:"历史存档",description:"7条从主目录移走的广义、偏离较远或不宜当作核心课纲的资料。原始来源和审查理由完整保留。"},
+    all:{label:"全部原始记录",description:"完整92条来源与版本记录，保留同源版本、核验程度和审核依据。此视图用于资料检索与复核。"}
+  };
+  const collectionCount = type => type==="all"?D.resources.length:D.resources.filter(r=>r.curation===type).length;
+  function collectionPill(r) {
+    const m=collectionMeta[r.curation]||collectionMeta.pending;
+    return '<span class="pill curation-pill '+esc(r.curation)+'">'+esc(m.label)+'</span>';
+  }
+  function relatedVersions(r) {
+    if(!r.group_id)return [];
+    return D.resources.filter(x=>x.group_id===r.group_id && x.id!==r.id);
+  }
   function statusPill(r) {
     const name = r.status === "A" ? "A · 已见阅读" : r.status === "B" ? "B · 部分材料" : "C · 待补正文";
     return '<span class="pill ' + (r.status === "A" ? "" : r.status === "B" ? "amber" : "terra") + '">' + esc(name) + '</span>';
   }
   function badges(r) {
-    return statusPill(r) + (hasEast(r) ? '<span class="pill east">东亚／亚洲相关</span>' : "") + (r.round_added === 2 ? '<span class="pill new">第二轮</span>' : "");
+    return collectionPill(r) + statusPill(r) + (hasEast(r) ? '<span class="pill east">东亚／亚洲相关</span>' : "") + (r.round_added === 2 ? '<span class="pill new">第二轮</span>' : "");
   }
   function topicMeta(name) { return theme.find(t => t.name === name) || theme[0]; }
-  function sourceCount(name) { return D.resources.filter(r => r.topic === name).length; }
-  function sourceGradeCount(name) { return D.resources.filter(r => r.topic === name && r.status === "A").length; }
+  function sourceCount(name,scope="core") { return D.resources.filter(r => r.topic===name && (scope==="all" || r.curation===scope)).length; }
+  function sourceGradeCount(name,scope="core") { return D.resources.filter(r => r.topic===name && r.status==="A" && (scope==="all" || r.curation===scope)).length; }
   function init() {
-    $("kpi-resources").textContent = D.stats.resources;
-    $("kpi-domains").textContent = theme.length;
-    $("kpi-units").textContent = D.stats.units;
-    $("kpi-readings").textContent = D.stats.readings;
+    ["core","extended","pending","archive"].forEach(name => {
+      $("kpi-"+name).textContent=collectionCount(name);
+      $("count-"+name).textContent=collectionCount(name);
+    });
+    $("count-all").textContent=collectionCount("all");
     theme.forEach(t => {
       const o = document.createElement("option"); o.value = t.name; o.textContent = t.name; $("topic-filter").appendChild(o);
     });
     readingSourceIds.sort((a,b) => a.localeCompare(b));
     readingSourceIds.forEach(id => {
-      const r=byId[id];const o=document.createElement("option");o.value=id;o.textContent=id+" · "+r.title; $("reading-source-select").appendChild(o);
+      const r=byId[id];const o=document.createElement("option");o.value=id;o.textContent=id+" · ["+(collectionMeta[r.curation]?.label||"待审")+"] "+r.title; $("reading-source-select").appendChild(o);
     });
     $("reading-source-select").value = state.readingId;
     renderOverview(); renderLibrary(); renderMap(); renderReading(); renderWorks(); renderSources(); bindEvents();
@@ -58,27 +75,42 @@
   }
   function renderOverview() {
     $("topic-grid").innerHTML = theme.map(t => {
-      const n=sourceCount(t.name), a=sourceGradeCount(t.name);
+      const n=sourceCount(t.name,"core"), a=sourceGradeCount(t.name,"core");
       return '<button class="topic-card" type="button" data-topic="' + esc(t.name) + '" style="--topic-color:'+t.c+';--topic-tint:'+t.t+'"><div class="topic-head"><span class="topic-icon">'+t.letter+'</span><span class="topic-count">'+n+' 条记录</span></div><div class="topic-title">'+esc(t.name)+'</div><div class="topic-foot"><span>A级可见 '+a+' / '+n+'</span><span>探索 ↗</span></div><div class="topic-progress" aria-label="A级资料占比"><i style="width:'+(100*a/n).toFixed(1)+'%"></i></div></button>';
     }).join("");
-    const max=Math.max(...theme.map(t => sourceCount(t.name)));
+    const max=Math.max(...theme.map(t => sourceCount(t.name,"core")));
     $("topic-bars").innerHTML = theme.map(t => {
-      const n=sourceCount(t.name);
+      const n=sourceCount(t.name,"core");
       return '<div class="bar-row"><label title="'+esc(t.name)+'">'+esc(t.short)+'</label><div class="bar-track"><div class="bar-fill" style="width:'+(100*n/max).toFixed(1)+'%;background:'+t.c+'"></div></div><b>'+n+'</b></div>';
     }).join("");
   }
   function matchesLibrary() {
     const q=state.query.toLocaleLowerCase().trim();
     return D.resources.filter(r => {
+      if(state.collection!=="all" && r.curation!==state.collection) return false;
       if(state.topic && r.topic !== state.topic) return false;
       if(state.status && r.status !== state.status) return false;
       if(state.level && levelType(r) !== state.level) return false;
       if(state.east && !hasEast(r)) return false;
       if(state.extracted && !readsFor(r.id).length) return false;
       if(state.round2 && r.round_added !== 2) return false;
-      const hay=[r.id,r.title,r.institution,r.teacher,r.topic,r.summary,r.year,r.east_asia,r.note].join(" ").toLocaleLowerCase();
+      const hay=[r.id,r.title,r.institution,r.teacher,r.topic,r.summary,r.year,r.east_asia,r.note,r.curation_reason,r.curation_evidence].join(" ").toLocaleLowerCase();
       return !q || hay.includes(q);
     }).sort((a,b) => a.id.localeCompare(b.id));
+  }
+  function groupedList(records) {
+    if(!state.collapseVersions)return records.map(r=>({primary:r,members:[r]}));
+    const groups=new Map();
+    records.forEach(r=>{const g=r.group_id||r.id;if(!groups.has(g))groups.set(g,[]);groups.get(g).push(r);});
+    return Array.from(groups.values()).map(members=>({primary:members[0],members}));
+  }
+  function versionCard(group) {
+    const groupId=group.primary.group_id;
+    const title=groupId==="CUHK_family_demography"?"Family Demography — 博士资格考试书单（不同年份及 I / II / III）":groupId==="ILL_population"?"Population / Sociology of Population — 考试书单版本":group.primary.title;
+    const members=group.members;
+    return '<article class="version-card"><div class="card-top"><span class="card-id">'+esc(groupId)+'</span><span class="pill neutral">'+members.length+'份相关书单／版本</span></div>'
+      +'<h3>'+esc(title)+'</h3><p>'+esc(group.primary.institution)+' · '+esc(group.primary.topic)+'<br>保留每份原始书单与版本编号，展开查看具体来源；同源组不视作一门新增课程。</p>'
+      +'<div class="version-list">'+members.map(r=>'<button type="button" data-open-id="'+esc(r.id)+'"><span><b>'+esc(r.id)+'</b> · '+esc(r.title)+'</span><small>'+esc(r.year)+' ↗</small></button>').join("")+'</div></article>';
   }
   function resourceCard(r) {
     const count=readsFor(r.id).length;
@@ -93,11 +125,16 @@
     $(nodeId).innerHTML='<button type="button" data-page-action="'+target+'-prev" '+(page===1?"disabled":"") +'>上一页</button><span>'+page+' / '+max+'</span><button type="button" data-page-action="'+target+'-next" '+(page===max?"disabled":"")+'>下一页</button>';
   }
   function renderLibrary() {
-    const arr=matchesLibrary(), max=Math.max(1,Math.ceil(arr.length/perPage));
+    const arr=matchesLibrary(), groups=groupedList(arr), max=Math.max(1,Math.ceil(groups.length/perPage));
+    document.querySelectorAll("[data-collection]").forEach(el=>{
+      const active=el.getAttribute("data-collection")===state.collection;
+      el.classList.toggle("active",active);el.setAttribute("aria-pressed",String(active));
+    });
+    $("collection-description").textContent=collectionMeta[state.collection].description;
     state.libraryPage=Math.min(state.libraryPage,max);
     const start=(state.libraryPage-1)*perPage;
-    $("library-count").innerHTML = '匹配 <b>'+arr.length+'</b> 条资料记录 · 全库 '+D.stats.resources+' 条';
-    $("library-results").innerHTML=arr.length ? arr.slice(start,start+perPage).map(resourceCard).join("") : '<div class="empty" style="grid-column:1/-1">未找到匹配课程。可清除部分筛选条件后再试。</div>';
+    $("library-count").innerHTML = '匹配 <b>'+arr.length+'</b> 条资料记录'+(state.collapseVersions?' · 合并展示 <b>'+groups.length+'</b> 个同源组':'')+' · 全库保留 '+D.stats.resources+' 条';
+    $("library-results").innerHTML=groups.length ? groups.slice(start,start+perPage).map(g=>g.members.length>1?versionCard(g):resourceCard(g.primary)).join("") : '<div class="empty" style="grid-column:1/-1">未找到匹配课程。可清除部分筛选条件后再试。</div>';
     pagination("library-pagination",state.libraryPage,max,"library");
   }
   function renderMap() {
@@ -109,7 +146,7 @@
     const el=(type,attrs,parent)=>{const x=document.createElementNS(ns,type);Object.entries(attrs||{}).forEach(([k,v])=>x.setAttribute(k,String(v)));(parent||svg).appendChild(x);return x;};
     theme.forEach((t,i)=>{
       const pair=coords[i],cx=pair[0],cy=pair[1];
-      const items=D.resources.filter(r => r.topic===t.name);
+      const items=D.resources.filter(r => r.topic===t.name && (state.mapScope==="all" || r.curation==="core"));
       const lines=el("g",{"class":"graph-lines","data-group":String(i)});
       const nodes=el("g",{"class":"graph-nodes","data-group":String(i)});
       items.forEach((r,j)=>{
@@ -134,7 +171,7 @@
       if(!node){tip.style.display="none";return;}
       const r=byId[node.getAttribute("data-resource")];
       if(!r)return;
-      tip.innerHTML='<strong>'+esc(r.title)+'</strong><span>'+esc(r.institution)+' · '+r.id+' · '+esc(r.status)+'</span>';
+      tip.innerHTML='<strong>'+esc(r.title)+'</strong><span>'+esc(r.institution)+' · '+r.id+' · '+esc(collectionMeta[r.curation]?.label||'待分类')+' · '+esc(r.status)+'</span>';
       tip.style.display="block";
       const box=stage.getBoundingClientRect();
       tip.style.left=Math.min(Math.max(4,e.clientX-box.left+13),Math.max(4,box.width-286))+"px";
@@ -156,8 +193,9 @@
   function applyMapFocus() {
     const name=state.mapFocus, focus=!!name;
     const topic=theme.find(t=>t.name===name);
-    $("map-focus-title").textContent=focus?name:"全部9个研究领域";
-    $("map-focus-description").textContent=focus?"此领域目前收录 "+sourceCount(name)+" 条资料记录，其中 "+sourceGradeCount(name)+" 条为 A 类可见阅读；点击右侧进入筛选。":"92个小节点为资料与版本记录（不是92门独立课程）；颜色及连线展示人工学科归类关系。";
+    $("map-focus-title").textContent=focus?name:(state.mapScope==="core"?"9个研究领域 · 核心库":"9个研究领域 · 完整来源库");
+    const count=state.mapScope==="all"?92:collectionCount("core");
+    $("map-focus-description").textContent=focus?"此领域在当前范围内共 "+sourceCount(name,state.mapScope)+" 条资料记录，其中 "+sourceGradeCount(name,state.mapScope)+" 条为 A 类可见阅读；点击右侧进入对应范围筛选。":"当前显示 "+count+" 条来源与版本记录（并非相同数量的独立课程）；连线仅反映人工分类关系。";
     $("map-focus-open").textContent=focus?"筛选该领域课程 ↗":"浏览全部课程 ↗";
     $("map-svg").querySelectorAll("[data-group]").forEach(g => {g.style.opacity=!focus||Number(g.getAttribute("data-group"))===theme.indexOf(topic)?"1":".17";});
     $("map-svg").querySelectorAll(".graph-topic").forEach(g=>{const chosen=!focus||g.getAttribute("data-topic")===name;g.style.opacity=chosen?"1":".3";});
@@ -167,7 +205,7 @@
     if(!r){$("reading-results").innerHTML='<div class="empty">尚无已提取的课程阅读。</div>';return;}
     const units=unitsFor(r.id),edges=readsFor(r.id);
     $("reading-source-select").value=r.id;
-    $("reading-source-info").innerHTML='<b>'+esc(r.title)+'</b><br>'+esc(r.institution)+' · '+esc(r.year)+'<br><br>'+esc(r.extraction_scope||"选择性试提取，非完整课纲")+"<br><br>"+link(r.url,"原始课程来源");
+    $("reading-source-info").innerHTML='<span class="pill curation-pill '+esc(r.curation)+'">'+esc(collectionMeta[r.curation]?.label||"未分类")+'</span><br><br><b>'+esc(r.title)+'</b><br>'+esc(r.institution)+' · '+esc(r.year)+'<br><br>'+esc(r.extraction_scope||"选择性试提取，非完整课纲")+"<br><br>"+link(r.url,"原始课程来源");
     $("reading-summary").innerHTML='<b>'+units.length+' 个原主题单元</b><br>'+edges.length+' 条本次整理的阅读关联<br>未提取的部分不在此处显示。';
     const unassigned=edges.filter(e=>!e.unit_id || !unitById[e.unit_id]);
     const timeline=units.map(u=>{
@@ -228,8 +266,9 @@
     const us=unitsFor(id),rr=readsFor(id);
     $("drawer-label").textContent="SOURCE RECORD · "+id;
     $("drawer-body").innerHTML='<div class="badges">'+badges(r)+'</div><h2 id="drawer-title">'+esc(r.title)+'</h2><p style="font-size:12px;color:#758b81;line-height:1.8">'+esc(r.summary)+'</p>'
-      +'<dl class="resource-details"><dt>学校 / 单位</dt><dd>'+esc(r.institution)+'</dd><dt>教师</dt><dd>'+esc(r.teacher||"原资料未列明")+'</dd><dt>课程年份</dt><dd>'+esc(r.year)+'</dd><dt>层级及类型</dt><dd>'+esc(r.level)+' · '+esc(r.type)+'</dd><dt>研究领域</dt><dd>'+esc(r.topic)+'</dd><dt>区域关联</dt><dd>'+esc(r.east_asia)+'</dd><dt>阅读可见性</dt><dd>'+esc(r.reading_visibility)+'</dd><dt>原件是否归档</dt><dd>'+(r.original_saved?"已归档":"未归档（仅保留外部链接）")+'</dd><dt>资料核验时间</dt><dd>'+esc(r.checked)+'</dd></dl>'
+      +'<div class="drawer-review"><h3>审核判断：'+esc(r.curation_category)+'</h3><p>'+esc(r.curation_reason||"尚无具体判断理由")+'</p><small><em>审核依据：</em>'+esc(r.curation_evidence||"未标注")+' · '+esc(r.curation_review_date||"日期待核")+'</small></div>'+'<dl class="resource-details"><dt>学校 / 单位</dt><dd>'+esc(r.institution)+'</dd><dt>教师</dt><dd>'+esc(r.teacher||"原资料未列明")+'</dd><dt>课程年份</dt><dd>'+esc(r.year)+'</dd><dt>层级及类型</dt><dd>'+esc(r.level)+' · '+esc(r.type)+'</dd><dt>研究领域</dt><dd>'+esc(r.topic)+'</dd><dt>区域关联</dt><dd>'+esc(r.east_asia)+'</dd><dt>阅读可见性</dt><dd>'+esc(r.reading_visibility)+'</dd><dt>原件是否归档</dt><dd>'+(r.original_saved?"已归档":"未归档（仅保留外部链接）")+'</dd><dt>资料核验时间</dt><dd>'+esc(r.checked)+'</dd></dl>'
       +'<div class="drawer-actions">'+(url(r.url)?'<a class="primary-button" href="'+esc(r.url)+'" target="_blank" rel="noopener">打开原始课程 ↗</a>':"")+(r.portal_url?'<a class="outline-button" href="'+esc(r.portal_url)+'" target="_blank" rel="noopener">院系 / 教师入口 ↗</a>':"")+(rr.length?'<button class="outline-button" data-reading-id="'+id+'">浏览已提取阅读</button>':"")+'</div>'
+      +(relatedVersions(r).length?'<div class="drawer-review"><h3>同源书单 / 相关版本（另 '+relatedVersions(r).length+' 条）</h3><div class="version-list">'+relatedVersions(r).map(v=>'<button type="button" data-open-id="'+esc(v.id)+'"><span>'+esc(v.id)+' · '+esc(v.title)+'</span><small>'+esc(v.year)+' ↗</small></button>').join("")+'</div><small>同源组仅用于避免重复计数，I/II/III 可能是不同书单，并非顺序教学级别。</small></div>':"")
       +'<div class="drawer-note"><b>版本与访问备注</b><br>'+esc(r.note||"来源表未列额外限制。")+'<br><br><b>整理范围</b><br>'+esc(r.extraction_scope||"未逐篇提取")+'。A/B/C描述可见程度，不是课程质量评级。</div>'
       +(us.length?'<section class="drawer-units"><h3>已整理的原课程主题（'+us.length+'）</h3>'+us.map(u=>'<div class="drawer-unit"><small>'+esc(u.source_unit)+' · '+esc(u.unit_id)+'</small><strong>'+esc(u.original_heading)+'</strong><small>整理者标签：'+esc(u.tags)+'</small></div>').join("")+'</section>':"");
     $("drawer-backdrop").classList.add("visible");$("drawer").classList.add("visible");$("drawer").setAttribute("aria-hidden","false");document.body.style.overflow="hidden";$("drawer-close").focus();
@@ -243,11 +282,11 @@
     ["east-only","extracted-only","round2-only"].forEach(id=>$(id).checked=false);
     renderLibrary();
   }
-  function filterTopic(name) {
-    clearFilters();state.topic=name;$("topic-filter").value=name;navigate("library");renderLibrary();
+  function filterTopic(name,scope="core") {
+    clearFilters();state.collection=scope;state.topic=name;$("topic-filter").value=name;navigate("library");renderLibrary();
   }
   function saveCSV() {
-    const fields=[["id","编号"],["topic","研究领域"],["title","课程原名"],["institution","机构"],["year","年份"],["level","课程层级"],["status","核验状态"],["east_asia","区域关联"],["teacher","教师"],["url","原始链接"],["note","来源备注"]];
+    const fields=[["id","编号"],["curation_category","审核分类"],["curation_relevance","相关性"],["curation_reason","分类理由"],["curation_evidence","证据等级"],["topic","研究领域"],["title","课程原名"],["institution","机构"],["year","年份"],["level","课程层级"],["status","核验状态"],["east_asia","区域关联"],["teacher","教师"],["url","原始链接"],["note","来源备注"]];
     const quote=s=>'"'+String(s==null?"":s).replace(/"/g,'""')+'"';
     const rows=[fields.map(f=>quote(f[1])).join(",")].concat(matchesLibrary().map(r=>fields.map(f=>quote(r[f[0]])).join(",")));
     const blob=new Blob(["\uFEFF"+rows.join("\r\n")],{type:"text/csv;charset=utf-8"});
@@ -282,7 +321,11 @@
     $("mobile-toggle").addEventListener("click",()=>{
       const open=!$("sidebar").classList.contains("open");$("sidebar").classList.toggle("open",open);$("mobile-toggle").setAttribute("aria-expanded",String(open));
     });
-    $("global-search").addEventListener("keydown",function(e){if(e.key==="Enter"){state.query=this.value;$("library-search").value=state.query;state.libraryPage=1;renderLibrary();navigate("library");}});
+    $("global-search").addEventListener("keydown",function(e){if(e.key==="Enter"){state.query=this.value;state.collection="all";$("library-search").value=state.query;state.libraryPage=1;renderLibrary();navigate("library");}});
+    document.querySelectorAll("[data-collection]").forEach(el=>el.addEventListener("click",()=>{
+      state.collection=el.getAttribute("data-collection");state.libraryPage=1;renderLibrary();
+    }));
+    $("group-versions").addEventListener("change",function(){state.collapseVersions=this.checked;state.libraryPage=1;renderLibrary();});
     $("library-search").addEventListener("input",function(){state.query=this.value;state.libraryPage=1;renderLibrary();});
     $("topic-filter").addEventListener("change",function(){state.topic=this.value;state.libraryPage=1;renderLibrary();});
     $("status-filter").addEventListener("change",function(){state.status=this.value;state.libraryPage=1;renderLibrary();});
@@ -290,8 +333,9 @@
     [["east-only","east"],["extracted-only","extracted"],["round2-only","round2"]].forEach(pair=>$(pair[0]).addEventListener("change",function(){state[pair[1]]=this.checked;state.libraryPage=1;renderLibrary();}));
     $("clear-filters").addEventListener("click",clearFilters);
     $("csv-export").addEventListener("click",saveCSV);
-    $("map-reset").addEventListener("click",()=>{state.mapFocus="";applyMapFocus();});
-    $("map-focus-open").addEventListener("click",()=>filterTopic(state.mapFocus));
+    $("map-reset").addEventListener("click",()=>{state.mapFocus="";state.mapScope="core";$("map-scope").value="core";renderMap();});
+    $("map-scope").addEventListener("change",function(){state.mapScope=this.value;renderMap();});
+    $("map-focus-open").addEventListener("click",()=>filterTopic(state.mapFocus,state.mapScope));
     $("reading-source-select").addEventListener("change",function(){state.readingId=this.value;renderReading();});
     $("works-search").addEventListener("input",function(){state.workQuery=this.value;state.workPage=1;renderWorks();});
     $("works-doi-filter").addEventListener("change",function(){state.workDoi=this.value;state.workPage=1;renderWorks();});
