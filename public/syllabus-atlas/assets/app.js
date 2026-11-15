@@ -146,7 +146,7 @@
     const el=(type,attrs,parent)=>{const x=document.createElementNS(ns,type);Object.entries(attrs||{}).forEach(([k,v])=>x.setAttribute(k,String(v)));(parent||svg).appendChild(x);return x;};
     theme.forEach((t,i)=>{
       const pair=coords[i],cx=pair[0],cy=pair[1];
-      const items=D.resources.filter(r => r.topic===t.name);
+      const items=D.resources.filter(r => r.topic===t.name && (state.mapScope==="all" || r.curation==="core"));
       const lines=el("g",{"class":"graph-lines","data-group":String(i)});
       const nodes=el("g",{"class":"graph-nodes","data-group":String(i)});
       items.forEach((r,j)=>{
@@ -171,7 +171,7 @@
       if(!node){tip.style.display="none";return;}
       const r=byId[node.getAttribute("data-resource")];
       if(!r)return;
-      tip.innerHTML='<strong>'+esc(r.title)+'</strong><span>'+esc(r.institution)+' · '+r.id+' · '+esc(r.status)+'</span>';
+      tip.innerHTML='<strong>'+esc(r.title)+'</strong><span>'+esc(r.institution)+' · '+r.id+' · '+esc(collectionMeta[r.curation]?.label||'待分类')+' · '+esc(r.status)+'</span>';
       tip.style.display="block";
       const box=stage.getBoundingClientRect();
       tip.style.left=Math.min(Math.max(4,e.clientX-box.left+13),Math.max(4,box.width-286))+"px";
@@ -193,8 +193,9 @@
   function applyMapFocus() {
     const name=state.mapFocus, focus=!!name;
     const topic=theme.find(t=>t.name===name);
-    $("map-focus-title").textContent=focus?name:"全部9个研究领域";
-    $("map-focus-description").textContent=focus?"此领域目前收录 "+sourceCount(name)+" 条资料记录，其中 "+sourceGradeCount(name)+" 条为 A 类可见阅读；点击右侧进入筛选。":"92个小节点为资料与版本记录（不是92门独立课程）；颜色及连线展示人工学科归类关系。";
+    $("map-focus-title").textContent=focus?name:(state.mapScope==="core"?"9个研究领域 · 核心库":"9个研究领域 · 完整来源库");
+    const count=state.mapScope==="all"?92:collectionCount("core");
+    $("map-focus-description").textContent=focus?"此领域在当前范围内共 "+sourceCount(name,state.mapScope)+" 条资料记录，其中 "+sourceGradeCount(name,state.mapScope)+" 条为 A 类可见阅读；点击右侧进入对应范围筛选。":"当前显示 "+count+" 条来源与版本记录（并非相同数量的独立课程）；连线仅反映人工分类关系。";
     $("map-focus-open").textContent=focus?"筛选该领域课程 ↗":"浏览全部课程 ↗";
     $("map-svg").querySelectorAll("[data-group]").forEach(g => {g.style.opacity=!focus||Number(g.getAttribute("data-group"))===theme.indexOf(topic)?"1":".17";});
     $("map-svg").querySelectorAll(".graph-topic").forEach(g=>{const chosen=!focus||g.getAttribute("data-topic")===name;g.style.opacity=chosen?"1":".3";});
@@ -204,7 +205,7 @@
     if(!r){$("reading-results").innerHTML='<div class="empty">尚无已提取的课程阅读。</div>';return;}
     const units=unitsFor(r.id),edges=readsFor(r.id);
     $("reading-source-select").value=r.id;
-    $("reading-source-info").innerHTML='<b>'+esc(r.title)+'</b><br>'+esc(r.institution)+' · '+esc(r.year)+'<br><br>'+esc(r.extraction_scope||"选择性试提取，非完整课纲")+"<br><br>"+link(r.url,"原始课程来源");
+    $("reading-source-info").innerHTML='<span class="pill curation-pill '+esc(r.curation)+'">'+esc(collectionMeta[r.curation]?.label||"未分类")+'</span><br><br><b>'+esc(r.title)+'</b><br>'+esc(r.institution)+' · '+esc(r.year)+'<br><br>'+esc(r.extraction_scope||"选择性试提取，非完整课纲")+"<br><br>"+link(r.url,"原始课程来源");
     $("reading-summary").innerHTML='<b>'+units.length+' 个原主题单元</b><br>'+edges.length+' 条本次整理的阅读关联<br>未提取的部分不在此处显示。';
     const unassigned=edges.filter(e=>!e.unit_id || !unitById[e.unit_id]);
     const timeline=units.map(u=>{
@@ -265,8 +266,9 @@
     const us=unitsFor(id),rr=readsFor(id);
     $("drawer-label").textContent="SOURCE RECORD · "+id;
     $("drawer-body").innerHTML='<div class="badges">'+badges(r)+'</div><h2 id="drawer-title">'+esc(r.title)+'</h2><p style="font-size:12px;color:#758b81;line-height:1.8">'+esc(r.summary)+'</p>'
-      +'<dl class="resource-details"><dt>学校 / 单位</dt><dd>'+esc(r.institution)+'</dd><dt>教师</dt><dd>'+esc(r.teacher||"原资料未列明")+'</dd><dt>课程年份</dt><dd>'+esc(r.year)+'</dd><dt>层级及类型</dt><dd>'+esc(r.level)+' · '+esc(r.type)+'</dd><dt>研究领域</dt><dd>'+esc(r.topic)+'</dd><dt>区域关联</dt><dd>'+esc(r.east_asia)+'</dd><dt>阅读可见性</dt><dd>'+esc(r.reading_visibility)+'</dd><dt>原件是否归档</dt><dd>'+(r.original_saved?"已归档":"未归档（仅保留外部链接）")+'</dd><dt>资料核验时间</dt><dd>'+esc(r.checked)+'</dd></dl>'
+      +'<div class="drawer-review"><h3>审核判断：'+esc(r.curation_category)+'</h3><p>'+esc(r.curation_reason||"尚无具体判断理由")+'</p><small><em>审核依据：</em>'+esc(r.curation_evidence||"未标注")+' · '+esc(r.curation_review_date||"日期待核")+'</small></div>'+'<dl class="resource-details"><dt>学校 / 单位</dt><dd>'+esc(r.institution)+'</dd><dt>教师</dt><dd>'+esc(r.teacher||"原资料未列明")+'</dd><dt>课程年份</dt><dd>'+esc(r.year)+'</dd><dt>层级及类型</dt><dd>'+esc(r.level)+' · '+esc(r.type)+'</dd><dt>研究领域</dt><dd>'+esc(r.topic)+'</dd><dt>区域关联</dt><dd>'+esc(r.east_asia)+'</dd><dt>阅读可见性</dt><dd>'+esc(r.reading_visibility)+'</dd><dt>原件是否归档</dt><dd>'+(r.original_saved?"已归档":"未归档（仅保留外部链接）")+'</dd><dt>资料核验时间</dt><dd>'+esc(r.checked)+'</dd></dl>'
       +'<div class="drawer-actions">'+(url(r.url)?'<a class="primary-button" href="'+esc(r.url)+'" target="_blank" rel="noopener">打开原始课程 ↗</a>':"")+(r.portal_url?'<a class="outline-button" href="'+esc(r.portal_url)+'" target="_blank" rel="noopener">院系 / 教师入口 ↗</a>':"")+(rr.length?'<button class="outline-button" data-reading-id="'+id+'">浏览已提取阅读</button>':"")+'</div>'
+      +(relatedVersions(r).length?'<div class="drawer-review"><h3>同源书单 / 相关版本（另 '+relatedVersions(r).length+' 条）</h3><div class="version-list">'+relatedVersions(r).map(v=>'<button type="button" data-open-id="'+esc(v.id)+'"><span>'+esc(v.id)+' · '+esc(v.title)+'</span><small>'+esc(v.year)+' ↗</small></button>').join("")+'</div><small>同源组仅用于避免重复计数，I/II/III 可能是不同书单，并非顺序教学级别。</small></div>':"")
       +'<div class="drawer-note"><b>版本与访问备注</b><br>'+esc(r.note||"来源表未列额外限制。")+'<br><br><b>整理范围</b><br>'+esc(r.extraction_scope||"未逐篇提取")+'。A/B/C描述可见程度，不是课程质量评级。</div>'
       +(us.length?'<section class="drawer-units"><h3>已整理的原课程主题（'+us.length+'）</h3>'+us.map(u=>'<div class="drawer-unit"><small>'+esc(u.source_unit)+' · '+esc(u.unit_id)+'</small><strong>'+esc(u.original_heading)+'</strong><small>整理者标签：'+esc(u.tags)+'</small></div>').join("")+'</section>':"");
     $("drawer-backdrop").classList.add("visible");$("drawer").classList.add("visible");$("drawer").setAttribute("aria-hidden","false");document.body.style.overflow="hidden";$("drawer-close").focus();
@@ -319,7 +321,11 @@
     $("mobile-toggle").addEventListener("click",()=>{
       const open=!$("sidebar").classList.contains("open");$("sidebar").classList.toggle("open",open);$("mobile-toggle").setAttribute("aria-expanded",String(open));
     });
-    $("global-search").addEventListener("keydown",function(e){if(e.key==="Enter"){state.query=this.value;$("library-search").value=state.query;state.libraryPage=1;renderLibrary();navigate("library");}});
+    $("global-search").addEventListener("keydown",function(e){if(e.key==="Enter"){state.query=this.value;state.collection="all";$("library-search").value=state.query;state.libraryPage=1;renderLibrary();navigate("library");}});
+    document.querySelectorAll("[data-collection]").forEach(el=>el.addEventListener("click",()=>{
+      state.collection=el.getAttribute("data-collection");state.libraryPage=1;renderLibrary();
+    }));
+    $("group-versions").addEventListener("change",function(){state.collapseVersions=this.checked;state.libraryPage=1;renderLibrary();});
     $("library-search").addEventListener("input",function(){state.query=this.value;state.libraryPage=1;renderLibrary();});
     $("topic-filter").addEventListener("change",function(){state.topic=this.value;state.libraryPage=1;renderLibrary();});
     $("status-filter").addEventListener("change",function(){state.status=this.value;state.libraryPage=1;renderLibrary();});
@@ -327,8 +333,9 @@
     [["east-only","east"],["extracted-only","extracted"],["round2-only","round2"]].forEach(pair=>$(pair[0]).addEventListener("change",function(){state[pair[1]]=this.checked;state.libraryPage=1;renderLibrary();}));
     $("clear-filters").addEventListener("click",clearFilters);
     $("csv-export").addEventListener("click",saveCSV);
-    $("map-reset").addEventListener("click",()=>{state.mapFocus="";applyMapFocus();});
-    $("map-focus-open").addEventListener("click",()=>filterTopic(state.mapFocus));
+    $("map-reset").addEventListener("click",()=>{state.mapFocus="";state.mapScope="core";$("map-scope").value="core";renderMap();});
+    $("map-scope").addEventListener("change",function(){state.mapScope=this.value;renderMap();});
+    $("map-focus-open").addEventListener("click",()=>filterTopic(state.mapFocus,state.mapScope));
     $("reading-source-select").addEventListener("change",function(){state.readingId=this.value;renderReading();});
     $("works-search").addEventListener("input",function(){state.workQuery=this.value;state.workPage=1;renderWorks();});
     $("works-doi-filter").addEventListener("change",function(){state.workDoi=this.value;state.workPage=1;renderWorks();});
