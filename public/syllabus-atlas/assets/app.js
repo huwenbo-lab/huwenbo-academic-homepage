@@ -176,7 +176,6 @@
       +(rr.length?rr.map(readingItem).join(""):'<p style="color:#83938c;font-size:11px;margin:12px 0 0">该单元暂未录入具体阅读，并不表示课程没有安排阅读。</p>')
       +'</article>';
     }).join("");
-    if(unassigned.length)timeline.concat();
     const extras=unassigned.length?'<article class="unit"><small>课程级别 · 未匹配原周次</small><h3>其他已提取阅读</h3><div class="unit-meta">原始资料未明确将以下阅读安排在某个周次，故不自行分配单元。</div>'+unassigned.map(readingItem).join("")+'</article>':"";
     $("reading-results").innerHTML='<div class="panel" style="padding:20px 24px"><div class="page-eyebrow">Selected source · '+esc(r.id)+'</div><h2 style="font-size:17px;margin:8px 0 6px">'+esc(r.title)+'</h2><p style="font-size:11px;color:#81928d;margin:0">下面保留原课纲主题，不将编辑补充标签冒充课程原文。</p></div><div class="timeline">'+timeline+extras+'</div>';
   }
@@ -223,7 +222,7 @@
     }
     hideDrawer();showView(labels[h]?h:"overview");
   }
-  function navigate(view) {location.hash=view; if(location.hash==="#"+view)route();}
+  function navigate(view) {if(location.hash==="#"+view)route();else location.hash=view;}
   function openDrawer(id) {
     const r=byId[id];if(!r)return;
     const us=unitsFor(id),rr=readsFor(id);
