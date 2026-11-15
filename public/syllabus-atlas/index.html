@@ -19,7 +19,7 @@
     <div class="nav-group-label">DISCOVER · 探索</div>
     <nav class="side-nav" aria-label="主导航">
       <button class="nav-link active" data-nav="overview"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="8" height="8" rx="1"/><rect x="13" y="3" width="8" height="5" rx="1"/><rect x="13" y="10" width="8" height="11" rx="1"/><rect x="3" y="13" width="8" height="8" rx="1"/></svg><span>总览 Dashboard</span></button>
-      <button class="nav-link" data-nav="library"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M3 5.5 10 4l7 1.5 4-1V19l-4 1-7-1.5-7 1.5z"/><path d="M10 4v14.5M17 5.5V20"/></svg><span>课程目录 Syllabi</span><small>92</small></button>
+      <button class="nav-link" data-nav="library"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M3 5.5 10 4l7 1.5 4-1V19l-4 1-7-1.5-7 1.5z"/><path d="M10 4v14.5M17 5.5V20"/></svg><span>核心课程 Syllabi</span><small>51</small></button>
       <button class="nav-link" data-nav="map"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><circle cx="5" cy="7" r="2"/><circle cx="18" cy="5" r="2"/><circle cx="12" cy="17" r="2"/><path d="m7 7 9-2M6 9l5 6m6-8-4 8"/></svg><span>学科图谱 Knowledge map</span></button>
     </nav>
     <div class="nav-group-label" style="margin-top:16px">EXPLORE · 深入</div>
@@ -44,28 +44,29 @@
         <div class="hero">
           <div class="hero-copy">
             <div class="hero-mark">An open reading atlas · Research edition</div>
-            <h2 id="overview-title">把分散的博士课程<br>连接成一张 <em>知识地图</em></h2>
-            <p>从大学课纲、博士资格考试书单到具体阅读，探索人口学、婚姻家庭、社会分层与东亚研究的知识组织方式。保留原始出处，也明确标记尚未完成的资料。</p>
+            <h2 id="overview-title">从海量课纲中<br>建立 <em>精选学习地图</em></h2>
+            <p>经过两轮收集和相关性审核，优先呈现51条核心课程与博士书单，同时保留18条扩展、16条待补和7条存档来源。每条判断均可追溯原始出处。</p>
             <div class="hero-buttons"><button class="primary-button" data-go="library">探索课程目录 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button><button class="primary-button hero-outline" data-go="map">查看学科地图</button></div>
           </div>
         </div>
         <div class="kpi-grid">
-          <div class="kpi"><div class="kpi-top"><span>SYLLABUS RECORDS</span><span class="kpi-icon">◫</span></div><b class="kpi-value" id="kpi-resources">92</b><span class="kpi-note">资料与版本记录，非独立课程数</span></div>
-          <div class="kpi"><div class="kpi-top"><span>RESEARCH DOMAINS</span><span class="kpi-icon">◎</span></div><b class="kpi-value" id="kpi-domains">9</b><span class="kpi-note">学科与专题方向</span></div>
-          <div class="kpi"><div class="kpi-top"><span>TOPIC UNITS</span><span class="kpi-icon">≡</span></div><b class="kpi-value" id="kpi-units">62</b><span class="kpi-note">从17份资料选择性整理</span></div>
-          <div class="kpi"><div class="kpi-top"><span>READING LINKS</span><span class="kpi-icon">↗</span></div><b class="kpi-value" id="kpi-readings">76</b><span class="kpi-note">课程与阅读关联，尚非完整书目</span></div>
+          <div class="kpi"><div class="kpi-top"><span>CORE COLLECTION</span><span class="kpi-icon">◎</span></div><b class="kpi-value" id="kpi-core">51</b><span class="kpi-note">核心记录，归入46个同源组</span></div>
+          <div class="kpi"><div class="kpi-top"><span>EXTENDED READING</span><span class="kpi-icon">↗</span></div><b class="kpi-value" id="kpi-extended">18</b><span class="kpi-note">主题相关的延伸资料</span></div>
+          <div class="kpi"><div class="kpi-top"><span>AWAITING MATERIALS</span><span class="kpi-icon">⋯</span></div><b class="kpi-value" id="kpi-pending">16</b><span class="kpi-note">等待书单或正文补充</span></div>
+          <div class="kpi"><div class="kpi-top"><span>ARCHIVE</span><span class="kpi-icon">□</span></div><b class="kpi-value" id="kpi-archive">7</b><span class="kpi-note">退出主目录，来源仍保留</span></div>
         </div>
+        <div class="curation-overview"><strong>92条原始资料均已保留</strong><span>这次完成的是目录级相关性筛选，而非92份原件全文复核。A/B/C仅表示资料可见性，不代表研究相关性。<a href="#sources">查看审核方法 ↗</a></span></div>
         <section class="section">
-          <div class="section-heading"><div><h2>按研究领域探索</h2><p>点击学科卡片，筛选相关课程与博士阅读清单</p></div><a href="#library">查看全部来源 ↗</a></div>
+          <div class="section-heading"><div><h2>按研究领域探索</h2><p>按51条核心记录计算；点击卡片查看该领域的精选来源</p></div><a href="#library">进入核心课程库 ↗</a></div>
           <div class="topic-grid" id="topic-grid"></div>
         </section>
         <section class="section">
-          <div class="section-heading"><div><h2>馆藏覆盖与整理进度</h2><p>按现有资料记录统计，不作为学术领域重要性的排名</p></div></div>
+          <div class="section-heading"><div><h2>馆藏覆盖与整理进度</h2><p>图中为核心库分布，不作为学科重要性或论文影响力排名</p></div></div>
           <div class="two-col">
-            <div class="panel"><h3 class="panel-title">领域分布 <span style="font-size:10px;color:#91a09c;font-weight:500">/ records by domain</span></h3><div id="topic-bars"></div></div>
+            <div class="panel"><h3 class="panel-title">核心课程领域分布 <span style="font-size:10px;color:#91a09c;font-weight:500">/ curated records</span></h3><div id="topic-bars"></div></div>
             <div class="panel"><h3 class="panel-title">从课纲到知识结构</h3>
               <div class="signal-list">
-                <div class="signal"><span class="signal-icon">01</span><div><b>课程与书单</b><p>92条来源记录保留学校、教师、年份与公开链接，避免版本混淆。</p></div></div>
+                <div class="signal"><span class="signal-icon">01</span><div><b>课程与书单</b><p>92条原始记录均保留来源；核心库51条记录按同源组标记归并为46组。</p></div></div>
                 <div class="signal"><span class="signal-icon">02</span><div><b>原课程主题</b><p>62个单元保存原始标题，检索标签与教师原文严格区分。</p></div></div>
                 <div class="signal"><span class="signal-icon">03</span><div><b>阅读关联与文献</b><p>76条已提取阅读关联到73条初步文献实体，保留具体课程位置。</p></div></div>
               </div>
@@ -76,22 +77,30 @@
       </section>
 
       <section class="view" id="view-library" aria-labelledby="library-title">
-        <div class="page-header"><div><div class="page-eyebrow">01 / Syllabus archive</div><h1 id="library-title">课程与资格考试书单</h1><p>跨高校比较课程内容与阅读路径。可按领域、核验程度、区域关联和课程层级筛选，点击卡片查看完整来源信息。</p></div><button class="outline-button" id="csv-export">导出当前筛选 CSV</button></div>
+        <div class="page-header"><div><div class="page-eyebrow">01 / Curated syllabus archive</div><h1 id="library-title">精选课程与资格考试书单</h1><p>默认展示51条核心资料；扩展、待补和存档来源可切换查看。分类根据研究适配度，A/B/C反映阅读可见性，两者彼此独立。</p></div><button class="outline-button" id="csv-export">导出当前筛选 CSV</button></div>
+        <div class="collection-tabs" role="group" aria-label="选择资料层级">
+          <button class="collection-tab active" type="button" data-collection="core" aria-pressed="true"><strong>核心课程</strong><span id="count-core">51</span></button>
+          <button class="collection-tab" type="button" data-collection="extended" aria-pressed="false"><strong>扩展阅读</strong><span id="count-extended">18</span></button>
+          <button class="collection-tab" type="button" data-collection="pending" aria-pressed="false"><strong>待补来源</strong><span id="count-pending">16</span></button>
+          <button class="collection-tab" type="button" data-collection="archive" aria-pressed="false"><strong>历史存档</strong><span id="count-archive">7</span></button>
+          <button class="collection-tab" type="button" data-collection="all" aria-pressed="false"><strong>全部原始记录</strong><span id="count-all">92</span></button>
+        </div>
+        <p class="collection-description" id="collection-description">核心课程与博士书单；同源版本合并呈现，完整记录仍可逐条查看。</p>
         <div class="toolbar">
           <label class="searchbox"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m17 17 4 4"/></svg><span class="sr-only">检索课程</span><input id="library-search" type="search" placeholder="课程名、教师、学校、关键词或编号…"></label>
           <select class="select" id="topic-filter" aria-label="筛选研究领域"><option value="">全部研究领域</option></select>
           <select class="select" id="status-filter" aria-label="筛选核验状态"><option value="">全部核验状态</option><option value="A">A · 具体阅读可见</option><option value="B">B · 部分材料</option><option value="C">C · 正文待补</option></select>
           <select class="select" id="level-filter" aria-label="筛选课程层级"><option value="">全部课程层级</option><option value="graduate">研究生 / 博士为主</option><option value="undergraduate">本科 / 合班</option><option value="unknown">层级不明确</option></select>
         </div>
-        <div class="checkbox-row"><label><input type="checkbox" id="east-only"> 东亚 / 亚洲关联</label><label><input type="checkbox" id="extracted-only"> 已有阅读试提取</label><label><input type="checkbox" id="round2-only"> 仅第二轮新增</label><button class="flat-button" id="clear-filters">清除筛选</button></div>
-        <div class="result-head"><span id="library-count"></span><span>点击卡片查看原课纲与整理记录</span></div>
+        <div class="checkbox-row"><label><input type="checkbox" id="east-only"> 东亚 / 亚洲关联</label><label><input type="checkbox" id="extracted-only"> 已有阅读试提取</label><label><input type="checkbox" id="round2-only"> 仅第二轮新增</label><label><input type="checkbox" id="group-versions" checked> 合并同源版本</label><button class="flat-button" id="clear-filters">清除筛选</button></div>
+        <div class="result-head"><span id="library-count"></span><span>分类理由、核验依据和历史版本可在详情中查看</span></div>
         <div class="cards-list" id="library-results"></div><div class="pagination" id="library-pagination"></div>
       </section>
 
       <section class="view" id="view-map" aria-labelledby="map-title">
         <div class="page-header"><div><div class="page-eyebrow">02 / Knowledge landscape</div><h1 id="map-title">学科与课程知识地图</h1><p>每个大节点对应一个研究领域，小节点对应一条课纲或书单记录。点击领域进入筛选，点击课程查看来源详情。</p></div><button class="outline-button" id="map-reset">重置图谱</button></div>
-        <div class="map-panel"><div class="map-top"><div><h2>Disciplinary constellation</h2><p>基于目录主题分类的可交互聚类图，不是算法推断的引用网络</p></div><div class="map-legend"><span><i class="legend-dot"></i>已见具体阅读</span><span><i class="legend-dot" style="background:#c8a66f"></i>部分 / 待补</span></div></div><div id="map-stage" class="map-stage"><svg id="map-svg" role="img" aria-label="学科课程节点关系图"></svg><div class="graph-tooltip" id="map-tooltip"></div></div><div class="map-info"><div><b id="map-focus-title">全部9个研究领域</b><p id="map-focus-description">分布显示92条课程及版本记录。节点大小与来源类型有关，颜色用于区分领域与核验状态。</p></div><button class="outline-button" id="map-focus-open">打开该领域课程</button></div></div>
-        <div class="mini-warning">图谱展示的是编辑整理的学科分类，而不是文献共引、研究者合作或课程间因果关联。某领域记录较多，不代表它在学科中更重要。</div>
+        <div class="map-panel"><div class="map-top"><div><h2>Disciplinary constellation</h2><p>默认只显示51条核心资料；可切换全部92条。节点代表来源记录，不代表独立课程。</p></div><div class="map-display-controls"><select class="select" id="map-scope" aria-label="图谱资料范围"><option value="core">仅核心 51条</option><option value="all">全部来源 92条</option></select><div class="map-legend"><span><i class="legend-dot"></i>已见具体阅读</span><span><i class="legend-dot" style="background:#c8a66f"></i>部分 / 待补</span></div></div></div><div id="map-stage" class="map-stage"><svg id="map-svg" role="img" aria-label="学科课程节点关系图"></svg><div class="graph-tooltip" id="map-tooltip"></div></div><div class="map-info"><div><b id="map-focus-title">全部9个研究领域</b><p id="map-focus-description">默认展示核心记录；切换“全部来源”可查看扩展、待补与存档条目。</p></div><button class="outline-button" id="map-focus-open">打开该领域课程</button></div></div>
+        <div class="mini-warning">图谱反映人工学科分类与展示层级，不是文献共引网络；颜色不代表课程学术质量。同源书单版本仍可能有多个节点。</div>
       </section>
 
       <section class="view" id="view-reading" aria-labelledby="reading-title">
@@ -111,11 +120,14 @@
 
       <section class="view" id="view-sources" aria-labelledby="sources-title">
         <div class="page-header"><div><div class="page-eyebrow">05 / Provenance & transparency</div><h1 id="sources-title">来源入口与整理说明</h1><p>记录在哪里找到材料、资料核验到什么程度，以及目前哪些功能属于实验性整理。欢迎据此回到原始院系或教师页面。</p></div></div>
+        <div class="review-method"><div><div class="page-eyebrow">EDITORIAL REVIEW · 2026.11.15</div><h2>92条资料：目录级审查，而非全文终审</h2><p>19条直接核查官方或教师页面及可读课纲，4条核对官方课程索引，17条复查既有来源卡，52条主要依据前轮目录概述。所有判断均在课程详情中保留证据等级。</p></div><a class="outline-button" href="./assets/curation-audit.csv" download>下载逐条审核 CSV</a></div>
+        <div class="curation-mini-grid"><div><strong>51</strong><span>核心保留</span></div><div><strong>18</strong><span>扩展保留</span></div><div><strong>16</strong><span>待补审查</span></div><div><strong>7</strong><span>退出主目录</span></div></div>
         <div class="disclosure-grid">
           <div class="disclosure"><b>A · 公开阅读可见</b><p>已查看具体阅读清单或公开教学材料；不意味着已经下载指定论文的全文或课程原件。</p></div>
           <div class="disclosure"><b>B · 部分大纲</b><p>可读取课程说明、有限教学安排或示例书目，详细材料仍可能需要学校权限。</p></div>
           <div class="disclosure"><b>C · 待取得正文</b><p>仅确认官方或教师线索；没有获得完整课纲，不推测未公开的每周书单。</p></div>
         </div>
+        <div class="mini-warning"><b>两种标签请勿混淆：</b>“核心 / 扩展 / 待补 / 存档”是按研究相关性与材料用途划分；A/B/C 是按资料能否访问及阅读是否可见划分。纳入核心并不代表已完整核验原始课纲。</div>
         <div class="section-heading" style="margin-top:30px"><div><h2>官方与教师资料入口</h2><p>21个聚合入口；不计入92条课程记录</p></div></div>
         <div class="source-list" id="source-list"></div>
         <div class="mini-warning"><b>引用、再分发与更新：</b>平台提供整理者编制的元数据、有限书目条目和外部链接，不复制受限制的课纲或论文原件。2026年11月15日的第二轮目录不代表持续实时同步；更改来源后应更新核验日期。来源材料中的阅读标记（例如星号）因课程而异，不应直接跨课程判定必读或选读。</div>
