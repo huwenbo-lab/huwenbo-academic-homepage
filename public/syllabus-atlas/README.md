@@ -1,76 +1,47 @@
-# Syllabus Atlas — Sociology & Demography
+# Syllabus Atlas — curated reading source library (v3)
 
-公开课纲、博士考试书单与有限阅读关联的可视化资料平台。2026-11-15起优先展示经目录级相关性筛选的核心库，保留扩展、待补及存档来源。
+**As-of date: 2026-11-18.** This standalone static site is deployed from `public/syllabus-atlas/` inside [`huwenbo-lab/huwenbo-academic-homepage`](https://github.com/huwenbo-lab/huwenbo-academic-homepage), using the existing Vite/GitHub Pages workflow. Public URL: <https://huwenbo-lab.github.io/huwenbo-academic-homepage/syllabus-atlas/>.
 
-## 网站部署
+## Canonical source
 
-此子站位于 `huwenbo-academic-homepage/public/syllabus-atlas/`，随主仓库现有的 Vite / GitHub Pages 工作流复制到 `dist/syllabus-atlas/`，无需修改主页路由或安装额外依赖。
+The **final workbench** `Syllabus_Atlas_个人阅读工作台.xlsx` and its companion final archive `Syllabus_Atlas_归档与工作包_20261118.zip` are the sole source data. The archive contains `99_审计记录/有效来源_结构化备份.json` and `99_审计记录/来源元数据与233条历史决定.json`; the 10 direction titles, study stage, recommended source IDs and starting tasks are extracted from the workbook. Do **not** silently roll data back to the older 92-entry web collection or mix the two editions.
 
-预期项目路径：`https://huwenbo-lab.github.io/huwenbo-academic-homepage/syllabus-atlas/`
+| Kind | Count | Meaning |
+| --- | ---: | --- |
+| Full syllabus/source edition records | 89 | 59 prior `核心主干` and 30 prior `专题补充` that survived the final whole-source selection. Not 89 independent courses. |
+| Selected syllabus modules | 30 | Only topical parts retained when the rest of a source is peripheral. |
+| Source-linked reading clues | 88 | Partial transcriptions, **not** a fully verified or deduplicated literature database; some were not rechecked against the originals this round. |
+| Pending source records | 9 | Closely related sources but reading text remains unavailable/incomplete. |
+| Historic decision records | 233 | Audit ledger, including removals, mergers and partial extraction decisions. Not part of the daily reading shelf. |
+| Independent reading directions | 10 | T01–T10. A source may support multiple directions. |
 
-## 数据来源与范围（截至 2026-11-15）
+## Web files
 
-- 92 条课程、书单与版本记录（不是 92 门独立课程）
-- 9 个主要研究主题
-- 21 个课程来源入口
-- 62 个从 17 份来源选择性整理的原始主题单元
-- 76 条选择性提取的课程—阅读关联
-- 73 条按题名及年份初步合并的文献记录
-- A/B/C = 信息公开与核验程度，不是学术质量排序
-- 东亚关联 26 条：混合了区域专门课程、一般课程中的亚洲阅读和区域高校的家庭课，不应等同于 26 门东亚博士课程
-- 原始 PDF / DOCX 与文献全文均未在本项目内重新分发
+- `index.html`, `assets/styles.css`, `assets/app.js`: responsive, framework-free interface.
+- `assets/data.js`: final direction definitions and 89 whole-source records.
+- `assets/reading-data.js`: 30 selected modules, 88 source-tagged readings and 9 pending sources.
+- `assets/audit-data.js`: 233 historic screening decisions. For audit/provenance only.
+- `assets/audit.csv`: CSV export of the 233 decisions.
+- `atlas_manifest.json`: data counts, direction metadata and migration status for future maintenance.
+- `scripts/build_data.py`: standard-library reconstruction script using the final archive and reviewed direction manifest; the Excel workbench remains the editable master.
 
-本目录由前两轮检索形成。除第二轮明确复核的旧记录之外，旧材料的访问判断沿用第一轮。**不要将初步提取的阅读当作完整书单，也不要据此计算文献被要求阅读的频率排名。**
+## Data provenance and limits
 
-## 相关性审核（2026-11-15）
+Original syllabus titles, readings, instructor names, source URLs, course years, and prior extraction status are retained as recorded in the final source package. No new bibliographic entries or DOI values have been invented. Reading grades (`A/B/C`) are access/visibility observations, not a course quality assessment. `原核心主干/原专题补充` is a **previous prioritization**; **all 89** rows are ultimately `整份保留` under the current workbench. All recorded URLs point back to the original external site and have not been comprehensively revalidated as of this site migration.
 
-| 展示层级 | 数量 | 用途 |
-|---|---:|---|
-| core / 核心保留 | 51 | 作为核心社会人口学、婚姻家庭与社会分层等博士学习资料来源 |
-| extended / 扩展保留 | 18 | 辅助区域、方法或相关但较宽泛的课程 |
-| pending / 待补审查 | 16 | 尚缺完整大纲、阅读书单或更严格的实质核验 |
-| archive / 退出主目录 | 7 | 不在主目录优先展示，但历史元数据、原始来源可追溯 |
-| **全部来源记录** | **92** | 包含同一书单的不同年份版本与分类资料 |
+The public site does not reproduce restricted syllabus PDFs or journal-article full texts. Files from the intermediate search stages have not been republished. Browser-only “favorites” are stored locally via `localStorage` and are not synchronized to GitHub or the user's master Excel workbook.
 
-核心库51条按原资料中已有的`group_id`归并为**46个同源组**。同源组不是经逐份课程内容核实的“46门独立课程”；例如 CUHK Family Demography I/II/III 虽然同属书单家族，却可能对应不同主题、版本或用途。网站可勾选或取消“合并同源版本”，展开查看每条原始来源。
+## Using the atlas
 
-审核不是92份原件的全文复核。证据组成：**19条直接核查原页或可读大纲，4条查阅官方索引，17条复核前轮来源卡片，52条主要沿用前轮目录概述**。这些证据等级及逐条纳入理由均保存在`assets/data.js`和`assets/curation-audit.csv`，并在课程详情显示。A/B/C 是另一独立维度，表示公开可见性而非内容相关性或学术质量。
+1. Open one of the ten independent reading directions. Follow its `first_step` and `starter_ids` rather than reading all sources at once.
+2. Use the 89 whole-source records to understand how multiple seminars/qualifying lists organize a field.
+3. Use the 30 extracted modules as *partial* topics, read their 88 citation clues, and verify original reading requirements and citation metadata.
+4. Build an independent Reading List for each direction. Supplement the verified core with other relevant literature; never present automatically extracted source snippets as fully checked bibliographic facts.
 
-默认打开核心库；全站搜索可检索全部92条。学科图默认展示51条核心记录，也可切换全部来源。网站“阅读路径”和“文献书目”仍是此前的**选择性提取**成果，尚不能视为某门课的完整指定阅读目录。
+To update, edit the final workbench and canonical archive (or use another reviewed source-of-truth dataset), run `python scripts/build_data.py --archive FINAL.zip --manifest atlas_manifest.json --output .` off-line, verify counts and references, and publish the regenerated assets in a new GitHub commit. Do not manually change hard-coded counts without updating the data. Existing GitHub Pages automation deploys pushes to `main`.
 
-## 文件结构
+## Version migration
 
-- `index.html`：网站页面结构
-- `assets/styles.css`：样式与响应式布局
-- `assets/app.js`：筛选、图谱、阅读时间线、出处抽屉与浏览器端 CSV 导出
-- `assets/data.js`：`window.SYLLABUS_DATA` 结构化数据，来源为第二轮 Excel 目录与第三步相关性审查，不使用第三方 API
-- `assets/curation-audit.csv`：92条逐项人工相关性判断、保留理由及证据等级（含公开来源 URL）
+v2 (2026-11-15): 92 early sources, 9 broad subject categories, 62 preliminary units, 76 initial links.
 
-前端不依赖框架、CDN、远端数据库、Cookie 或分析服务，静态托管即可运行。点击原始课纲来源需联网。
-
-## 数据模型
-
-```text
-resources[]  {id, title, topic, institution, year, status, level, url, curation, curation_reason, curation_evidence, ...}
-units[]      {unit_id, resource_id, original_heading, source_unit, tags, ...}
-readings[]   {edge_id, resource_id, unit_id?, work_id, title_as_listed, requirement, ...}
-works[]      {work_id, title, authors_first_source, year_first_source, source_ids, ...}
-portals[]    {id, name, url, type, note}
-```
-
-其中 `units.original_heading` 是原课程主题；`units.tags` 是编辑添加的检索标签。空的 `unit_id` 代表无法从原资料确认周次，不应人为补齐。
-
-## 以后怎样更新
-
-1. 在原始 Excel / CSV / JSON 文件中维护或补充课程与阅读，保证编号唯一（`S093` 起）、URL 合法，且所有关联能够回指来源编号。新增课程必须补充`curation`、`curation_reason`和`curation_evidence`，不可默认为核心。
-2. 更新`assets/curation-audit.csv`的逐项审查及同源组，重建`assets/data.js`，不要只修改界面中的硬编码计数；保持原始出处、版本判断、书目阅读标记。
-3. 检查四类计数总和是否为全部来源，原始 ID 是否唯一，阅读引用是否存在对应`resource_id`与`work_id`，确认首页、四层筛选、同源组、图谱、详情抽屉与阅读时间线正常。
-4. 向主分支提交修改；现有 GitHub Pages Workflow 会重新生成静态站点。
-
-## 建议的第三阶段
-
-将 A 类课纲逐份完成 **全文层级** 阅读提取，逐篇核验 DOI，区分原教师设置的必读/选读；随后才适合创建 10—15 门跨大学综合课程。综合课程应与原课纲并列展示，不得覆盖教师原始单元。
-
-## 版权与署名
-
-平台只保存来源元数据、编辑摘要、有限书目转录与原站链接。课程大纲、文献、教学资料的权利归原作者及机构所有；是否允许原件再分发需要另行确认。
+v3 (2026-11-18): **89 + 30 + 88 + 9** final curation, ten user research lines, plus 233-entry audit ledger. This is a curated syllabus **source library**, not yet ten finished doctoral reading lists.
