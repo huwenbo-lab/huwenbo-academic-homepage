@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "title": "Syllabus Atlas",
+    "version": "3.0",
+    "as_of": "2026-11-18",
+    "counts": {
+      "syllabi": 89,
+      "modules": 30,
+      "readings": 88,
+      "pending": 9,
+      "audit": 233,
+      "core": 59,
+      "supplement": 30
+    },
+    "about": "以最终个人阅读工作台及2026-11-18精选归档为准；原始来源可追溯，历史筛选决定独立保存。",
+    "limits": "除明确已核原始PDF者外，阅读引用沿用前轮已转录来源内容，尚未逐篇核对出版信息或DOI。",
+    "legend": "A级=本轮已见具体书单或公开教学材料；B/C类表示资料可见性，不等于课程质量或重要性。",
+    "note": "相关单元是从非全课来源中提取的专题，88条阅读为未全面核验的书目线索，不是完整课程指定阅读。"
+  },
+  "direction_index": [
+    {
+      "id": "T01",
+      "label": "婚配与婚姻市场",
+      "en": "Assortative Mating & Marriage Markets",
+      "stage": "第一阶段",
+      "goal": "婚姻匹配的机会结构、偏好与不平等后果",
+      "starter_ids": [
+        "S035",
+        "S072",
+        "R3-021",
+        "R3-022"
+      ],
+      "first_step": "先比较社会学同质婚解释与经济学匹配模型；提取相关周次和方法读物。"
+    },
+    {
+      "id": "T02",
+      "label": "家庭人口学",
+      "en": "Family Demography",
+      "stage": "第一阶段",
+      "goal": "婚姻形成、婚姻制度、生育与家庭动态",
+      "starter_ids": [
+        "S083",
+        "S073",
+        "R3-024",
+        "R3-025"
+      ],
+      "first_step": "先从博士考试书单提取家庭人口学的主题结构，再把生育与婚姻专题分开。"
+    },
+    {
+      "id": "T03",
+      "label": "社会分层、流动与财富",
+      "en": "Stratification, Mobility & Wealth",
+      "stage": "第一阶段",
+      "goal": "教育、家庭出身、流动与财富再生产",
+      "starter_ids": [
+        "S026",
+        "S030",
+        "R4-001",
+        "R3-019"
+      ],
+      "first_step": "先构造社会分层理论和财富／家世两个子主题的基础文献。"
+    },
+    {
+      "id": "T04",
+      "label": "东亚家庭与社会变迁",
+      "en": "East Asian Family & Social Change",
+      "stage": "第二阶段",
+      "goal": "东亚婚姻家庭制度、家庭主义与压缩现代性",
+      "starter_ids": [
+        "S018",
+        "S081",
+        "R3-026",
+        "R4-017"
+      ],
+      "first_step": "以区域比较为主线；本科专题课仅作为区域阅读补充并标注层级。"
+    },
+    {
+      "id": "T05",
+      "label": "青年与成年转衔",
+      "en": "Youth & Transition to Adulthood",
+      "stage": "第二阶段",
+      "goal": "青年成年转衔、住房、父母支持与婚育",
+      "starter_ids": [
+        "R4-013",
+        "S032",
+        "S079",
+        "R3-065"
+      ],
+      "first_step": "从首尔大学研究生青年亲密关系课入手，再接学校—工作与离家住房。"
+    },
+    {
+      "id": "T06",
+      "label": "性别、工作与家庭",
+      "en": "Gender, Work & Family",
+      "stage": "第二阶段",
+      "goal": "性别革命、就业、家务、照料及夫妻协商",
+      "starter_ids": [
+        "S036",
+        "S039",
+        "R3-026",
+        "S072"
+      ],
+      "first_step": "将家庭内机制与国家照护制度分开组织；不要将劳动经济泛论整套收进来。"
+    },
+    {
+      "id": "T07",
+      "label": "文化、个人文化与价值变化",
+      "en": "Personal Culture & Value Change",
+      "stage": "第二阶段",
+      "goal": "文化认知、个人文化、价值观测量与变化",
+      "starter_ids": [
+        "S042",
+        "S068",
+        "S077",
+        "R3-038"
+      ],
+      "first_step": "先区分文化理论、个人文化测量、观念变化，再把队列分解留给T10。"
+    },
+    {
+      "id": "T08",
+      "label": "形式与计算人口学",
+      "en": "Formal & Computational Demography",
+      "stage": "第三阶段",
+      "goal": "标准化、生命表、分解、多状态、预测与模拟",
+      "starter_ids": [
+        "S048",
+        "S050",
+        "R3-010",
+        "R4-044"
+      ],
+      "first_step": "优先收集原理教材与可复现讲义；算法或工作坊必须注明来源类型。"
+    },
+    {
+      "id": "T09",
+      "label": "调查实验与定量研究设计",
+      "en": "Survey Experiments & Research Design",
+      "stage": "第二阶段",
+      "goal": "调查设计、测量、conjoint与factorial survey",
+      "starter_ids": [
+        "R3-005",
+        "R3-006",
+        "S060",
+        "S076"
+      ],
+      "first_step": "针对你的择偶联合实验，先提取设计、估计量及效度讨论，不必重学全部统计课程。"
+    },
+    {
+      "id": "T10",
+      "label": "社会变迁人口学",
+      "en": "Demography of Social Change",
+      "stage": "第一阶段",
+      "goal": "历史队列、队列更替、构成与队列内变化、社会态度分解",
+      "starter_ids": [
+        "R3-058",
+        "R3-059",
+        "R3-060",
+        "R4-025"
+      ],
+      "first_step": "以人口学视角的社会变迁为主干；明确区分社会变迁分解与因果APC识别。"
+    }
+  ],
+  "field_notes": {
+    "full_syllabi": "Original full source entries",
+    "modules": "Only extracted units; do not treat as complete syllabus",
+    "reading_excerpts": "Partial unverified citations; retain course markers",
+    "pending": "No complete source file",
+    "audit": "History only"
+  }
+}
