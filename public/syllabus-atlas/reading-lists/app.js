@@ -31,8 +31,52 @@
     ...work.source_links.flatMap(source => [source.source_id, source.location])
   ].join(' '))]));
   const priorities = ['all', '第一轮', '专题深化', '方法工具'];
+  const progressStatuses = ['not-started','planned','reading','done'];
+  const progressLabels = {'not-started':'未开始','planned':'计划读','reading':'正在读','done':'已读完'};
+  const progressKey = 'syllabusAtlas:readingProgress:v1';
+  function loadReadingProgress() {
+    try {
+      const raw = JSON.parse(localStorage.getItem(progressKey) || '{}');
+      if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return Object.create(null);
+      const clean = Object.create(null);
+      for (const [id,status] of Object.entries(raw)) {
+        if (workById.has(id) && progressStatuses.includes(status) && status !== 'not-started') clean[id] = status;
+      }
+      return clean;
+    } catch { return Object.create(null); }
+  }
+  let readingProgress = loadReadingProgress();
+  const progressFor = id => readingProgress[id] || 'not-started';
+  function saveReadingProgress() {
+    try {
+      localStorage.setItem(progressKey,JSON.stringify(readingProgress));
+      return true;
+    } catch {
+      toast('无法保存到本机浏览器，请及时导出 JSON 备份');
+      return false;
+    }
+  }
+  function progressSelectFor(work) {
+    const current = progressFor(work.id);
+    return '<label class="card-progress"><span>我的进度</span><select data-progress-id="' + escape(work.id) + '" aria-label="' + escape(work.title) + ' 的阅读状态">'
+      + progressStatuses.map(status => '<option value="' + status + '"' + (current === status ? ' selected' : '') + '>' + progressLabels[status] + '</option>').join('')
+      + '</select></label>';
+  }
+  function renderProgress() {
+    const counts = {planned:0,reading:0,done:0};
+    for (const work of works) {
+      const status = progressFor(work.id);
+      if (counts[status] !== undefined) counts[status] += 1;
+    }
+    const percent = works.length ? Math.round(100*counts.done/works.length) : 0;
+    $('progressSummary').textContent = '已读完 ' + counts.done + ' / ' + works.length + ' 部 · ' + percent + '%';
+    $('progressBreakdown').textContent = '计划读 ' + counts.planned + ' · 正在读 ' + counts.reading + ' · 已读完 ' + counts.done;
+    $('progressBar').style.width = percent + '%';
+    $('progressTrack').setAttribute('aria-valuenow',String(percent));
+  }
+
   const pageSize = 12;
-  const defaults = {direction:'all', topic:'all', priority:'all', query:'', sort:'reading', page:1};
+  const defaults = {direction:'all', topic:'all', priority:'all', progress:'all', query:'', sort:'reading', page:1};
   let state = {...defaults};
   let filtered = [];
   let searchTimer;
@@ -40,11 +84,12 @@
 
   function readLocation() {
     const params = new URLSearchParams(location.search);
-    state = {...defaults, direction:params.get('direction') || 'all', topic:params.get('topic') || 'all', priority:params.get('priority') || 'all', query:params.get('q') || '', sort:params.get('sort') || 'reading', page:Number(params.get('page') || 1)};
+    state = {...defaults, direction:params.get('direction') || 'all', topic:params.get('topic') || 'all', priority:params.get('priority') || 'all', progress:params.get('progress') || 'all', query:params.get('q') || '', sort:params.get('sort') || 'reading', page:Number(params.get('page') || 1)};
     if (!directionById.has(state.direction)) state.direction = 'all';
     if (!topicById.has(state.topic)) state.topic = 'all';
     if (state.topic !== 'all') state.direction = topicDirection(topicById.get(state.topic));
     if (!priorities.includes(state.priority)) state.priority = 'all';
+    if (state.progress !== 'all' && !progressStatuses.includes(state.progress)) state.progress = 'all';
     if (!['reading', 'newest', 'oldest', 'author'].includes(state.sort)) state.sort = 'reading';
     if (!Number.isInteger(state.page) || state.page < 1) state.page = 1;
   }
@@ -53,6 +98,7 @@
     if (state.direction !== 'all') params.set('direction', state.direction);
     if (state.topic !== 'all') params.set('topic', state.topic);
     if (state.priority !== 'all') params.set('priority', state.priority);
+    if (state.progress !== 'all') params.set('progress', state.progress);
     if (state.query) params.set('q', state.query);
     if (state.sort !== 'reading') params.set('sort', state.sort);
     if (state.page > 1) params.set('page', String(state.page));
@@ -176,13 +222,14 @@
     const visiblePurposes = mappings.slice(0, 2).map(purposeMarkup).join('');
     const remaining = mappings.slice(2);
     const origin = work.bibliography_origin && work.bibliography_origin !== '课程列示' ? `<span class="origin-label">${escape(work.bibliography_origin)}</span>` : '';
-    return `<article class="reading-card" id="work-${escape(work.id)}" data-work="${escape(work.id)}"><div class="card-top"><div class="card-labels">${labels.map(label => `<span class="priority-label ${label === '专题深化' ? 'deep' : label === '方法工具' ? 'method' : ''}">${escape(label)}</span>`).join('')}${origin}<span class="type-label">${escape(type)}</span><span class="work-id">${escape(work.id)}</span></div><button type="button" class="copy-citation" data-action="copy" data-value="${escape(work.id)}" aria-label="复制 ${escape(work.title)} 的完整引文">复制引文</button></div><p class="citation-authors">${escape(authorLine(work))} <span class="citation-year">(${escape(work.year || 'n.d.')})</span></p><h3 class="work-title">${externalLink(url, escape(work.title)) || escape(work.title)}</h3><p class="citation-publication">${escape(publication)}${publication ? '.' : ''}</p><div class="why-read"><p class="why-title">WHY READ / 为什么读</p>${visiblePurposes}${remaining.length ? `<details class="more-purposes"><summary>另外 ${remaining.length} 个专题用途</summary>${remaining.map(purposeMarkup).join('')}</details>` : ''}</div>${work.reading_scope ? `<p class="reading-scope">阅读范围：${escape(asText(work.reading_scope))}</p>` : ''}<div class="card-links">${externalLink(url, work.doi ? 'DOI / 出版记录 ↗' : '打开出版记录 ↗')}${work.url && externalUrl(work.url) !== url ? externalLink(work.url, '文献页面 ↗') : ''}${work.doi ? `<span class="doi-text">${escape(asText(work.doi).replace(/^https?:\/\/(dx\.)?doi\.org\//i, ''))}</span>` : ''}</div>${sourceMarkup(work)}</article>`;
+    return `<article class="reading-card" id="work-${escape(work.id)}" data-work="${escape(work.id)}"><div class="card-top"><div class="card-labels">${labels.map(label => `<span class="priority-label ${label === '专题深化' ? 'deep' : label === '方法工具' ? 'method' : ''}">${escape(label)}</span>`).join('')}${origin}<span class="type-label">${escape(type)}</span><span class="work-id">${escape(work.id)}</span></div><div class="card-actions">${progressSelectFor(work)}<button type="button" class="copy-citation" data-action="copy" data-value="${escape(work.id)}" aria-label="复制 ${escape(work.title)} 的完整引文">复制引文</button></div></div><p class="citation-authors">${escape(authorLine(work))} <span class="citation-year">(${escape(work.year || 'n.d.')})</span></p><h3 class="work-title">${externalLink(url, escape(work.title)) || escape(work.title)}</h3><p class="citation-publication">${escape(publication)}${publication ? '.' : ''}</p><div class="why-read"><p class="why-title">WHY READ / 为什么读</p>${visiblePurposes}${remaining.length ? `<details class="more-purposes"><summary>另外 ${remaining.length} 个专题用途</summary>${remaining.map(purposeMarkup).join('')}</details>` : ''}</div>${work.reading_scope ? `<p class="reading-scope">阅读范围：${escape(asText(work.reading_scope))}</p>` : ''}<div class="card-links">${externalLink(url, work.doi ? 'DOI / 出版记录 ↗' : '打开出版记录 ↗')}${work.url && externalUrl(work.url) !== url ? externalLink(work.url, '文献页面 ↗') : ''}${work.doi ? `<span class="doi-text">${escape(asText(work.doi).replace(/^https?:\/\/(dx\.)?doi\.org\//i, ''))}</span>` : ''}</div>${sourceMarkup(work)}</article>`;
   }
   function renderActiveFilters() {
     const chips = [];
     if (state.direction !== 'all') chips.push(['direction',`${state.direction} · ${directionName(directionById.get(state.direction))}`]);
     if (state.topic !== 'all') chips.push(['topic',`${state.topic} · ${topicName(topicById.get(state.topic))}`]);
     if (state.priority !== 'all') chips.push(['priority',state.priority]);
+    if (state.progress !== 'all') chips.push(['progress',progressLabels[state.progress]]);
     if (state.query) chips.push(['query',`搜索：${state.query}`]);
     $('activeFilters').innerHTML = chips.map(([key,label]) => `<button type="button" class="filter-chip" data-action="remove" data-value="${key}" aria-label="移除筛选 ${escape(label)}">${escape(label)}<span aria-hidden="true">×</span></button>`).join('');
   }
@@ -201,7 +248,7 @@
     $('pagination').innerHTML = html;
   }
   function renderResults() {
-    filtered = works.filter(work => scopedMappings(work).length && matchesSearch(work)).sort(sortWorks);
+    filtered = works.filter(work => scopedMappings(work).length && matchesSearch(work) && (state.progress === 'all' || progressFor(work.id) === state.progress)).sort(sortWorks);
     const pageCount = Math.max(1,Math.ceil(filtered.length/pageSize));
     state.page = Math.min(state.page,pageCount);
     const start = (state.page-1)*pageSize;
@@ -214,12 +261,14 @@
     renderActiveFilters();
     renderPriorityTabs();
     renderPagination(pageCount);
+    renderProgress();
     writeLocation();
   }
   function renderAll() {
     $('directionSelect').value = state.direction;
     $('searchInput').value = state.query;
     $('sortSelect').value = state.sort;
+    $('progressSelect').value = state.progress;
     renderNavigation();
     renderTopicOptions();
     renderContext();
@@ -256,6 +305,41 @@
     }
   }
 
+
+  function exportProgress() {
+    const payload = {schema:'SyllabusAtlasReadingProgress/1',exported_at:new Date().toISOString(),statuses:readingProgress};
+    const blob = new Blob([JSON.stringify(payload,null,2)],{type:'application/json;charset=utf-8'});
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = 'syllabus-atlas-reading-progress.json';
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    setTimeout(() => URL.revokeObjectURL(url),1000);
+    toast('已导出本机阅读进度');
+  }
+  async function importProgress(event) {
+    const file = event.target.files && event.target.files[0];
+    if (!file) return;
+    try {
+      if (file.size > 300000) throw new Error('File too large');
+      const parsed = JSON.parse(await file.text());
+      if (!parsed || parsed.schema !== 'SyllabusAtlasReadingProgress/1' || !parsed.statuses || typeof parsed.statuses !== 'object' || Array.isArray(parsed.statuses)) throw new Error('Wrong data format');
+      const clean = Object.create(null);
+      for (const [id,status] of Object.entries(parsed.statuses)) {
+        if (workById.has(id) && progressStatuses.includes(status) && status !== 'not-started') clean[id] = status;
+      }
+      if (!window.confirm('导入将替换当前浏览器中的所有阅读状态。确定继续？')) return;
+      readingProgress = clean;
+      saveReadingProgress();
+      renderAll();
+      toast('已导入 ' + Object.keys(clean).length + ' 条阅读记录');
+    } catch {
+      toast('导入失败：请使用本工作台导出的进度 JSON 文件');
+    } finally { event.target.value = ''; }
+  }
+
   document.addEventListener('click',event => {
     const button = event.target.closest('[data-action]');
     if (!button) return;
@@ -277,6 +361,20 @@
   $('directionSelect').addEventListener('change',event => update({direction:event.target.value,topic:'all'}));
   $('topicSelect').addEventListener('change',event => { const topic = topicById.get(event.target.value); update({topic:event.target.value,...(topic ? {direction:topicDirection(topic)} : {})}); });
   $('sortSelect').addEventListener('change',event => update({sort:event.target.value},false));
+  $('progressSelect').addEventListener('change',event => update({progress:event.target.value}));
+  $('exportProgress').addEventListener('click',exportProgress);
+  $('importProgress').addEventListener('change',importProgress);
+  document.addEventListener('change',event => {
+    const select = event.target.closest && event.target.closest('select[data-progress-id]');
+    if (!select) return;
+    const id = select.dataset.progressId, status = select.value;
+    if (!workById.has(id) || !progressStatuses.includes(status)) return;
+    if (status === 'not-started') delete readingProgress[id]; else readingProgress[id] = status;
+    saveReadingProgress();
+    renderProgress();
+    if (state.progress !== 'all') renderResults();
+  });
+
   $('searchInput').addEventListener('input',event => { state.query = event.target.value; state.page = 1; clearTimeout(searchTimer); searchTimer = setTimeout(renderResults,140); });
   $('searchInput').addEventListener('keydown',event => { if (event.key === 'Enter') { clearTimeout(searchTimer); renderResults(); } });
   window.addEventListener('popstate',() => { readLocation(); renderAll(); });
