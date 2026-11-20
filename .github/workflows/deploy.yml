@@ -19,6 +19,7 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
+      - run: node --check public/syllabus-atlas/reading-lists/app.js && node --check public/syllabus-atlas/assets/app.js
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
