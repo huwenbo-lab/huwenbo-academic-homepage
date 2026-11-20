@@ -2,7 +2,7 @@
 
 > 版本：2026-11-20；定位：课程纲要与规范书目基础上的第一版学术综合，不等于逐篇全文阅读后的系统综述。
 
-阅读工作台：[在线阅读清单](https://huwenbo-lab.github.io/huwenbo-academic-homepage/syllabus-atlas/reading-lists/) · [知识地图网页](https://huwenbo-lab.github.io/huwenbo-academic-homepage/syllabus-atlas/reading-lists/guide.html)
+阅读工作台：[在线阅读清单](https://huwenbo-lab.github.io/huwenbo-academic-homepage/syllabus-atlas/reading-lists/) · [知识地图网页](https://huwenbo-lab.github.io/huwenbo-academic-homepage/syllabus-atlas/reading-lists/guide.html) · [选文方法、课程来源与各方向标准](./METHODOLOGY.md)
 
 ## 一、方法原则
 

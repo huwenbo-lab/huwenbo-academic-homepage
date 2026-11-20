@@ -6,6 +6,7 @@ This repository hosts an academic homepage and a research reading workspace.
 - [Syllabus Atlas — course source shelf](https://huwenbo-lab.github.io/huwenbo-academic-homepage/syllabus-atlas/)
 - [Reading library — 287 works in 10 fields](https://huwenbo-lab.github.io/huwenbo-academic-homepage/syllabus-atlas/reading-lists/)
 - [Knowledge map — questions, debates and reading routes](https://huwenbo-lab.github.io/huwenbo-academic-homepage/syllabus-atlas/reading-lists/guide.html)
+- [Selection methodology and original course sources](https://huwenbo-lab.github.io/huwenbo-academic-homepage/syllabus-atlas/reading-lists/methodology.html)
 
 ## Research reading workspace
 

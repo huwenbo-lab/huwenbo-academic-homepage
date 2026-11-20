@@ -44,3 +44,7 @@ v4 (2026-11-20): the ten-direction reading workbench, with 84 topics and 287 can
 ## Reading interface additions (2026-11-20)
 
 The [field guide](reading-lists/guide.html) and [Markdown edition](reading-lists/KNOWLEDGE_MAP.md) describe research questions, debates and evidence boundaries across all ten reading directions, without claiming full-text review. A browser-local reader status tracker supports filtering and JSON export/import. Reader statuses are **not** saved to GitHub or Zotero and do not change the canonical bibliography.
+
+## Syllabus-led selection criteria (2026-11-20)
+
+[Selection methodology and provenance](reading-lists/methodology.html) and [the Markdown documentation](reading-lists/METHODOLOGY.md) explain the syllabus-led curation workflow, original source counts, bibliography checks, priority conventions and field-specific inclusion and exclusion considerations. Source concentration and remaining coverage gaps are explicitly disclosed; the reading bibliography is neither a systematic nor an exhaustive literature search.
