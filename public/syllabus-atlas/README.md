@@ -40,3 +40,7 @@ v2 (2026-11-15): 92 early sources, 9 broad subject categories, 62 preliminary un
 v3 (2026-11-18): 89 whole-source records + 30 selected modules + 88 preliminary reading clues + 9 pending records, plus the 233-entry historical audit ledger.
 
 v4 (2026-11-20): the ten-direction reading workbench, with 84 topics and 287 canonical works, linked to the preserved v3 source shelf.
+
+## Reading interface additions (2026-11-20)
+
+The [field guide](reading-lists/guide.html) and [Markdown edition](reading-lists/KNOWLEDGE_MAP.md) describe research questions, debates and evidence boundaries across all ten reading directions, without claiming full-text review. A browser-local reader status tracker supports filtering and JSON export/import. Reader statuses are **not** saved to GitHub or Zotero and do not change the canonical bibliography.

@@ -1,57 +1,26 @@
-# React + TypeScript + Vite
+# Academic homepage and Syllabus Atlas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository hosts an academic homepage and a research reading workspace.
 
-Currently, two official plugins are available:
+- [Academic homepage](https://huwenbo-lab.github.io/huwenbo-academic-homepage/)
+- [Syllabus Atlas — course source shelf](https://huwenbo-lab.github.io/huwenbo-academic-homepage/syllabus-atlas/)
+- [Reading library — 287 works in 10 fields](https://huwenbo-lab.github.io/huwenbo-academic-homepage/syllabus-atlas/reading-lists/)
+- [Knowledge map — questions, debates and reading routes](https://huwenbo-lab.github.io/huwenbo-academic-homepage/syllabus-atlas/reading-lists/guide.html)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Research reading workspace
 
-## Expanding the ESLint configuration
+The reading library covers 10 directions and 84 topics, with 287 deduplicated works, bibliographic provenance, reading purposes and priority sequences. It also offers a downloadable workbook and source audit. The knowledge guide is an editorial research map, **not a completed full-text literature review**. Optional reading progress is saved **only in your browser**; export/import JSON to preserve it. No Zotero import is required.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+For sources, bibliography qualifications and maintenance, consult [Syllabus Atlas documentation](public/syllabus-atlas/README.md) and [the reading workbench guide](public/syllabus-atlas/reading-lists/README.md).
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Development
+
+The homepage is built with React, TypeScript and Vite; the Syllabus Atlas is static HTML/CSS/JavaScript under `public/syllabus-atlas/`.
+
+```bash
+npm ci
+npm run dev
+npm run build
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  extends: [
-    // other configs...
-    // Enable lint rules for React
-    reactX.configs['recommended-typescript'],
-    // Enable lint rules for React DOM
-    reactDom.configs.recommended,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+The GitHub Pages deployment publishes changes to `main`.
