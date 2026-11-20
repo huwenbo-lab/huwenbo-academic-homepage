@@ -328,3 +328,10 @@ button, a, select, input, summary { -webkit-tap-highlight-color: transparent; }
 @media(max-width:940px){.topbar-actions .knowledge-link{font-size:10px}}
 @media(max-width:620px){.guide-callout{padding:14px;align-items:flex-start}.guide-callout>span:last-child{display:none}.filter-grid{grid-template-columns:1fr}.search-field{grid-column:auto}.progress-panel{padding:15px 13px}.progress-top>div:first-child{display:block}.progress-kicker{display:block;margin-bottom:4px}.card-top{align-items:flex-start;flex-wrap:wrap}.card-actions{width:100%;justify-content:space-between}.card-progress select{font-size:11px}.topbar-actions .knowledge-link{font-size:10px}}
 @media print{.guide-callout,.progress-panel,.card-progress{display:none!important}}
+
+/* Selection methodology navigation */
+.sidebar-extra a+a{margin-top:9px;color:#c7daca}
+.source-method-link{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap;font-size:11px;color:#778b7b;margin:-12px 0 22px;padding:0 5px}
+.source-method-link span{font-weight:650;color:#5d7760}
+.source-method-link a{color:#26734f;text-decoration:underline;text-decoration-color:#a9c6af;text-underline-offset:3px}
+.source-method-link a:hover{color:#164f3a}
