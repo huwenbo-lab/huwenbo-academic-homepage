@@ -15,7 +15,10 @@
     "about": "以最终个人阅读工作台及2026-11-18精选归档为准；原始来源可追溯，历史筛选决定独立保存。",
     "limits": "除明确已核原始PDF者外，阅读引用沿用前轮已转录来源内容，尚未逐篇核对出版信息或DOI。",
     "legend": "A级=本轮已见具体书单或公开教学材料；B/C类表示资料可见性，不等于课程质量或重要性。",
-    "note": "相关单元是从非全课来源中提取的专题，88条阅读为未全面核验的书目线索，不是完整课程指定阅读。"
+    "note": "相关单元是从非全课来源中提取的专题，88条阅读为未全面核验的书目线索，不是完整课程指定阅读。",
+    "source_shelf_version": "3.0",
+    "site_version": "4.0",
+    "site_updated_at": "2026-11-20"
   },
   "direction_index": [
     {
@@ -165,5 +168,26 @@
     "reading_excerpts": "Partial unverified citations; retain course markers",
     "pending": "No complete source file",
     "audit": "History only"
+  },
+  "reading_workbench": {
+    "version": "4.0",
+    "as_of": "2026-11-20",
+    "path": "reading-lists/",
+    "canonical_data": "reading-lists/downloads/reading_library.json",
+    "counts": {
+      "unique_works": 287,
+      "direction_work_uses": 316,
+      "topic_uses": 330,
+      "topics": 84,
+      "directions": 10,
+      "source_records": 119,
+      "sources_used": 56,
+      "doi_works": 266,
+      "pending_sources": 9,
+      "first_round_direction_uses": 111,
+      "supplement_works": 8,
+      "method_expansions": 2
+    },
+    "scope": "Curated doctoral reading lists; bibliography verification is distinct from full-text review; original 88 source-linked clues remain separate."
   }
 }

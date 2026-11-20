@@ -1,0 +1,8092 @@
+[
+  {
+    "id": "W0001",
+    "type": "article-journal",
+    "title": "Intermarriage and Homogamy: Causes, Patterns, Trends",
+    "author": [
+      {
+        "family": "Kalmijn",
+        "given": "Matthijs"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1998
+        ]
+      ]
+    },
+    "container-title": "Annual Review of Sociology",
+    "publisher": "Annual Reviews",
+    "volume": "24",
+    "issue": "1",
+    "page": "395–421",
+    "DOI": "10.1146/annurev.soc.24.1.395",
+    "URL": "https://doi.org/10.1146/annurev.soc.24.1.395"
+  },
+  {
+    "id": "W0002",
+    "type": "article-journal",
+    "title": "Trends and Variation in Assortative Mating: Causes and Consequences",
+    "author": [
+      {
+        "family": "Schwartz",
+        "given": "Christine R."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "container-title": "Annual Review of Sociology",
+    "publisher": "Annual Reviews",
+    "volume": "39",
+    "issue": "1",
+    "page": "451–470",
+    "DOI": "10.1146/annurev-soc-071312-145544",
+    "URL": "https://doi.org/10.1146/annurev-soc-071312-145544"
+  },
+  {
+    "id": "W0003",
+    "type": "article-journal",
+    "title": "A Theory of Marriage: Part I",
+    "author": [
+      {
+        "family": "Becker",
+        "given": "Gary S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1973
+        ]
+      ]
+    },
+    "container-title": "Journal of Political Economy",
+    "publisher": "University of Chicago Press",
+    "volume": "81",
+    "issue": "4",
+    "page": "813–846",
+    "DOI": "10.1086/260084",
+    "URL": "https://doi.org/10.1086/260084"
+  },
+  {
+    "id": "W0004",
+    "type": "article-journal",
+    "title": "Trends in educational assortative marriage from 1940 to 2003",
+    "author": [
+      {
+        "family": "Schwartz",
+        "given": "Christine R."
+      },
+      {
+        "family": "Mare",
+        "given": "Robert D."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2005
+        ]
+      ]
+    },
+    "container-title": "Demography",
+    "publisher": "Duke University Press",
+    "volume": "42",
+    "issue": "4",
+    "page": "621–646",
+    "DOI": "10.1353/dem.2005.0036",
+    "URL": "https://doi.org/10.1353/dem.2005.0036",
+    "note": "规范题名为educational assortative marriage；不能将题名中的marriage替换为mating。"
+  },
+  {
+    "id": "W0005",
+    "type": "article-journal",
+    "title": "Educational Assortative Marriage in Comparative Perspective",
+    "author": [
+      {
+        "family": "Blossfeld",
+        "given": "Hans-Peter"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "container-title": "Annual Review of Sociology",
+    "publisher": "Annual Reviews",
+    "volume": "35",
+    "issue": "1",
+    "page": "513–530",
+    "DOI": "10.1146/annurev-soc-070308-115913",
+    "URL": "https://doi.org/10.1146/annurev-soc-070308-115913"
+  },
+  {
+    "id": "W0006",
+    "type": "article-journal",
+    "title": "The Reversal of the Gender Gap in Education and Its Consequences for Family Life",
+    "author": [
+      {
+        "family": "Van Bavel",
+        "given": "Jan"
+      },
+      {
+        "family": "Schwartz",
+        "given": "Christine R."
+      },
+      {
+        "family": "Esteve",
+        "given": "Albert"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "container-title": "Annual Review of Sociology",
+    "publisher": "Annual Reviews",
+    "volume": "44",
+    "issue": "1",
+    "page": "341–360",
+    "DOI": "10.1146/annurev-soc-073117-041215",
+    "URL": "https://doi.org/10.1146/annurev-soc-073117-041215"
+  },
+  {
+    "id": "W0007",
+    "type": "article-journal",
+    "title": "Is It Only a Numbers Game? A Macro-Level Study of Educational Hypogamy",
+    "author": [
+      {
+        "family": "Han",
+        "given": "Sinn Won"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "container-title": "Demography",
+    "publisher": "Duke University Press",
+    "volume": "59",
+    "issue": "4",
+    "page": "1571–1593",
+    "DOI": "10.1215/00703370-10126742",
+    "URL": "https://doi.org/10.1215/00703370-10126742"
+  },
+  {
+    "id": "W0008",
+    "type": "article-journal",
+    "title": "Trends in Educational Assortative Marriage in China Over the Past Century",
+    "author": [
+      {
+        "family": "Dong",
+        "given": "Hao"
+      },
+      {
+        "family": "Xie",
+        "given": "Yu"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "Demography",
+    "publisher": "Duke University Press",
+    "volume": "60",
+    "issue": "1",
+    "page": "123–145",
+    "DOI": "10.1215/00703370-10411058",
+    "URL": "https://doi.org/10.1215/00703370-10411058"
+  },
+  {
+    "id": "W0009",
+    "type": "article-journal",
+    "title": "Beauty and Status: The Illusion of Exchange in Partner Selection?",
+    "author": [
+      {
+        "family": "McClintock",
+        "given": "Elizabeth Aura"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "container-title": "American Sociological Review",
+    "publisher": "SAGE Publications",
+    "volume": "79",
+    "issue": "4",
+    "page": "575–604",
+    "DOI": "10.1177/0003122414536391",
+    "URL": "https://doi.org/10.1177/0003122414536391"
+  },
+  {
+    "id": "W0010",
+    "type": "article-journal",
+    "title": "The Wealth of Parents: Trends Over Time in Assortative Mating Based on Parental Wealth",
+    "author": [
+      {
+        "family": "Wagner",
+        "given": "Sander"
+      },
+      {
+        "family": "Boertien",
+        "given": "Diederik"
+      },
+      {
+        "family": "Gørtz",
+        "given": "Mette"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Demography",
+    "publisher": "Duke University Press",
+    "volume": "57",
+    "issue": "5",
+    "page": "1809–1831",
+    "DOI": "10.1007/s13524-020-00906-3",
+    "URL": "https://doi.org/10.1007/s13524-020-00906-3"
+  },
+  {
+    "id": "W0011",
+    "type": "article-journal",
+    "title": "The Independence of Young Adults and the Rise of Interracial and Same-Sex Unions",
+    "author": [
+      {
+        "family": "Rosenfeld",
+        "given": "Michael J."
+      },
+      {
+        "family": "Kim",
+        "given": "Byung-Soo"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2005
+        ]
+      ]
+    },
+    "container-title": "American Sociological Review",
+    "publisher": "SAGE Publications",
+    "volume": "70",
+    "issue": "4",
+    "page": "541–562",
+    "DOI": "10.1177/000312240507000401",
+    "URL": "https://doi.org/10.1177/000312240507000401"
+  },
+  {
+    "id": "W0012",
+    "type": "article-journal",
+    "title": "Marital age homogamy in China: A reversal of trend in the reform era?",
+    "author": [
+      {
+        "family": "Mu",
+        "given": "Zheng"
+      },
+      {
+        "family": "Xie",
+        "given": "Yu"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "container-title": "Social Science Research",
+    "publisher": "Elsevier BV",
+    "volume": "44",
+    "page": "141–157",
+    "DOI": "10.1016/j.ssresearch.2013.11.005",
+    "URL": "https://doi.org/10.1016/j.ssresearch.2013.11.005"
+  },
+  {
+    "id": "W0013",
+    "type": "article-journal",
+    "title": "Assortative mating without assortative preference",
+    "author": [
+      {
+        "family": "Xie",
+        "given": "Yu"
+      },
+      {
+        "family": "Cheng",
+        "given": "Siwei"
+      },
+      {
+        "family": "Zhou",
+        "given": "Xiang"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the National Academy of Sciences",
+    "publisher": "National Academy of Sciences",
+    "volume": "112",
+    "issue": "19",
+    "page": "5974–5978",
+    "DOI": "10.1073/pnas.1504811112",
+    "URL": "https://doi.org/10.1073/pnas.1504811112"
+  },
+  {
+    "id": "W0014",
+    "type": "article-journal",
+    "title": "A Theory of Marriage Timing",
+    "author": [
+      {
+        "family": "Oppenheimer",
+        "given": "Valerie Kincade"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1988
+        ]
+      ]
+    },
+    "container-title": "American Journal of Sociology",
+    "publisher": "University of Chicago Press",
+    "volume": "94",
+    "issue": "3",
+    "page": "563–591",
+    "DOI": "10.1086/229030",
+    "URL": "https://doi.org/10.1086/229030"
+  },
+  {
+    "id": "W0015",
+    "type": "article-journal",
+    "title": "Race and the Retreat From Marriage: A Shortage of Marriageable Men?",
+    "author": [
+      {
+        "family": "Lichter",
+        "given": "Daniel T."
+      },
+      {
+        "family": "McLaughlin",
+        "given": "Diane K."
+      },
+      {
+        "family": "Kephart",
+        "given": "George"
+      },
+      {
+        "family": "Landry",
+        "given": "David J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1992
+        ]
+      ]
+    },
+    "container-title": "American Sociological Review",
+    "publisher": "SAGE Publications",
+    "volume": "57",
+    "issue": "6",
+    "page": "781–799",
+    "DOI": "10.2307/2096123",
+    "URL": "https://doi.org/10.2307/2096123"
+  },
+  {
+    "id": "W0016",
+    "type": "article-journal",
+    "title": "Two Decades of Family Change: The Shifting Economic Foundations of Marriage",
+    "author": [
+      {
+        "family": "Sweeney",
+        "given": "Megan M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2002
+        ]
+      ]
+    },
+    "container-title": "American Sociological Review",
+    "publisher": "SAGE Publications",
+    "volume": "67",
+    "issue": "1",
+    "page": "132–147",
+    "DOI": "10.2307/3088937",
+    "URL": "https://doi.org/10.2307/3088937"
+  },
+  {
+    "id": "W0017",
+    "type": "article-journal",
+    "title": "Pathways to educational homogamy in marital and cohabiting unions",
+    "author": [
+      {
+        "family": "Schwartz",
+        "given": "Christine R."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "container-title": "Demography",
+    "publisher": "Duke University Press",
+    "volume": "47",
+    "issue": "3",
+    "page": "735–753",
+    "DOI": "10.1353/dem.0.0124",
+    "URL": "https://doi.org/10.1353/dem.0.0124"
+  },
+  {
+    "id": "W0018",
+    "type": "article-journal",
+    "title": "The Reversal of the Gender Gap in Education and Trends in Marital Dissolution",
+    "author": [
+      {
+        "family": "Schwartz",
+        "given": "Christine R."
+      },
+      {
+        "family": "Han",
+        "given": "Hongyun"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "container-title": "American Sociological Review",
+    "publisher": "SAGE Publications",
+    "volume": "79",
+    "issue": "4",
+    "page": "605–629",
+    "DOI": "10.1177/0003122414539682",
+    "URL": "https://doi.org/10.1177/0003122414539682"
+  },
+  {
+    "id": "W0019",
+    "type": "article-journal",
+    "title": "Trends in Economic Homogamy: Changes in Assortative Mating or the Division of Labor in Marriage?",
+    "author": [
+      {
+        "family": "Gonalons-Pons",
+        "given": "Pilar"
+      },
+      {
+        "family": "Schwartz",
+        "given": "Christine R."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "container-title": "Demography",
+    "publisher": "Duke University Press",
+    "volume": "54",
+    "issue": "3",
+    "page": "985–1005",
+    "DOI": "10.1007/s13524-017-0576-0",
+    "URL": "https://doi.org/10.1007/s13524-017-0576-0",
+    "note": "规范题名为Division of Labor in Marriage；paid labor是研究对象说明，并非题名的一部分。"
+  },
+  {
+    "id": "W0020",
+    "type": "article-journal",
+    "title": "Brains or beauty? Causal evidence on the returns to education and attractiveness in the online dating market",
+    "author": [
+      {
+        "family": "Egebark",
+        "given": "Johan"
+      },
+      {
+        "family": "Ekström",
+        "given": "Mathias"
+      },
+      {
+        "family": "Plug",
+        "given": "Erik"
+      },
+      {
+        "family": "van Praag",
+        "given": "Mirjam"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "container-title": "Journal of Public Economics",
+    "publisher": "Elsevier BV",
+    "volume": "196",
+    "page": "104372",
+    "DOI": "10.1016/j.jpubeco.2021.104372",
+    "URL": "https://doi.org/10.1016/j.jpubeco.2021.104372",
+    "note": "规范题名以Brains（复数）开头；正式刊号196，文章号104372，非把PDF内部1–16当连续卷页。"
+  },
+  {
+    "id": "W0021",
+    "type": "article-journal",
+    "title": "Who Marries Whom and Why",
+    "author": [
+      {
+        "family": "Choo",
+        "given": "Eugene"
+      },
+      {
+        "family": "Siow",
+        "given": "Aloysius"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "container-title": "Journal of Political Economy",
+    "publisher": "University of Chicago Press",
+    "volume": "114",
+    "issue": "1",
+    "page": "175–201",
+    "DOI": "10.1086/498585",
+    "URL": "https://doi.org/10.1086/498585"
+  },
+  {
+    "id": "W0022",
+    "type": "article-journal",
+    "title": "Personality Traits and the Marriage Market",
+    "author": [
+      {
+        "family": "Dupuy",
+        "given": "Arnaud"
+      },
+      {
+        "family": "Galichon",
+        "given": "Alfred"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "container-title": "Journal of Political Economy",
+    "publisher": "University of Chicago Press",
+    "volume": "122",
+    "issue": "6",
+    "page": "1271–1319",
+    "DOI": "10.1086/677191",
+    "URL": "https://doi.org/10.1086/677191"
+  },
+  {
+    "id": "W0023",
+    "type": "article-journal",
+    "title": "Cupid’s Invisible Hand: Social Surplus and Identification in Matching Models",
+    "author": [
+      {
+        "family": "Galichon",
+        "given": "Alfred"
+      },
+      {
+        "family": "Salanié",
+        "given": "Bernard"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "container-title": "The Review of Economic Studies",
+    "publisher": "Oxford University Press (OUP)",
+    "volume": "89",
+    "issue": "5",
+    "page": "2600–2629",
+    "DOI": "10.1093/restud/rdab090",
+    "URL": "https://doi.org/10.1093/restud/rdab090",
+    "note": "原课列2014/2015工作论文；此处采用2022年Review of Economic Studies 89(5):2600–2629正式刊版，并保留原课版本关系。"
+  },
+  {
+    "id": "W0024",
+    "type": "article-journal",
+    "title": "The Log-Multiplicative Layer Effect Model for Comparing Mobility Tables",
+    "author": [
+      {
+        "family": "Xie",
+        "given": "Yu"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1992
+        ]
+      ]
+    },
+    "container-title": "American Sociological Review",
+    "volume": "57",
+    "issue": "3",
+    "page": "380–395",
+    "DOI": "10.2307/2096242",
+    "URL": "https://doi.org/10.2307/2096242"
+  },
+  {
+    "id": "W0025",
+    "type": "book",
+    "title": "Mobility Tables",
+    "author": [
+      {
+        "family": "Hout",
+        "given": "Michael"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1983
+        ]
+      ]
+    },
+    "publisher": "SAGE Publications",
+    "URL": "https://www.sagepub.com/shop/buy-a-book/mobility-tables-1-452",
+    "note": "保留课纲 1983 年原书。SAGE 页面载明 April 1983；网页销售格式日期不用于改写书目年份。未把未独立确认的电子版 DOI 写入。"
+  },
+  {
+    "id": "W0026",
+    "type": "book",
+    "title": "An Introduction to Categorical Data Analysis",
+    "author": [
+      {
+        "family": "Agresti",
+        "given": "Alan"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1996
+        ]
+      ]
+    },
+    "publisher": "John Wiley & Sons",
+    "URL": "https://library.fue.edu.eg/cgi-bin/koha/opac-detail.pl?biblionumber=1629&shelfbrowse_itemnumber=2222",
+    "note": "保留 1996 年第一版，不替换为 2007/2018 后续版，亦未采纳书评。不同目录总页数口径不一，页数字段留空。",
+    "edition": "1"
+  },
+  {
+    "id": "W0027",
+    "type": "book",
+    "title": "Optimal Transport Methods in Economics",
+    "author": [
+      {
+        "family": "Galichon",
+        "given": "Alfred"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "publisher": "Princeton University Press",
+    "URL": "https://press.princeton.edu/books/hardcover/9780691172767/optimal-transport-methods-in-economics",
+    "note": "采用课纲与出版社发行日期所列 2016；出版社页另示版权年 2017，保留该差异。未把课纲旧段落的 in press 或 SSRN 草稿当作当前正式版。"
+  },
+  {
+    "id": "W0028",
+    "type": "book",
+    "title": "Demography: Measuring and Modeling Population Processes",
+    "author": [
+      {
+        "family": "Preston",
+        "given": "Samuel H."
+      },
+      {
+        "family": "Heuveline",
+        "given": "Patrick"
+      },
+      {
+        "family": "Guillot",
+        "given": "Michel"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2001
+        ]
+      ]
+    },
+    "publisher": "Blackwell Publishers",
+    "URL": "https://www.wiley.com/en-us/demography-measuring-and-modeling-population-processes-p-9781557864512",
+    "note": "保留 S048 与 R4-038 所列 2001 年规范书目年。Wiley 商品记录显示 October 2000 发行日期；发行日期与常用书目年不同，未静默改年。"
+  },
+  {
+    "id": "W0029",
+    "type": "book",
+    "title": "Essential Demographic Methods",
+    "author": [
+      {
+        "family": "Wachter",
+        "given": "Kenneth W."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "publisher": "Harvard University Press",
+    "DOI": "10.4159/9780674369757",
+    "URL": "https://doi.org/10.4159/9780674369757",
+    "note": "纠正 S048 原课纲作者拼写 Watcher 为 Wachter；电子书 ISBN 9780674369757。"
+  },
+  {
+    "id": "W0030",
+    "type": "book",
+    "title": "Applied Mathematical Demography",
+    "author": [
+      {
+        "family": "Keyfitz",
+        "given": "Nathan"
+      },
+      {
+        "family": "Caswell",
+        "given": "Hal"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2005
+        ]
+      ]
+    },
+    "publisher": "Springer",
+    "DOI": "10.1007/b139042",
+    "URL": "https://doi.org/10.1007/b139042",
+    "note": "保留原课指定第三版（2005）；出版社显示纸版与电子版在 2005 年不同月份发行，不构成版次变化。",
+    "edition": "3"
+  },
+  {
+    "id": "W0031",
+    "type": "article-journal",
+    "title": "Components of a Difference Between Two Rates",
+    "author": [
+      {
+        "family": "Kitagawa",
+        "given": "Evelyn M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1955
+        ]
+      ]
+    },
+    "container-title": "Journal of the American Statistical Association",
+    "volume": "50",
+    "issue": "272",
+    "page": "1168–1194",
+    "DOI": "10.2307/2281213",
+    "URL": "https://doi.org/10.2307/2281213",
+    "note": "复用本轮 culture_change D017 已核实的 Crossref DOI 元数据；未重新批量请求。 R3-010明确教授Kitagawa方法，但本条原论文不是该课程已核的逐篇指定书目。 本项目补充文献，未声称原课程指定。"
+  },
+  {
+    "id": "W0032",
+    "type": "article-journal",
+    "title": "Decomposing Change in Life Expectancy: A Bouquet of Formulas in Honor of Nathan Keyfitz’s 90th Birthday",
+    "author": [
+      {
+        "family": "Vaupel",
+        "given": "James W."
+      },
+      {
+        "family": "Canudas Romo",
+        "given": "Vladimir"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2003
+        ]
+      ]
+    },
+    "container-title": "Demography",
+    "volume": "40",
+    "issue": "2",
+    "page": "201–216",
+    "DOI": "10.1353/dem.2003.0018",
+    "URL": "https://doi.org/10.1353/dem.2003.0018",
+    "note": "根据原课纲明确作者与年份补全题名和出版信息；正式刊物为 Demography，非 Demographic Research。原文署名 Canudas Romo。"
+  },
+  {
+    "id": "W0033",
+    "type": "article-journal",
+    "title": "A Decomposition Method Based on a Model of Continuous Change",
+    "author": [
+      {
+        "family": "Horiuchi",
+        "given": "Shiro"
+      },
+      {
+        "family": "Wilmoth",
+        "given": "John R."
+      },
+      {
+        "family": "Pletcher",
+        "given": "Scott D."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "container-title": "Demography",
+    "volume": "45",
+    "issue": "4",
+    "page": "785–801",
+    "DOI": "10.1353/dem.0.0033",
+    "URL": "https://doi.org/10.1353/dem.0.0033",
+    "note": "根据课程方法补全书目。课程只写 Continuous change (PWH and Caswell)，并未逐篇指定本文章；这一来源关系必须与直接指定阅读区分。"
+  },
+  {
+    "id": "W0034",
+    "type": "article-journal",
+    "title": "A Single Index of Mortality and Morbidity",
+    "author": [
+      {
+        "family": "Sullivan",
+        "given": "Daniel F."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1971
+        ]
+      ]
+    },
+    "container-title": "HSMHA Health Reports",
+    "volume": "86",
+    "issue": "4",
+    "page": "347–354",
+    "DOI": "10.2307/4594169",
+    "URL": "https://stacks.cdc.gov/view/cdc/62814/cdc_62814_DS1.pdf",
+    "note": "根据课程方法补全书目。R3-010 只写 Sullivan 健康预期寿命方法；正式文章由 CDC 原文与 PubMed 核实，DOI 与 JSTOR 记录交叉核验。"
+  },
+  {
+    "id": "W0035",
+    "type": "article-journal",
+    "title": "Regression Models and Life-Tables",
+    "author": [
+      {
+        "family": "Cox",
+        "given": "D. R."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1972
+        ]
+      ]
+    },
+    "container-title": "Journal of the Royal Statistical Society: Series B (Methodological)",
+    "volume": "34",
+    "issue": "2",
+    "page": "187–202",
+    "DOI": "10.1111/j.2517-6161.1972.tb00899.x",
+    "URL": "https://doi.org/10.1111/j.2517-6161.1972.tb00899.x",
+    "note": "出版平台 DOI 对应正文 pp. 187–202；原课纲明确 with discussion 并给 pp. 187–220，阅读范围包括讨论，应保留 187–220 的课程范围。平台 2018 数字上架时间不作为原始发表年。"
+  },
+  {
+    "id": "W0036",
+    "type": "article-journal",
+    "title": "Tutorial in biostatistics: competing risks and multi‐state models",
+    "author": [
+      {
+        "family": "Putter",
+        "given": "H."
+      },
+      {
+        "family": "Fiocco",
+        "given": "M."
+      },
+      {
+        "family": "Geskus",
+        "given": "R. B."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "container-title": "Statistics in Medicine",
+    "publisher": "Wiley",
+    "volume": "26",
+    "issue": "11",
+    "page": "2389–2430",
+    "DOI": "10.1002/sim.2712",
+    "URL": "https://doi.org/10.1002/sim.2712"
+  },
+  {
+    "id": "W0037",
+    "type": "book",
+    "title": "Multi-State Survival Models for Interval-Censored Data",
+    "author": [
+      {
+        "family": "van den Hout",
+        "given": "Ardo"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "publisher": "Chapman & Hall/CRC",
+    "URL": "https://www.routledge.com/Multi-State-Survival-Models-for-Interval-Censored-Data/van-den-Hout/p/book/9781315374321",
+    "note": "按原课 2017 年版保留。出版社书目核实；未强填尚未独立核验的图书 DOI。",
+    "edition": "1"
+  },
+  {
+    "id": "W0038",
+    "type": "article-journal",
+    "title": "On the Quantum and Tempo of Fertility",
+    "author": [
+      {
+        "family": "Bongaarts",
+        "given": "John"
+      },
+      {
+        "family": "Feeney",
+        "given": "Griffith"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1998
+        ]
+      ]
+    },
+    "container-title": "Population and Development Review",
+    "volume": "24",
+    "issue": "2",
+    "page": "271–291",
+    "DOI": "10.2307/2807974",
+    "URL": "https://doi.org/10.2307/2807974",
+    "note": "采用 1998 年正文，未与 2000 年 Reply 混同；原课另建议参见 Reply。"
+  },
+  {
+    "id": "W0039",
+    "type": "article-journal",
+    "title": "The Distribution by Age of the Frequency of First Marriage in a Female Cohort",
+    "author": [
+      {
+        "family": "Coale",
+        "given": "A. J."
+      },
+      {
+        "family": "McNeil",
+        "given": "D. R."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1972
+        ]
+      ]
+    },
+    "container-title": "Journal of the American Statistical Association",
+    "volume": "67",
+    "issue": "340",
+    "page": "743–749",
+    "DOI": "10.1080/01621459.1972.10481287",
+    "URL": "https://doi.org/10.1080/01621459.1972.10481287",
+    "note": "按出版记录保留作者名字缩写，未用未核实的全名扩展。"
+  },
+  {
+    "id": "W0040",
+    "type": "article-journal",
+    "title": "The Process of Entry into First Marriage",
+    "author": [
+      {
+        "family": "Hernes",
+        "given": "Gudmund"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1972
+        ]
+      ]
+    },
+    "container-title": "American Sociological Review",
+    "volume": "37",
+    "issue": "2",
+    "page": "173–182",
+    "DOI": "10.2307/2094025",
+    "URL": "https://doi.org/10.2307/2094025"
+  },
+  {
+    "id": "W0041",
+    "type": "article-journal",
+    "title": "On the Use of Matrices in Certain Population Mathematics",
+    "author": [
+      {
+        "family": "Leslie",
+        "given": "P. H."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1945
+        ]
+      ]
+    },
+    "container-title": "Biometrika",
+    "volume": "33",
+    "issue": "3",
+    "page": "183–212",
+    "DOI": "10.2307/2332297",
+    "URL": "https://doi.org/10.2307/2332297",
+    "note": "采用已核验的 JSTOR DOI；作者名字按原始署名缩写。"
+  },
+  {
+    "id": "W0042",
+    "type": "article-journal",
+    "title": "Modeling and Forecasting U.S. Mortality",
+    "author": [
+      {
+        "family": "Lee",
+        "given": "Ronald D."
+      },
+      {
+        "family": "Carter",
+        "given": "Lawrence R."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1992
+        ]
+      ]
+    },
+    "container-title": "Journal of the American Statistical Association",
+    "volume": "87",
+    "issue": "419",
+    "page": "659–671",
+    "DOI": "10.1080/01621459.1992.10475265",
+    "URL": "https://doi.org/10.1080/01621459.1992.10475265",
+    "note": "R4-038 明确列入该单元 Readings，而非仅提 Lee–Carter 方法；S048 同时列有全文书目（其中 Lee R. L. 为课纲转录错误）。"
+  },
+  {
+    "id": "W0043",
+    "type": "article-journal",
+    "title": "Probabilistic Projections of the Total Fertility Rate for All Countries",
+    "author": [
+      {
+        "family": "Alkema",
+        "given": "Leontine"
+      },
+      {
+        "family": "Raftery",
+        "given": "Adrian E."
+      },
+      {
+        "family": "Gerland",
+        "given": "Patrick"
+      },
+      {
+        "family": "Clark",
+        "given": "Samuel J."
+      },
+      {
+        "family": "Pelletier",
+        "given": "François"
+      },
+      {
+        "family": "Buettner",
+        "given": "Thomas"
+      },
+      {
+        "family": "Heilig",
+        "given": "Gerhard K."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "container-title": "Demography",
+    "volume": "48",
+    "issue": "3",
+    "page": "815–839",
+    "DOI": "10.1007/s13524-011-0040-5",
+    "URL": "https://doi.org/10.1007/s13524-011-0040-5"
+  },
+  {
+    "id": "W0044",
+    "type": "article-journal",
+    "title": "Bayesian Probabilistic Population Projections for All Countries",
+    "author": [
+      {
+        "family": "Raftery",
+        "given": "Adrian E."
+      },
+      {
+        "family": "Li",
+        "given": "Nan"
+      },
+      {
+        "family": "Ševčíková",
+        "given": "Hana"
+      },
+      {
+        "family": "Gerland",
+        "given": "Patrick"
+      },
+      {
+        "family": "Heilig",
+        "given": "Gerhard K."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the National Academy of Sciences",
+    "volume": "109",
+    "issue": "35",
+    "page": "13915–13921",
+    "DOI": "10.1073/pnas.1211452109",
+    "URL": "https://www.pnas.org/content/pnas/109/35/13915.full.pdf"
+  },
+  {
+    "id": "W0045",
+    "type": "article-journal",
+    "title": "The formal demography of kinship: A matrix formulation",
+    "author": [
+      {
+        "family": "Caswell",
+        "given": "Hal"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "container-title": "Demographic Research",
+    "publisher": "Max Planck Institute for Demographic Research",
+    "volume": "41",
+    "page": "679–712",
+    "DOI": "10.4054/demres.2019.41.24",
+    "URL": "https://doi.org/10.4054/demres.2019.41.24"
+  },
+  {
+    "id": "W0046",
+    "type": "book",
+    "title": "Matrix Population Models: Construction, Analysis, and Interpretation",
+    "author": [
+      {
+        "family": "Caswell",
+        "given": "Hal"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2001
+        ]
+      ]
+    },
+    "publisher": "Sinauer Associates",
+    "URL": "https://www.vgls.vic.gov.au/client/en_AU/vgls/search/detailnonmodal?d=ent%3A%2F%2FSD_ILS%2F0%2FSD_ILS%3A139302~~0&h=8&ps=300&qu=Modems.",
+    "note": "保留 2001 年第二版；不采纳书评 DOI 或书评页数。出版地 Sunderland, Massachusetts。",
+    "edition": "2"
+  },
+  {
+    "id": "W0047",
+    "type": "article-journal",
+    "title": "The “Sandwich Generation” Revisited: Global Demographic Drivers of Care Time Demands",
+    "author": [
+      {
+        "family": "Alburez‐Gutierrez",
+        "given": "Diego"
+      },
+      {
+        "family": "Mason",
+        "given": "Carl"
+      },
+      {
+        "family": "Zagheni",
+        "given": "Emilio"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "container-title": "Population and Development Review",
+    "publisher": "Wiley",
+    "volume": "47",
+    "issue": "4",
+    "page": "997–1023",
+    "DOI": "10.1111/padr.12436",
+    "URL": "https://doi.org/10.1111/padr.12436"
+  },
+  {
+    "id": "W0048",
+    "type": "book",
+    "title": "Agent-Based and Individual-Based Modeling: A Practical Introduction",
+    "author": [
+      {
+        "family": "Railsback",
+        "given": "Steven F."
+      },
+      {
+        "family": "Grimm",
+        "given": "Volker"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "publisher": "Princeton University Press",
+    "URL": "https://katalog.slub-dresden.de/en/id/0-662091256",
+    "note": "R4-040 原课纲写 2011，出版社 2012 数学目录也列 2011 发行；首版版权/馆藏书目年为 2012。本记录采用 2012 并单独保留原课年份 2011，不能简单判定课纲年份错误。未换用 2019 第二版。首版精装 ISBN 9780691136738。出版社目录：https://assets.press.princeton.edu/catalogs/math12.pdf。",
+    "edition": "1"
+  },
+  {
+    "id": "W0049",
+    "type": "article-journal",
+    "title": "From Factors to Actors: Computational Sociology and Agent-Based Modeling",
+    "author": [
+      {
+        "family": "Macy",
+        "given": "Michael W."
+      },
+      {
+        "family": "Willer",
+        "given": "Robert"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2002
+        ]
+      ]
+    },
+    "container-title": "Annual Review of Sociology",
+    "volume": "28",
+    "page": "143–166",
+    "DOI": "10.1146/annurev.soc.28.110601.141117",
+    "URL": "https://doi.org/10.1146/annurev.soc.28.110601.141117",
+    "note": "原出版署名为 Robert Willer，按出版记录保存；原课纲 Week 8 明确列入 Read。"
+  },
+  {
+    "id": "W0050",
+    "type": "report",
+    "title": "SOCSIM Oversimplified",
+    "author": [
+      {
+        "family": "Mason",
+        "given": "Carl"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "container-title": "Demography Lab, University of California, Berkeley",
+    "publisher": "Demography Lab, University of California, Berkeley",
+    "URL": "https://lab.demog.berkeley.edu/socsim/CurrentDocs/socsimOversimplified.pdf",
+    "note": "正式技术手册；作者、2016 年份、机构与原手册 URL 均由 R4-044 官方维护团队材料核实。未将 rsocsim 数据包/数据集的 DOI 错配给手册；未虚填卷期页码。"
+  },
+  {
+    "id": "W0051",
+    "type": "article-journal",
+    "title": "Analyzing and Visualizing State Sequences in R with TraMineR",
+    "author": [
+      {
+        "family": "Gabadinho",
+        "given": "Alexis"
+      },
+      {
+        "family": "Ritschard",
+        "given": "Gilbert"
+      },
+      {
+        "family": "Müller",
+        "given": "Nicolas S."
+      },
+      {
+        "family": "Studer",
+        "given": "Matthias"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "container-title": "Journal of Statistical Software",
+    "publisher": "Foundation for Open Access Statistic",
+    "volume": "40",
+    "issue": "4",
+    "page": "1–37",
+    "DOI": "10.18637/jss.v040.i04",
+    "URL": "https://doi.org/10.18637/jss.v040.i04"
+  },
+  {
+    "id": "W0052",
+    "type": "article-journal",
+    "title": "Sequence analysis: Its past, present, and future",
+    "author": [
+      {
+        "family": "Liao",
+        "given": "Tim F."
+      },
+      {
+        "family": "Bolano",
+        "given": "Danilo"
+      },
+      {
+        "family": "Brzinsky-Fay",
+        "given": "Christian"
+      },
+      {
+        "family": "Cornwell",
+        "given": "Benjamin"
+      },
+      {
+        "family": "Fasang",
+        "given": "Anette Eva"
+      },
+      {
+        "family": "Helske",
+        "given": "Satu"
+      },
+      {
+        "family": "Piccarreta",
+        "given": "Raffaella"
+      },
+      {
+        "family": "Raab",
+        "given": "Marcel"
+      },
+      {
+        "family": "Ritschard",
+        "given": "Gilbert"
+      },
+      {
+        "family": "Struffolino",
+        "given": "Emanuela"
+      },
+      {
+        "family": "Studer",
+        "given": "Matthias"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "container-title": "Social Science Research",
+    "publisher": "Elsevier BV",
+    "volume": "107",
+    "page": "102772",
+    "DOI": "10.1016/j.ssresearch.2022.102772",
+    "URL": "https://doi.org/10.1016/j.ssresearch.2022.102772"
+  },
+  {
+    "id": "W0053",
+    "type": "book",
+    "title": "Sequence Analysis",
+    "author": [
+      {
+        "family": "Raab",
+        "given": "Marcel"
+      },
+      {
+        "family": "Struffolino",
+        "given": "Emanuela"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "publisher": "SAGE Publications",
+    "URL": "https://us2.sagepub.com/en-us/nam/sequence-analysis/book272086",
+    "note": "Quantitative Applications in the Social Sciences, no. 190。出版社日期 April 2022；电子版 ISBN 9781071801925。未与 Liao et al. (2022) 同名开头综述文章混同。",
+    "edition": "1"
+  },
+  {
+    "id": "W0054",
+    "type": "article-journal",
+    "title": "How to Run Surveys: A Guide to Creating Your Own Identifying Variation and Revealing the Invisible",
+    "author": [
+      {
+        "family": "Stantcheva",
+        "given": "Stefanie"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "Annual Review of Economics",
+    "publisher": "Annual Reviews",
+    "volume": "15",
+    "issue": "1",
+    "page": "205–234",
+    "DOI": "10.1146/annurev-economics-091622-010157",
+    "URL": "https://doi.org/10.1146/annurev-economics-091622-010157"
+  },
+  {
+    "id": "W0055",
+    "type": "book",
+    "title": "Population-Based Survey Experiments",
+    "author": [
+      {
+        "family": "Mutz",
+        "given": "Diana C."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "publisher": "Princeton University Press",
+    "DOI": "10.23943/princeton/9780691144511.001.0001",
+    "URL": "https://doi.org/10.23943/princeton/9780691144511.001.0001"
+  },
+  {
+    "id": "W0056",
+    "type": "book",
+    "title": "Causal Inference: The Mixtape",
+    "author": [
+      {
+        "family": "Cunningham",
+        "given": "Scott"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "publisher": "Yale University Press",
+    "URL": "https://yalebooks.yale.edu/book/9780300255881/causal-inference/",
+    "note": "选用原课列示的2021年The Mixtape；原版作者开放版 https://mixtape-1ed.netlify.app/ 。未以新版The Remix替换原课引用。",
+    "edition": "1"
+  },
+  {
+    "id": "W0057",
+    "type": "article-journal",
+    "title": "The Science of Asking Questions",
+    "author": [
+      {
+        "family": "Schaeffer",
+        "given": "Nora Cate"
+      },
+      {
+        "family": "Presser",
+        "given": "Stanley"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2003
+        ]
+      ]
+    },
+    "container-title": "Annual Review of Sociology",
+    "publisher": "Annual Reviews",
+    "volume": "29",
+    "issue": "1",
+    "page": "65–88",
+    "DOI": "10.1146/annurev.soc.29.110702.110112",
+    "URL": "https://doi.org/10.1146/annurev.soc.29.110702.110112"
+  },
+  {
+    "id": "W0058",
+    "type": "article-journal",
+    "title": "Advances in the Science of Asking Questions",
+    "author": [
+      {
+        "family": "Schaeffer",
+        "given": "Nora Cate"
+      },
+      {
+        "family": "Dykema",
+        "given": "Jennifer"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Annual Review of Sociology",
+    "publisher": "Annual Reviews",
+    "volume": "46",
+    "issue": "1",
+    "page": "37–60",
+    "DOI": "10.1146/annurev-soc-121919-054544",
+    "URL": "https://doi.org/10.1146/annurev-soc-121919-054544"
+  },
+  {
+    "id": "W0059",
+    "type": "article-journal",
+    "title": "Sensitive questions in surveys.",
+    "author": [
+      {
+        "family": "Tourangeau",
+        "given": "Roger"
+      },
+      {
+        "family": "Yan",
+        "given": "Ting"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "container-title": "Psychological Bulletin",
+    "publisher": "American Psychological Association (APA)",
+    "volume": "133",
+    "issue": "5",
+    "page": "859–883",
+    "DOI": "10.1037/0033-2909.133.5.859",
+    "URL": "https://doi.org/10.1037/0033-2909.133.5.859"
+  },
+  {
+    "id": "W0060",
+    "type": "article-journal",
+    "title": "The Structure of Autobiographical Memory and the Event History Calendar: Potential Improvements in the Quality of Retrospective Reports in Surveys",
+    "author": [
+      {
+        "family": "Belli",
+        "given": "Robert F."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1998
+        ]
+      ]
+    },
+    "container-title": "Memory",
+    "publisher": "Informa UK Limited",
+    "volume": "6",
+    "issue": "4",
+    "page": "383–406",
+    "DOI": "10.1080/741942610",
+    "URL": "https://doi.org/10.1080/741942610"
+  },
+  {
+    "id": "W0061",
+    "type": "article-journal",
+    "title": "A Review of Conceptual Approaches and Empirical Evidence on Probability and Nonprobability Sample Survey Research",
+    "author": [
+      {
+        "family": "Cornesse",
+        "given": "Carina"
+      },
+      {
+        "family": "Blom",
+        "given": "Annelies G"
+      },
+      {
+        "family": "Dutwin",
+        "given": "David"
+      },
+      {
+        "family": "Krosnick",
+        "given": "Jon A"
+      },
+      {
+        "family": "De Leeuw",
+        "given": "Edith D"
+      },
+      {
+        "family": "Legleye",
+        "given": "Stéphane"
+      },
+      {
+        "family": "Pasek",
+        "given": "Josh"
+      },
+      {
+        "family": "Pennay",
+        "given": "Darren"
+      },
+      {
+        "family": "Phillips",
+        "given": "Benjamin"
+      },
+      {
+        "family": "Sakshaug",
+        "given": "Joseph W"
+      },
+      {
+        "family": "Struminskaya",
+        "given": "Bella"
+      },
+      {
+        "family": "Wenz",
+        "given": "Alexander"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Journal of Survey Statistics and Methodology",
+    "publisher": "Oxford University Press (OUP)",
+    "volume": "8",
+    "issue": "1",
+    "page": "4–36",
+    "DOI": "10.1093/jssam/smz041",
+    "URL": "https://doi.org/10.1093/jssam/smz041"
+  },
+  {
+    "id": "W0062",
+    "type": "article-journal",
+    "title": "Elements of External Validity: Framework, Design, and Analysis",
+    "author": [
+      {
+        "family": "Egami",
+        "given": "Naoki"
+      },
+      {
+        "family": "Hartman",
+        "given": "Erin"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "American Political Science Review",
+    "publisher": "Cambridge University Press (CUP)",
+    "volume": "117",
+    "issue": "3",
+    "page": "1070–1088",
+    "DOI": "10.1017/s0003055422000880",
+    "URL": "https://doi.org/10.1017/s0003055422000880"
+  },
+  {
+    "id": "W0063",
+    "type": "book",
+    "title": "Factorial Survey Experiments",
+    "author": [
+      {
+        "family": "Auspurg",
+        "given": "Katrin"
+      },
+      {
+        "family": "Hinz",
+        "given": "Thomas"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "publisher": "SAGE Publications, Inc.",
+    "DOI": "10.4135/9781483398075",
+    "URL": "https://doi.org/10.4135/9781483398075"
+  },
+  {
+    "id": "W0064",
+    "type": "article-journal",
+    "title": "Factorial Survey Methods for Studying Beliefs and Judgments",
+    "author": [
+      {
+        "family": "Jasso",
+        "given": "Guillermina"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "container-title": "Sociological Methods & Research",
+    "publisher": "SAGE Publications",
+    "volume": "34",
+    "issue": "3",
+    "page": "334–423",
+    "DOI": "10.1177/0049124105283121",
+    "URL": "https://doi.org/10.1177/0049124105283121"
+  },
+  {
+    "id": "W0065",
+    "type": "article-journal",
+    "title": "25 years of factorial surveys in sociology: A review",
+    "author": [
+      {
+        "family": "Wallander",
+        "given": "Lisa"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "container-title": "Social Science Research",
+    "publisher": "Elsevier BV",
+    "volume": "38",
+    "issue": "3",
+    "page": "505–520",
+    "DOI": "10.1016/j.ssresearch.2009.03.004",
+    "URL": "https://doi.org/10.1016/j.ssresearch.2009.03.004"
+  },
+  {
+    "id": "W0066",
+    "type": "article-journal",
+    "title": "Experimental Plans in Factorial Surveys: Random or Quota Design?",
+    "author": [
+      {
+        "family": "Dülmer",
+        "given": "Hermann"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "container-title": "Sociological Methods & Research",
+    "publisher": "SAGE Publications",
+    "volume": "35",
+    "issue": "3",
+    "page": "382–409",
+    "DOI": "10.1177/0049124106292367",
+    "URL": "https://doi.org/10.1177/0049124106292367"
+  },
+  {
+    "id": "W0067",
+    "type": "article-journal",
+    "title": "The Analysis of Factorial Surveys",
+    "author": [
+      {
+        "family": "Hox",
+        "given": "Joop J."
+      },
+      {
+        "family": "Kreft",
+        "given": "Ita G. G."
+      },
+      {
+        "family": "Hermkens",
+        "given": "Piet L. J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1991
+        ]
+      ]
+    },
+    "container-title": "Sociological Methods & Research",
+    "publisher": "SAGE Publications",
+    "volume": "19",
+    "issue": "4",
+    "page": "493–510",
+    "DOI": "10.1177/0049124191019004003",
+    "URL": "https://doi.org/10.1177/0049124191019004003"
+  },
+  {
+    "id": "W0068",
+    "type": "chapter",
+    "title": "Conjoint Survey Experiments",
+    "author": [
+      {
+        "family": "Bansak",
+        "given": "Kirk"
+      },
+      {
+        "family": "Hainmueller",
+        "given": "Jens"
+      },
+      {
+        "family": "Hopkins",
+        "given": "Daniel J."
+      },
+      {
+        "family": "Yamamoto",
+        "given": "Teppei"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "container-title": "Advances in Experimental Political Science",
+    "publisher": "Cambridge University Press",
+    "page": "19–41",
+    "DOI": "10.1017/9781108777919.004",
+    "URL": "https://doi.org/10.1017/9781108777919.004",
+    "note": "原课纲误附 DOI 10.1017/psrm.2019.13；本项为2021年书章，已按Cambridge章节页改为10.1017/9781108777919.004，页19–41。",
+    "editor": [
+      {
+        "family": "Druckman",
+        "given": "James N."
+      },
+      {
+        "family": "Green",
+        "given": "Donald P."
+      }
+    ]
+  },
+  {
+    "id": "W0069",
+    "type": "article-journal",
+    "title": "Causal Inference in Conjoint Analysis: Understanding Multidimensional Choices via Stated Preference Experiments",
+    "author": [
+      {
+        "family": "Hainmueller",
+        "given": "Jens"
+      },
+      {
+        "family": "Hopkins",
+        "given": "Daniel J."
+      },
+      {
+        "family": "Yamamoto",
+        "given": "Teppei"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "container-title": "Political Analysis",
+    "publisher": "Cambridge University Press (CUP)",
+    "volume": "22",
+    "issue": "1",
+    "page": "1–30",
+    "DOI": "10.1093/pan/mpt024",
+    "URL": "https://doi.org/10.1093/pan/mpt024"
+  },
+  {
+    "id": "W0070",
+    "type": "article-journal",
+    "title": "Measuring Subgroup Preferences in Conjoint Experiments",
+    "author": [
+      {
+        "family": "Leeper",
+        "given": "Thomas J."
+      },
+      {
+        "family": "Hobolt",
+        "given": "Sara B."
+      },
+      {
+        "family": "Tilley",
+        "given": "James"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Political Analysis",
+    "publisher": "Cambridge University Press (CUP)",
+    "volume": "28",
+    "issue": "2",
+    "page": "207–221",
+    "DOI": "10.1017/pan.2019.30",
+    "URL": "https://doi.org/10.1017/pan.2019.30"
+  },
+  {
+    "id": "W0071",
+    "type": "article-journal",
+    "title": "What Do We Learn about Voter Preferences from Conjoint Experiments?",
+    "author": [
+      {
+        "family": "Abramson",
+        "given": "Scott F."
+      },
+      {
+        "family": "Kocak",
+        "given": "Korhan"
+      },
+      {
+        "family": "Magazinnik",
+        "given": "Asya"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "container-title": "American Journal of Political Science",
+    "publisher": "Wiley",
+    "volume": "66",
+    "issue": "4",
+    "page": "1008–1020",
+    "DOI": "10.1111/ajps.12714",
+    "URL": "https://doi.org/10.1111/ajps.12714"
+  },
+  {
+    "id": "W0072",
+    "type": "article-journal",
+    "title": "Using Conjoint Experiments to Analyze Election Outcomes: The Essential Role of the Average Marginal Component Effect",
+    "author": [
+      {
+        "family": "Bansak",
+        "given": "Kirk"
+      },
+      {
+        "family": "Hainmueller",
+        "given": "Jens"
+      },
+      {
+        "family": "Hopkins",
+        "given": "Daniel J."
+      },
+      {
+        "family": "Yamamoto",
+        "given": "Teppei"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "Political Analysis",
+    "publisher": "Cambridge University Press (CUP)",
+    "volume": "31",
+    "issue": "4",
+    "page": "500–518",
+    "DOI": "10.1017/pan.2022.16",
+    "URL": "https://doi.org/10.1017/pan.2022.16",
+    "note": "原课混用2022工作论文及正式刊信息；规范为2023年Political Analysis 31(4):500–518。"
+  },
+  {
+    "id": "W0073",
+    "type": "article-journal",
+    "title": "Identification of Preferences in Forced-Choice Conjoint Experiments: Reassessing the Quantity of Interest",
+    "author": [
+      {
+        "family": "Ganter",
+        "given": "Flavien"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "Political Analysis",
+    "publisher": "Cambridge University Press (CUP)",
+    "volume": "31",
+    "issue": "1",
+    "page": "98–112",
+    "DOI": "10.1017/pan.2021.41",
+    "URL": "https://doi.org/10.1017/pan.2021.41"
+  },
+  {
+    "id": "W0074",
+    "type": "article-journal",
+    "title": "Measurement invariance of big-five factors over the life span: ESEM tests of gender, age, plasticity, maturity, and la dolce vita effects.",
+    "author": [
+      {
+        "family": "Marsh",
+        "given": "Herbert W."
+      },
+      {
+        "family": "Nagengast",
+        "given": "Benjamin"
+      },
+      {
+        "family": "Morin",
+        "given": "Alexandre J. S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "container-title": "Developmental Psychology",
+    "publisher": "American Psychological Association (APA)",
+    "volume": "49",
+    "issue": "6",
+    "page": "1194–1218",
+    "DOI": "10.1037/a0026913",
+    "URL": "https://doi.org/10.1037/a0026913",
+    "note": "原课引用2012在线发表年；正式卷期为2013年49(6):1194–1218。"
+  },
+  {
+    "id": "W0075",
+    "type": "book",
+    "title": "Longitudinal Structural Equation Modeling: A Comprehensive Introduction",
+    "author": [
+      {
+        "family": "Newsom",
+        "given": "Jason T."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "publisher": "Routledge",
+    "DOI": "10.4324/9781315871318",
+    "URL": "https://doi.org/10.4324/9781315871318",
+    "note": "保留课纲指定2015年第一版，未换用后续版。",
+    "edition": "1"
+  },
+  {
+    "id": "W0076",
+    "type": "article-journal",
+    "title": "Longitudinal Research: The Theory, Design, and Analysis of Change",
+    "author": [
+      {
+        "family": "Ployhart",
+        "given": "Robert E."
+      },
+      {
+        "family": "Vandenberg",
+        "given": "Robert J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "container-title": "Journal of Management",
+    "publisher": "SAGE Publications",
+    "volume": "36",
+    "issue": "1",
+    "page": "94–120",
+    "DOI": "10.1177/0149206309352110",
+    "URL": "https://doi.org/10.1177/0149206309352110"
+  },
+  {
+    "id": "W0077",
+    "type": "article-journal",
+    "title": "Persons as Contexts: Evaluating Between-Person and Within-Person Effects in Longitudinal Analysis",
+    "author": [
+      {
+        "family": "Hoffman",
+        "given": "Lesa"
+      },
+      {
+        "family": "Stawski",
+        "given": "Robert S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "container-title": "Research in Human Development",
+    "publisher": "Informa UK Limited",
+    "volume": "6",
+    "issue": "2-3",
+    "page": "97–120",
+    "DOI": "10.1080/15427600902911189",
+    "URL": "https://doi.org/10.1080/15427600902911189"
+  },
+  {
+    "id": "W0078",
+    "type": "article-journal",
+    "title": "Missing Data Analysis: Making It Work in the Real World",
+    "author": [
+      {
+        "family": "Graham",
+        "given": "John W."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "container-title": "Annual Review of Psychology",
+    "publisher": "Annual Reviews",
+    "volume": "60",
+    "issue": "1",
+    "page": "549–576",
+    "DOI": "10.1146/annurev.psych.58.110405.085530",
+    "URL": "https://doi.org/10.1146/annurev.psych.58.110405.085530"
+  },
+  {
+    "id": "W0079",
+    "type": "article-journal",
+    "title": "Sample Size Justification",
+    "author": [
+      {
+        "family": "Lakens",
+        "given": "Daniël"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "container-title": "Collabra: Psychology",
+    "publisher": "University of California Press",
+    "volume": "8",
+    "issue": "1",
+    "page": "33267",
+    "DOI": "10.1525/collabra.33267",
+    "URL": "https://doi.org/10.1525/collabra.33267"
+  },
+  {
+    "id": "W0080",
+    "type": "article",
+    "title": "Power Analysis for Conjoint Experiments",
+    "author": [
+      {
+        "family": "Schuessler",
+        "given": "Julian"
+      },
+      {
+        "family": "Freitag",
+        "given": "Markus"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "SocArXiv",
+    "publisher": "Center for Open Science",
+    "DOI": "10.31235/osf.io/9yuhp",
+    "URL": "https://doi.org/10.31235/osf.io/9yuhp",
+    "note": "原课所列2020年SocArXiv预印本；本轮未核到正式期刊版本，不能标为已发表期刊文章。"
+  },
+  {
+    "id": "W0081",
+    "type": "article-journal",
+    "title": "Ordering Effects versus Cognitive Burden: How Should We Structure Attributes in Conjoint Experiments?",
+    "author": [
+      {
+        "family": "Rudolph",
+        "given": "Lukas"
+      },
+      {
+        "family": "Freitag",
+        "given": "Markus"
+      },
+      {
+        "family": "Thurner",
+        "given": "Paul W"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": "Public Opinion Quarterly",
+    "publisher": "Oxford University Press (OUP)",
+    "volume": "88",
+    "issue": "3",
+    "page": "991–1016",
+    "DOI": "10.1093/poq/nfae038",
+    "URL": "https://doi.org/10.1093/poq/nfae038"
+  },
+  {
+    "id": "W0082",
+    "type": "article-journal",
+    "title": "First Equals Most Important? Order Effects in Vignette-Based Measurement",
+    "author": [
+      {
+        "family": "Auspurg",
+        "given": "Katrin"
+      },
+      {
+        "family": "Jäckle",
+        "given": "Annette"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "container-title": "Sociological Methods & Research",
+    "publisher": "SAGE Publications",
+    "volume": "46",
+    "issue": "3",
+    "page": "490–539",
+    "DOI": "10.1177/0049124115591016",
+    "URL": "https://doi.org/10.1177/0049124115591016",
+    "note": "原课以2015在线年引用且一处页码误为490–593；规范正式刊版为2017年46(3):490–539。"
+  },
+  {
+    "id": "W0083",
+    "type": "article-journal",
+    "title": "Designing Multi-Factorial Survey Experiments: Effects of Presentation Style (Text or Table), Answering Scales, and Vignette Order",
+    "author": [
+      {
+        "family": "Sauer",
+        "given": "Carsten"
+      },
+      {
+        "family": "Auspurg",
+        "given": "Katrin"
+      },
+      {
+        "family": "Hinz",
+        "given": "Thomas"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Methods, Data, Analyses",
+    "volume": "14",
+    "issue": "2",
+    "page": "195–214",
+    "DOI": "10.12758/mda.2020.06",
+    "URL": "https://doi.org/10.12758/mda.2020.06"
+  },
+  {
+    "id": "W0084",
+    "type": "article-journal",
+    "title": "Information Equivalence in Survey Experiments",
+    "author": [
+      {
+        "family": "Dafoe",
+        "given": "Allan"
+      },
+      {
+        "family": "Zhang",
+        "given": "Baobao"
+      },
+      {
+        "family": "Caughey",
+        "given": "Devin"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "container-title": "Political Analysis",
+    "publisher": "Cambridge University Press (CUP)",
+    "volume": "26",
+    "issue": "4",
+    "page": "399–416",
+    "DOI": "10.1017/pan.2018.9",
+    "URL": "https://doi.org/10.1017/pan.2018.9"
+  },
+  {
+    "id": "W0085",
+    "type": "article-journal",
+    "title": "A manifesto for reproducible science",
+    "author": [
+      {
+        "family": "Munafò",
+        "given": "Marcus R."
+      },
+      {
+        "family": "Nosek",
+        "given": "Brian A."
+      },
+      {
+        "family": "Bishop",
+        "given": "Dorothy V. M."
+      },
+      {
+        "family": "Button",
+        "given": "Katherine S."
+      },
+      {
+        "family": "Chambers",
+        "given": "Christopher D."
+      },
+      {
+        "family": "Percie du Sert",
+        "given": "Nathalie"
+      },
+      {
+        "family": "Simonsohn",
+        "given": "Uri"
+      },
+      {
+        "family": "Wagenmakers",
+        "given": "Eric-Jan"
+      },
+      {
+        "family": "Ware",
+        "given": "Jennifer J."
+      },
+      {
+        "family": "Ioannidis",
+        "given": "John P. A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "container-title": "Nature Human Behaviour",
+    "publisher": "Springer Science and Business Media LLC",
+    "volume": "1",
+    "issue": "1",
+    "page": "0021",
+    "DOI": "10.1038/s41562-016-0021",
+    "URL": "https://doi.org/10.1038/s41562-016-0021"
+  },
+  {
+    "id": "W0086",
+    "type": "article-journal",
+    "title": "Eight Decades of Educational Assortative Mating: A Research Note",
+    "author": [
+      {
+        "family": "Hirschl",
+        "given": "Noah"
+      },
+      {
+        "family": "Schwartz",
+        "given": "Christine R."
+      },
+      {
+        "family": "Boschetti",
+        "given": "Elia"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": "Demography",
+    "publisher": "Duke University Press",
+    "volume": "61",
+    "issue": "5",
+    "page": "1293–1307",
+    "DOI": "10.1215/00703370-11558914",
+    "URL": "https://doi.org/10.1215/00703370-11558914",
+    "note": "近年趋势补充；并非原课纲指定作品。"
+  },
+  {
+    "id": "W0087",
+    "type": "article-journal",
+    "title": "Family Change and Changing Family Demography",
+    "author": [
+      {
+        "family": "Seltzer",
+        "given": "Judith A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "container-title": "Demography",
+    "volume": "56",
+    "issue": "2",
+    "page": "405–426",
+    "DOI": "10.1007/s13524-019-00766-6",
+    "URL": "https://doi.org/10.1007/s13524-019-00766-6"
+  },
+  {
+    "id": "W0088",
+    "type": "article-journal",
+    "title": "The Demography of Families: A Review of Patterns and Change",
+    "author": [
+      {
+        "family": "Smock",
+        "given": "Pamela J."
+      },
+      {
+        "family": "Schwartz",
+        "given": "Christine R."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Journal of Marriage and Family",
+    "volume": "82",
+    "issue": "1",
+    "page": "9–34",
+    "DOI": "10.1111/jomf.12612",
+    "URL": "https://doi.org/10.1111/jomf.12612"
+  },
+  {
+    "id": "W0089",
+    "type": "article-journal",
+    "title": "Gender, Feminist, and Intersectional Perspectives on Families: A Decade in Review",
+    "author": [
+      {
+        "family": "Few-Demo",
+        "given": "April L."
+      },
+      {
+        "family": "Allen",
+        "given": "Katherine R."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Journal of Marriage and Family",
+    "volume": "82",
+    "issue": "1",
+    "page": "326–345",
+    "DOI": "10.1111/jomf.12638",
+    "URL": "https://doi.org/10.1111/jomf.12638"
+  },
+  {
+    "id": "W0090",
+    "type": "article-journal",
+    "title": "The Deinstitutionalization of American Marriage",
+    "author": [
+      {
+        "family": "Cherlin",
+        "given": "Andrew J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "container-title": "Journal of Marriage and Family",
+    "volume": "66",
+    "issue": "4",
+    "page": "848–861",
+    "DOI": "10.1111/j.0022-2445.2004.00058.x",
+    "URL": "https://doi.org/10.1111/j.0022-2445.2004.00058.x"
+  },
+  {
+    "id": "W0091",
+    "type": "article-journal",
+    "title": "Degrees of Change: An Assessment of the Deinstitutionalization of Marriage Thesis",
+    "author": [
+      {
+        "family": "Cherlin",
+        "given": "Andrew J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Journal of Marriage and Family",
+    "volume": "82",
+    "issue": "1",
+    "page": "62–80",
+    "DOI": "10.1111/jomf.12605",
+    "URL": "https://doi.org/10.1111/jomf.12605"
+  },
+  {
+    "id": "W0092",
+    "type": "article-journal",
+    "title": "The Unfolding Story of the Second Demographic Transition",
+    "author": [
+      {
+        "family": "Lesthaeghe",
+        "given": "Ron"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "container-title": "Population and Development Review",
+    "volume": "36",
+    "issue": "2",
+    "page": "211–251",
+    "DOI": "10.1111/j.1728-4457.2010.00328.x",
+    "URL": "https://doi.org/10.1111/j.1728-4457.2010.00328.x"
+  },
+  {
+    "id": "W0093",
+    "type": "article-journal",
+    "title": "The Second Demographic Transition Theory: A Review and Appraisal",
+    "author": [
+      {
+        "family": "Zaidi",
+        "given": "Batool"
+      },
+      {
+        "family": "Morgan",
+        "given": "S. Philip"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "container-title": "Annual Review of Sociology",
+    "volume": "43",
+    "issue": "1",
+    "page": "473–492",
+    "DOI": "10.1146/annurev-soc-060116-053442",
+    "URL": "https://doi.org/10.1146/annurev-soc-060116-053442"
+  },
+  {
+    "id": "W0094",
+    "type": "article-journal",
+    "title": "The Gender Revolution: A Framework for Understanding Changing Family and Demographic Behavior",
+    "author": [
+      {
+        "family": "Goldscheider",
+        "given": "Frances"
+      },
+      {
+        "family": "Bernhardt",
+        "given": "Eva"
+      },
+      {
+        "family": "Lappegård",
+        "given": "Trude"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "container-title": "Population and Development Review",
+    "volume": "41",
+    "issue": "2",
+    "page": "207–239",
+    "DOI": "10.1111/j.1728-4457.2015.00045.x",
+    "URL": "https://doi.org/10.1111/j.1728-4457.2015.00045.x"
+  },
+  {
+    "id": "W0095",
+    "type": "article-journal",
+    "title": "Diverging Destinies: How Children Are Faring Under the Second Demographic Transition",
+    "author": [
+      {
+        "family": "McLanahan",
+        "given": "Sara"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "container-title": "Demography",
+    "volume": "41",
+    "issue": "4",
+    "page": "607–627",
+    "DOI": "10.1353/dem.2004.0033",
+    "URL": "https://doi.org/10.1353/dem.2004.0033"
+  },
+  {
+    "id": "W0096",
+    "type": "article-journal",
+    "title": "Cohabitation and Marriage: Complexity and Diversity in Union-Formation Patterns",
+    "author": [
+      {
+        "family": "Sassler",
+        "given": "Sharon"
+      },
+      {
+        "family": "Lichter",
+        "given": "Daniel T."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Journal of Marriage and Family",
+    "volume": "82",
+    "issue": "1",
+    "page": "35–61",
+    "DOI": "10.1111/jomf.12617",
+    "URL": "https://doi.org/10.1111/jomf.12617"
+  },
+  {
+    "id": "W0097",
+    "type": "article-journal",
+    "title": "Young Adulthood Relationships in an Era of Uncertainty: A Case for Cohabitation",
+    "author": [
+      {
+        "family": "Manning",
+        "given": "Wendy D."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Demography",
+    "publisher": "Duke University Press",
+    "volume": "57",
+    "issue": "3",
+    "page": "799–819",
+    "DOI": "10.1007/s13524-020-00881-9",
+    "URL": "https://doi.org/10.1007/s13524-020-00881-9"
+  },
+  {
+    "id": "W0098",
+    "type": "article-journal",
+    "title": "Divorce, Repartnering, and Stepfamilies: A Decade in Review",
+    "author": [
+      {
+        "family": "Raley",
+        "given": "R. Kelly"
+      },
+      {
+        "family": "Sweeney",
+        "given": "Megan M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Journal of Marriage and Family",
+    "volume": "82",
+    "issue": "1",
+    "page": "81–99",
+    "DOI": "10.1111/jomf.12651",
+    "URL": "https://doi.org/10.1111/jomf.12651"
+  },
+  {
+    "id": "W0099",
+    "type": "article-journal",
+    "title": "Money, Work, and Marital Stability: Assessing Change in the Gendered Determinants of Divorce",
+    "author": [
+      {
+        "family": "Killewald",
+        "given": "Alexandra"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "container-title": "American Sociological Review",
+    "volume": "81",
+    "issue": "4",
+    "page": "696–719",
+    "DOI": "10.1177/0003122416655340",
+    "URL": "https://doi.org/10.1177/0003122416655340"
+  },
+  {
+    "id": "W0100",
+    "type": "article-journal",
+    "title": "Family Instability and Child Well-Being",
+    "author": [
+      {
+        "family": "Fomby",
+        "given": "Paula"
+      },
+      {
+        "family": "Cherlin",
+        "given": "Andrew J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "container-title": "American Sociological Review",
+    "volume": "72",
+    "issue": "2",
+    "page": "181–204",
+    "DOI": "10.1177/000312240707200203",
+    "URL": "https://doi.org/10.1177/000312240707200203"
+  },
+  {
+    "id": "W0101",
+    "type": "article-journal",
+    "title": "Fertility in Advanced Societies: A Review of Research",
+    "author": [
+      {
+        "family": "Balbo",
+        "given": "Nicoletta"
+      },
+      {
+        "family": "Billari",
+        "given": "Francesco C."
+      },
+      {
+        "family": "Mills",
+        "given": "Melinda"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "container-title": "European Journal of Population / Revue européenne de Démographie",
+    "volume": "29",
+    "issue": "1",
+    "page": "1–38",
+    "DOI": "10.1007/s10680-012-9277-y",
+    "URL": "https://doi.org/10.1007/s10680-012-9277-y"
+  },
+  {
+    "id": "W0102",
+    "type": "article-journal",
+    "title": "A Life-Course Approach to Fertility",
+    "author": [
+      {
+        "family": "Huinink",
+        "given": "Johannes"
+      },
+      {
+        "family": "Kohli",
+        "given": "Martin"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "container-title": "Demographic Research",
+    "volume": "30",
+    "page": "1293–1326",
+    "DOI": "10.4054/demres.2014.30.45",
+    "URL": "https://doi.org/10.4054/demres.2014.30.45"
+  },
+  {
+    "id": "W0103",
+    "type": "article-journal",
+    "title": "Childless Expectations and Childlessness Over the Life Course",
+    "author": [
+      {
+        "family": "Rybińska",
+        "given": "Anna"
+      },
+      {
+        "family": "Morgan",
+        "given": "S. Philip"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "container-title": "Social Forces",
+    "volume": "97",
+    "issue": "4",
+    "page": "1571–1602",
+    "DOI": "10.1093/sf/soy098",
+    "URL": "https://doi.org/10.1093/sf/soy098",
+    "note": "采用2019年正式卷期；2018为在线发表年。另有图例颜色对应的勘误（10.1093/sf/soz040），本表不将勘误误作原文。"
+  },
+  {
+    "id": "W0104",
+    "type": "article-journal",
+    "title": "A Reflection on Economic Uncertainty and Fertility in Europe: The Narrative Framework",
+    "author": [
+      {
+        "family": "Vignoli",
+        "given": "Daniele"
+      },
+      {
+        "family": "Guetto",
+        "given": "Raffaele"
+      },
+      {
+        "family": "Bazzani",
+        "given": "Giacomo"
+      },
+      {
+        "family": "Pirani",
+        "given": "Elena"
+      },
+      {
+        "family": "Minello",
+        "given": "Alessandra"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Genus",
+    "volume": "76",
+    "issue": "1",
+    "page": "28",
+    "DOI": "10.1186/s41118-020-00094-3",
+    "URL": "https://doi.org/10.1186/s41118-020-00094-3",
+    "note": "原短期课程同文一处写Genus 78(28)，另一处列76(1):28；按出版注册元数据统一为76(1)，文章号28。"
+  },
+  {
+    "id": "W0105",
+    "type": "article-journal",
+    "title": "Parenthood and Well-Being: A Decade in Review",
+    "author": [
+      {
+        "family": "Nomaguchi",
+        "given": "Kei"
+      },
+      {
+        "family": "Milkie",
+        "given": "Melissa A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Journal of Marriage and Family",
+    "volume": "82",
+    "issue": "1",
+    "page": "198–223",
+    "DOI": "10.1111/jomf.12646",
+    "URL": "https://doi.org/10.1111/jomf.12646"
+  },
+  {
+    "id": "W0106",
+    "type": "article-journal",
+    "title": "Does the Amount of Time Mothers Spend With Children or Adolescents Matter?",
+    "author": [
+      {
+        "family": "Milkie",
+        "given": "Melissa A."
+      },
+      {
+        "family": "Nomaguchi",
+        "given": "Kei M."
+      },
+      {
+        "family": "Denny",
+        "given": "Kathleen E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "container-title": "Journal of Marriage and Family",
+    "volume": "77",
+    "issue": "2",
+    "page": "355–372",
+    "DOI": "10.1111/jomf.12170",
+    "URL": "https://doi.org/10.1111/jomf.12170"
+  },
+  {
+    "id": "W0107",
+    "type": "article-journal",
+    "title": "A Decade of Research on Intergenerational Ties: Technological, Economic, Political, and Demographic Changes",
+    "author": [
+      {
+        "family": "Fingerman",
+        "given": "Karen L."
+      },
+      {
+        "family": "Huo",
+        "given": "Meng"
+      },
+      {
+        "family": "Birditt",
+        "given": "Kira S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Journal of Marriage and Family",
+    "volume": "82",
+    "issue": "1",
+    "page": "383–403",
+    "DOI": "10.1111/jomf.12604",
+    "URL": "https://doi.org/10.1111/jomf.12604",
+    "note": "Florida课纲将Fingerman误排为Finegrman，已按期刊注册记录校正。"
+  },
+  {
+    "id": "W0108",
+    "type": "article-journal",
+    "title": "Families in Later Life: A Decade in Review",
+    "author": [
+      {
+        "family": "Carr",
+        "given": "Deborah"
+      },
+      {
+        "family": "Utz",
+        "given": "Rebecca L."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Journal of Marriage and Family",
+    "volume": "82",
+    "issue": "1",
+    "page": "346–363",
+    "DOI": "10.1111/jomf.12609",
+    "URL": "https://doi.org/10.1111/jomf.12609"
+  },
+  {
+    "id": "W0109",
+    "type": "article-journal",
+    "title": "Kinship Reconsidered: Research on a Neglected Topic",
+    "author": [
+      {
+        "family": "Furstenberg",
+        "given": "Frank F."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Journal of Marriage and Family",
+    "volume": "82",
+    "issue": "1",
+    "page": "364–382",
+    "DOI": "10.1111/jomf.12628",
+    "URL": "https://doi.org/10.1111/jomf.12628"
+  },
+  {
+    "id": "W0110",
+    "type": "article-journal",
+    "title": "Sexual- and Gender-Minority Families: A 2010 to 2020 Decade in Review",
+    "author": [
+      {
+        "family": "Reczek",
+        "given": "Corinne"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Journal of Marriage and Family",
+    "volume": "82",
+    "issue": "1",
+    "page": "300–325",
+    "DOI": "10.1111/jomf.12607",
+    "URL": "https://doi.org/10.1111/jomf.12607"
+  },
+  {
+    "id": "W0111",
+    "type": "article-journal",
+    "title": "Spanning Borders, Cultures, and Generations: A Decade of Research on Immigrant Families",
+    "author": [
+      {
+        "family": "Van Hook",
+        "given": "Jennifer"
+      },
+      {
+        "family": "Glick",
+        "given": "Jennifer E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Journal of Marriage and Family",
+    "volume": "82",
+    "issue": "1",
+    "page": "224–243",
+    "DOI": "10.1111/jomf.12621",
+    "URL": "https://doi.org/10.1111/jomf.12621"
+  },
+  {
+    "id": "W0112",
+    "type": "article-journal",
+    "title": "The Impact of Family Policies on Fertility in Industrialized Countries: A Review of the Literature",
+    "author": [
+      {
+        "family": "Gauthier",
+        "given": "Anne H."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "container-title": "Population Research and Policy Review",
+    "volume": "26",
+    "issue": "3",
+    "page": "323–346",
+    "DOI": "10.1007/s11113-007-9033-x",
+    "URL": "https://doi.org/10.1007/s11113-007-9033-x"
+  },
+  {
+    "id": "W0113",
+    "type": "article-journal",
+    "title": "Parenthood and Happiness: Effects of Work-Family Reconciliation Policies in 22 OECD Countries",
+    "author": [
+      {
+        "family": "Glass",
+        "given": "Jennifer"
+      },
+      {
+        "family": "Simon",
+        "given": "Robin W."
+      },
+      {
+        "family": "Andersson",
+        "given": "Matthew A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "container-title": "American Journal of Sociology",
+    "volume": "122",
+    "issue": "3",
+    "page": "886–929",
+    "DOI": "10.1086/688892",
+    "URL": "https://doi.org/10.1086/688892"
+  },
+  {
+    "id": "W0114",
+    "type": "article-journal",
+    "title": "Gender in the Welfare State",
+    "author": [
+      {
+        "family": "Orloff",
+        "given": "Ann"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1996
+        ]
+      ]
+    },
+    "container-title": "Annual Review of Sociology",
+    "volume": "22",
+    "page": "51–78",
+    "DOI": "10.1146/annurev.soc.22.1.51",
+    "URL": "https://doi.org/10.1146/annurev.soc.22.1.51",
+    "note": "拒绝Crossref题名近似命中的2005年书章Gender and the Welfare State；采用Ann Orloff 1996年Annual Review of Sociology论文。"
+  },
+  {
+    "id": "W0115",
+    "type": "article-journal",
+    "title": "Life-Table Representations of Family Dynamics in the 21st Century",
+    "author": [
+      {
+        "family": "Andersson",
+        "given": "Gunnar"
+      },
+      {
+        "family": "Thomson",
+        "given": "Elizabeth"
+      },
+      {
+        "family": "Duntava",
+        "given": "Aija"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "container-title": "Demographic Research",
+    "volume": "37",
+    "page": "1081–1230",
+    "DOI": "10.4054/demres.2017.37.35",
+    "URL": "https://doi.org/10.4054/demres.2017.37.35",
+    "note": "原课纲题名缩写；补齐正式标题中的in the 21st century。"
+  },
+  {
+    "id": "W0116",
+    "type": "article-journal",
+    "title": "Breaking Up Is Hard to Count: The Rise of Divorce in the United States, 1980–2010",
+    "author": [
+      {
+        "family": "Kennedy",
+        "given": "Sheela"
+      },
+      {
+        "family": "Ruggles",
+        "given": "Steven"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "container-title": "Demography",
+    "volume": "51",
+    "issue": "2",
+    "page": "587–598",
+    "DOI": "10.1007/s13524-013-0270-9",
+    "URL": "https://doi.org/10.1007/s13524-013-0270-9"
+  },
+  {
+    "id": "W0117",
+    "type": "article-journal",
+    "title": "Challenges in Measuring and Studying Multipartnered Fertility in American Survey Data",
+    "author": [
+      {
+        "family": "Guzzo",
+        "given": "Karen Benjamin"
+      },
+      {
+        "family": "Dorius",
+        "given": "Cassandra"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "container-title": "Population Research and Policy Review",
+    "volume": "35",
+    "issue": "4",
+    "page": "553–579",
+    "DOI": "10.1007/s11113-016-9398-9",
+    "URL": "https://doi.org/10.1007/s11113-016-9398-9"
+  },
+  {
+    "id": "W0118",
+    "type": "article-journal",
+    "title": "Marriage and Family in East Asia: Continuity and Change",
+    "author": [
+      {
+        "family": "Raymo",
+        "given": "James M."
+      },
+      {
+        "family": "Park",
+        "given": "Hyunjoon"
+      },
+      {
+        "family": "Xie",
+        "given": "Yu"
+      },
+      {
+        "family": "Yeung",
+        "given": "Wei-jun Jean"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "container-title": "Annual Review of Sociology",
+    "volume": "41",
+    "issue": "1",
+    "page": "471–492",
+    "DOI": "10.1146/annurev-soc-073014-112428",
+    "URL": "https://doi.org/10.1146/annurev-soc-073014-112428"
+  },
+  {
+    "id": "W0119",
+    "type": "article-journal",
+    "title": "Compressed Modernity and Its Discontents: South Korean Society in Transition",
+    "author": [
+      {
+        "family": "Chang",
+        "given": "Kyung-Sup"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1999
+        ]
+      ]
+    },
+    "container-title": "Economy and Society",
+    "volume": "28",
+    "issue": "1",
+    "page": "30–55",
+    "DOI": "10.1080/03085149900000023",
+    "URL": "https://doi.org/10.1080/03085149900000023",
+    "note": "Crossref姓名字段倒置，且题名将transition误排为transtion；按原课纲署名校正为Chang, Kyung-Sup，并恢复正确题名拼写。"
+  },
+  {
+    "id": "W0120",
+    "type": "article-journal",
+    "title": "The Stranded Individualizer under Compressed Modernity: South Korean Women in Individualization without Individualism",
+    "author": [
+      {
+        "family": "Chang",
+        "given": "Kyung-Sup"
+      },
+      {
+        "family": "Song",
+        "given": "Min-Young"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "container-title": "The British Journal of Sociology",
+    "volume": "61",
+    "issue": "3",
+    "page": "539–564",
+    "DOI": "10.1111/j.1468-4446.2010.01325.x",
+    "URL": "https://doi.org/10.1111/j.1468-4446.2010.01325.x",
+    "note": "原课纲卷号64有误，正式卷号61；Crossref姓名字段倒置，按原课纲作者次序校正为Chang, Kyung-Sup；Song, Min-Young。"
+  },
+  {
+    "id": "W0121",
+    "type": "article-journal",
+    "title": "Leaving the West, Rejoining the East? Gender and Family in Japan’s Semi-Compressed Modernity",
+    "author": [
+      {
+        "family": "Ochiai",
+        "given": "Emiko"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "container-title": "International Sociology",
+    "volume": "29",
+    "issue": "3",
+    "page": "209–228",
+    "DOI": "10.1177/0268580914530415",
+    "URL": "https://doi.org/10.1177/0268580914530415"
+  },
+  {
+    "id": "W0122",
+    "type": "article-journal",
+    "title": "Unsustainable Societies: The Failure of Familialism in East Asia's Compressed Modernity",
+    "author": [
+      {
+        "family": "Ochiai",
+        "given": "Emiko"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "container-title": "Historical Social Research",
+    "volume": "36",
+    "issue": "2",
+    "page": "219–245",
+    "DOI": "10.12759/hsr.36.2011.2.219-245",
+    "URL": "https://doi.org/10.12759/hsr.36.2011.2.219-245",
+    "note": "采用原课纲列明的2011年HSR论文；不与2013/2014年题名不同的Brill书章合并。DOI与页码由德国国家图书馆保存的论文原页核实。"
+  },
+  {
+    "id": "W0123",
+    "type": "article-journal",
+    "title": "Care Diamonds and Welfare Regimes in East and Southeast Asian Societies: Bridging Family and Welfare Sociology",
+    "author": [
+      {
+        "family": "Ochiai",
+        "given": "Emiko"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "container-title": "International Journal of Japanese Sociology",
+    "volume": "18",
+    "issue": "1",
+    "page": "60–78",
+    "DOI": "10.1111/j.1475-6781.2009.01117.x",
+    "URL": "https://doi.org/10.1111/j.1475-6781.2009.01117.x",
+    "note": "采用2009年期刊论文。S081同时注明后来收入书中，但不将其重算为另一篇指定阅读；该课未将8项书目逐项对应课次。"
+  },
+  {
+    "id": "W0124",
+    "type": "article-journal",
+    "title": "Ultra-Low Fertility in East Asia: Confucianism and Its Discontents",
+    "author": [
+      {
+        "family": "Cheng",
+        "given": "Yen-hsin Alice"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Vienna Yearbook of Population Research",
+    "volume": "18",
+    "page": "83–120",
+    "DOI": "10.1553/populationyearbook2020.rev01",
+    "URL": "https://doi.org/10.1553/populationyearbook2020.rev01",
+    "note": "S013省略副标题；据出版社PDF补齐Confucianism and Its Discontents。"
+  },
+  {
+    "id": "W0125",
+    "type": "article-journal",
+    "title": "Babies, Work, or Both? Highly Educated Women’s Employment and Fertility in East Asia",
+    "author": [
+      {
+        "family": "Brinton",
+        "given": "Mary C."
+      },
+      {
+        "family": "Oh",
+        "given": "Eunsil"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "container-title": "American Journal of Sociology",
+    "volume": "125",
+    "issue": "1",
+    "page": "105–140",
+    "DOI": "10.1086/704369",
+    "URL": "https://doi.org/10.1086/704369"
+  },
+  {
+    "id": "W0126",
+    "type": "article-journal",
+    "title": "Between State and Family: Managers’ Implementation and Evaluation of Parental Leave Policies in Japan",
+    "author": [
+      {
+        "family": "Brinton",
+        "given": "Mary C."
+      },
+      {
+        "family": "Mun",
+        "given": "Eunmi"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "container-title": "Socio-Economic Review",
+    "volume": "14",
+    "issue": "2",
+    "page": "257–281",
+    "DOI": "10.1093/ser/mwv021",
+    "URL": "https://doi.org/10.1093/ser/mwv021"
+  },
+  {
+    "id": "W0127",
+    "type": "article-journal",
+    "title": "Compensatory Work Devotion: How a Culture of Overwork Shapes Women’s Parental Leave in South Korea",
+    "author": [
+      {
+        "family": "Oh",
+        "given": "Eunsil"
+      },
+      {
+        "family": "Mun",
+        "given": "Eunmi"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "container-title": "Gender & Society",
+    "volume": "36",
+    "issue": "4",
+    "page": "552–577",
+    "DOI": "10.1177/08912432221102151",
+    "URL": "https://doi.org/10.1177/08912432221102151"
+  },
+  {
+    "id": "W0128",
+    "type": "article-journal",
+    "title": "Family Policies and Care Regimes in Asia",
+    "author": [
+      {
+        "family": "Chung",
+        "given": "Wei‐Yun"
+      },
+      {
+        "family": "Yeung",
+        "given": "Wei‐Jun Jean"
+      },
+      {
+        "family": "Drobnič",
+        "given": "Sonja"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "container-title": "International Journal of Social Welfare",
+    "volume": "30",
+    "issue": "4",
+    "page": "371–384",
+    "DOI": "10.1111/ijsw.12512",
+    "URL": "https://doi.org/10.1111/ijsw.12512"
+  },
+  {
+    "id": "W0129",
+    "type": "article-journal",
+    "title": "Deferential Surrogates and Professional Others: Recruitment and Training of Migrant Care Workers in Taiwan and Japan",
+    "author": [
+      {
+        "family": "Lan",
+        "given": "Pei-Chia"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "container-title": "positions: asia critique",
+    "volume": "24",
+    "issue": "1",
+    "page": "253–279",
+    "DOI": "10.1215/10679847-3320137",
+    "URL": "https://doi.org/10.1215/10679847-3320137"
+  },
+  {
+    "id": "W0130",
+    "type": "article-journal",
+    "title": "Marriage Migration, Migrant Precarity, and Social Reproduction in Asia: An Overview",
+    "author": [
+      {
+        "family": "Piper",
+        "given": "Nicola"
+      },
+      {
+        "family": "Lee",
+        "given": "Sohoon"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "container-title": "Critical Asian Studies",
+    "volume": "48",
+    "issue": "4",
+    "page": "473–493",
+    "DOI": "10.1080/14672715.2016.1226598",
+    "URL": "https://doi.org/10.1080/14672715.2016.1226598"
+  },
+  {
+    "id": "W0131",
+    "type": "article-journal",
+    "title": "The Intersections of the Care Regime and the Migrant Care Worker Policy: The Example of Taiwan",
+    "author": [
+      {
+        "family": "Wang",
+        "given": "Ming Sheng"
+      },
+      {
+        "family": "Chan",
+        "given": "Ta-Chien"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "container-title": "Asia Pacific Journal of Social Work and Development",
+    "volume": "27",
+    "issue": "3-4",
+    "page": "195–210",
+    "DOI": "10.1080/02185385.2017.1406822",
+    "URL": "https://doi.org/10.1080/02185385.2017.1406822"
+  },
+  {
+    "id": "W0132",
+    "type": "article-journal",
+    "title": "Economic Resources, Cultural Matching, and the Rural–Urban Boundary in China’s Marriage Market",
+    "author": [
+      {
+        "family": "Zhou",
+        "given": "Yun"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "container-title": "Journal of Marriage and Family",
+    "volume": "81",
+    "issue": "3",
+    "page": "567–583",
+    "DOI": "10.1111/jomf.12559",
+    "URL": "https://doi.org/10.1111/jomf.12559"
+  },
+  {
+    "id": "W0133",
+    "type": "article-journal",
+    "title": "Changes in the Determinants of Marriage Entry in Post-Reform Urban China",
+    "author": [
+      {
+        "family": "Yu",
+        "given": "Jia"
+      },
+      {
+        "family": "Xie",
+        "given": "Yu"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "container-title": "Demography",
+    "volume": "52",
+    "issue": "6",
+    "page": "1869–1892",
+    "DOI": "10.1007/s13524-015-0432-z",
+    "URL": "https://doi.org/10.1007/s13524-015-0432-z"
+  },
+  {
+    "id": "W0134",
+    "type": "book",
+    "title": "Queer Kinship and Family Change in Taiwan",
+    "author": [
+      {
+        "family": "Brainer",
+        "given": "Amy"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "publisher": "Rutgers University Press",
+    "DOI": "10.2307/j.ctt22p7jjs",
+    "URL": "https://doi.org/10.2307/j.ctt22p7jjs",
+    "note": "按图书本体建条目，S018只指定第1、3、4章；不表示该课程要求通读全书。"
+  },
+  {
+    "id": "W0135",
+    "type": "book",
+    "title": "Intimate Disconnections: Divorce and the Romance of Independence in Contemporary Japan",
+    "author": [
+      {
+        "family": "Alexy",
+        "given": "Allison"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "publisher": "University of Chicago Press",
+    "DOI": "10.7208/chicago/9780226701004.001.0001",
+    "URL": "https://doi.org/10.7208/chicago/9780226701004.001.0001",
+    "note": "按Alexy 2020年图书本体建条目，S018指定第1、3章；排除Crossref同名命中的Nakano 2022年书评。"
+  },
+  {
+    "id": "W0136",
+    "type": "article-journal",
+    "title": "Same-Sex Partnership in the Family Policies of Japan, Singapore, and Taiwan",
+    "author": [
+      {
+        "family": "Chung",
+        "given": "Wei‐Yun"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "container-title": "International Journal of Social Welfare",
+    "volume": "30",
+    "issue": "4",
+    "page": "465–477",
+    "DOI": "10.1111/ijsw.12489",
+    "URL": "https://doi.org/10.1111/ijsw.12489"
+  },
+  {
+    "id": "W0137",
+    "type": "article-journal",
+    "title": "The Household Structure Transition in China: 1982–2015",
+    "author": [
+      {
+        "family": "Li",
+        "given": "Ting"
+      },
+      {
+        "family": "Fan",
+        "given": "Wenting"
+      },
+      {
+        "family": "Song",
+        "given": "Jian"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Demography",
+    "volume": "57",
+    "issue": "4",
+    "page": "1369–1391",
+    "DOI": "10.1007/s13524-020-00891-7",
+    "URL": "https://doi.org/10.1007/s13524-020-00891-7",
+    "note": "第二作者按注册元数据为Wenting Fan，不凭姓氏补写为其他名字。"
+  },
+  {
+    "id": "W0138",
+    "type": "article-journal",
+    "title": "Changes and Trends in Family Structure in Taiwan, 1990 to 2010",
+    "author": [
+      {
+        "family": "Wang",
+        "given": "Ying-Ting"
+      },
+      {
+        "family": "Yang",
+        "given": "Wen-Shan"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "container-title": "Journal of Family Issues",
+    "volume": "40",
+    "issue": "14",
+    "page": "1896–1911",
+    "DOI": "10.1177/0192513x19863203",
+    "URL": "https://doi.org/10.1177/0192513x19863203"
+  },
+  {
+    "id": "W0139",
+    "type": "article-journal",
+    "title": "A New Vista on Asian Families and Intimacies: Creating Common Foundations for Knowledge Production within and on Asia",
+    "author": [
+      {
+        "family": "Ochiai",
+        "given": "Emiko"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "Families, Relationships and Societies",
+    "volume": "12",
+    "issue": "1",
+    "page": "91–102",
+    "DOI": "10.1332/204674321x16714548826126",
+    "URL": "https://doi.org/10.1332/204674321x16714548826126"
+  },
+  {
+    "id": "W0140",
+    "type": "article-journal",
+    "title": "Progress toward Gender Equality in the United States Has Slowed or Stalled",
+    "author": [
+      {
+        "family": "England",
+        "given": "Paula"
+      },
+      {
+        "family": "Levine",
+        "given": "Andrew"
+      },
+      {
+        "family": "Mishel",
+        "given": "Emma"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the National Academy of Sciences",
+    "volume": "117",
+    "issue": "13",
+    "page": "6990–6997",
+    "DOI": "10.1073/pnas.1918891117",
+    "URL": "https://doi.org/10.1073/pnas.1918891117"
+  },
+  {
+    "id": "W0141",
+    "type": "article-journal",
+    "title": "Hierarchies, Jobs, Bodies: A Theory of Gendered Organizations",
+    "author": [
+      {
+        "family": "Acker",
+        "given": "Joan"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1990
+        ]
+      ]
+    },
+    "container-title": "Gender & Society",
+    "volume": "4",
+    "issue": "2",
+    "page": "139–158",
+    "DOI": "10.1177/089124390004002002",
+    "URL": "https://doi.org/10.1177/089124390004002002"
+  },
+  {
+    "id": "W0142",
+    "type": "article-journal",
+    "title": "Work and Family in the Second Decade of the 21st Century",
+    "author": [
+      {
+        "family": "Perry-Jenkins",
+        "given": "Maureen"
+      },
+      {
+        "family": "Gerstel",
+        "given": "Naomi"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Journal of Marriage and Family",
+    "volume": "82",
+    "issue": "1",
+    "page": "420–453",
+    "DOI": "10.1111/jomf.12636",
+    "URL": "https://doi.org/10.1111/jomf.12636"
+  },
+  {
+    "id": "W0143",
+    "type": "article-journal",
+    "title": "Occupational Inflexibility and Women’s Employment During the Transition to Parenthood",
+    "author": [
+      {
+        "family": "Ishizuka",
+        "given": "Patrick"
+      },
+      {
+        "family": "Musick",
+        "given": "Kelly"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "container-title": "Demography",
+    "volume": "58",
+    "issue": "4",
+    "page": "1249–1274",
+    "DOI": "10.1215/00703370-9373598",
+    "URL": "https://doi.org/10.1215/00703370-9373598"
+  },
+  {
+    "id": "W0144",
+    "type": "article-journal",
+    "title": "Getting a Job: Is There a Motherhood Penalty?",
+    "author": [
+      {
+        "family": "Correll",
+        "given": "Shelley J."
+      },
+      {
+        "family": "Benard",
+        "given": "Stephen"
+      },
+      {
+        "family": "Paik",
+        "given": "In"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "container-title": "American Journal of Sociology",
+    "volume": "112",
+    "issue": "5",
+    "page": "1297–1339",
+    "DOI": "10.1086/511799",
+    "URL": "https://doi.org/10.1086/511799"
+  },
+  {
+    "id": "W0145",
+    "type": "article-journal",
+    "title": "Long Work Hours, Part-Time Work, and Trends in the Gender Gap in Pay, the Motherhood Wage Penalty, and the Fatherhood Wage Premium",
+    "author": [
+      {
+        "family": "Weeden",
+        "given": "Kim A."
+      },
+      {
+        "family": "Cha",
+        "given": "Youngjoo"
+      },
+      {
+        "family": "Bucca",
+        "given": "Mauricio"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "container-title": "RSF: The Russell Sage Foundation Journal of the Social Sciences",
+    "volume": "2",
+    "issue": "4",
+    "page": "71–102",
+    "DOI": "10.7758/rsf.2016.2.4.03",
+    "URL": "https://doi.org/10.7758/rsf.2016.2.4.03"
+  },
+  {
+    "id": "W0146",
+    "type": "article-journal",
+    "title": "Motherhood and Employment in China: Gender Asymmetries in Multi-Generational Families",
+    "author": [
+      {
+        "family": "Yu",
+        "given": "Jia"
+      },
+      {
+        "family": "Cheng",
+        "given": "Cheng"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Social Forces",
+    "volume": "103",
+    "issue": "3",
+    "page": "948–969",
+    "DOI": "10.1093/sf/soae105",
+    "URL": "https://doi.org/10.1093/sf/soae105"
+  },
+  {
+    "id": "W0147",
+    "type": "article-journal",
+    "title": "The Cognitive Dimension of Household Labor",
+    "author": [
+      {
+        "family": "Daminger",
+        "given": "Allison"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "container-title": "American Sociological Review",
+    "volume": "84",
+    "issue": "4",
+    "page": "609–633",
+    "DOI": "10.1177/0003122419859007",
+    "URL": "https://doi.org/10.1177/0003122419859007"
+  },
+  {
+    "id": "W0148",
+    "type": "article-journal",
+    "title": "De-Gendered Processes, Gendered Outcomes: How Egalitarian Couples Make Sense of Non-Egalitarian Household Practices",
+    "author": [
+      {
+        "family": "Daminger",
+        "given": "Allison"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "American Sociological Review",
+    "volume": "85",
+    "issue": "5",
+    "page": "806–829",
+    "DOI": "10.1177/0003122420950208",
+    "URL": "https://doi.org/10.1177/0003122420950208"
+  },
+  {
+    "id": "W0149",
+    "type": "article-journal",
+    "title": "The Production of Inequality: The Gender Division of Labor Across the Transition to Parenthood",
+    "author": [
+      {
+        "family": "Yavorsky",
+        "given": "Jill E."
+      },
+      {
+        "family": "Kamp Dush",
+        "given": "Claire M."
+      },
+      {
+        "family": "Schoppe-Sullivan",
+        "given": "Sarah J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "container-title": "Journal of Marriage and Family",
+    "volume": "77",
+    "issue": "3",
+    "page": "662–679",
+    "DOI": "10.1111/jomf.12189",
+    "URL": "https://doi.org/10.1111/jomf.12189"
+  },
+  {
+    "id": "W0150",
+    "type": "article-journal",
+    "title": "When Does Gender Trump Money? Bargaining and Time in Household Work",
+    "author": [
+      {
+        "family": "Bittman",
+        "given": "Michael"
+      },
+      {
+        "family": "England",
+        "given": "Paula"
+      },
+      {
+        "family": "Sayer",
+        "given": "Liana"
+      },
+      {
+        "family": "Folbre",
+        "given": "Nancy"
+      },
+      {
+        "family": "Matheson",
+        "given": "George"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2003
+        ]
+      ]
+    },
+    "container-title": "American Journal of Sociology",
+    "volume": "109",
+    "issue": "1",
+    "page": "186–214",
+    "DOI": "10.1086/378341",
+    "URL": "https://doi.org/10.1086/378341"
+  },
+  {
+    "id": "W0151",
+    "type": "article-journal",
+    "title": "Opting Out and Buying Out: Wives’ Earnings and Housework Time",
+    "author": [
+      {
+        "family": "Killewald",
+        "given": "Alexandra"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "container-title": "Journal of Marriage and Family",
+    "volume": "73",
+    "issue": "2",
+    "page": "459–471",
+    "DOI": "10.1111/j.1741-3737.2010.00818.x",
+    "URL": "https://doi.org/10.1111/j.1741-3737.2010.00818.x"
+  },
+  {
+    "id": "W0152",
+    "type": "article-journal",
+    "title": "Towards an Extended Resource Theory of Marital Power: Parental Education and Household Decision-Making in Rural China",
+    "author": [
+      {
+        "family": "Cheng",
+        "given": "Cheng"
+      },
+      {
+        "family": "Xie",
+        "given": "Yu"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": "European Sociological Review",
+    "volume": "40",
+    "issue": "5",
+    "page": "802–819",
+    "DOI": "10.1093/esr/jcad032",
+    "URL": "https://doi.org/10.1093/esr/jcad032"
+  },
+  {
+    "id": "W0153",
+    "type": "article-journal",
+    "title": "Separating Spheres: Cohort Differences in Gender Attitudes about Work and Family in China",
+    "author": [
+      {
+        "family": "Qian",
+        "given": "Yue"
+      },
+      {
+        "family": "Li",
+        "given": "Jiaxing"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "The China Review",
+    "volume": "20",
+    "issue": "2",
+    "page": "19–51",
+    "URL": "https://cup.cuhk.edu.hk/image/catalog/journal/jpreview/CR20.2_19-51.pdf",
+    "note": "期刊出版社原页为19–51，S013的19–52已校正；未发现可靠DOI，留空并保留出版社原页URL。"
+  },
+  {
+    "id": "W0154",
+    "type": "article-journal",
+    "title": "The Stickiness of Unequal Housework Sharing: Limited Effects of Couples’ Ideological Pairings",
+    "author": [
+      {
+        "family": "Nitsche",
+        "given": "Natalie"
+      },
+      {
+        "family": "Grunow",
+        "given": "Daniela"
+      },
+      {
+        "family": "Hudde",
+        "given": "Ansgar"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Journal of Marriage and Family",
+    "volume": "87",
+    "issue": "3",
+    "page": "1224–1248",
+    "DOI": "10.1111/jomf.13075",
+    "URL": "https://doi.org/10.1111/jomf.13075"
+  },
+  {
+    "id": "W0155",
+    "type": "article-journal",
+    "title": "A Longitudinal Dyadic Analysis of Gender Ideology During the Transition into Parenthood",
+    "author": [
+      {
+        "family": "Zheng",
+        "given": "Yexin"
+      },
+      {
+        "family": "Wang",
+        "given": "Senhu"
+      },
+      {
+        "family": "Zhou",
+        "given": "Muzhi"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Journal of Marriage and Family",
+    "volume": "87",
+    "issue": "4",
+    "page": "1433–1453",
+    "DOI": "10.1111/jomf.13086",
+    "URL": "https://doi.org/10.1111/jomf.13086"
+  },
+  {
+    "id": "W0156",
+    "type": "article-journal",
+    "title": "Housework over the Course of Relationships: Gender Ideology, Resources, and the Division of Housework from a Growth Curve Perspective",
+    "author": [
+      {
+        "family": "Nitsche",
+        "given": "Natalie"
+      },
+      {
+        "family": "Grunow",
+        "given": "Daniela"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "container-title": "Advances in Life Course Research",
+    "volume": "29",
+    "page": "80–94",
+    "DOI": "10.1016/j.alcr.2016.02.001",
+    "URL": "https://doi.org/10.1016/j.alcr.2016.02.001"
+  },
+  {
+    "id": "W0157",
+    "type": "article-journal",
+    "title": "Opportunity or Exploitation? A Longitudinal Dyadic Analysis of Flexible Working Arrangements and Gender Household Labor Inequality",
+    "author": [
+      {
+        "family": "Wang",
+        "given": "Senhu"
+      },
+      {
+        "family": "Cheng",
+        "given": "Cheng"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": "Social Forces",
+    "volume": "102",
+    "issue": "4",
+    "page": "1446–1466",
+    "DOI": "10.1093/sf/soad125",
+    "URL": "https://doi.org/10.1093/sf/soad125",
+    "note": "采用2024年正式卷期；2023为在线发表年。"
+  },
+  {
+    "id": "W0158",
+    "type": "article-journal",
+    "title": "How Do Parents Share Childcare That Interferes With Paid Work? Work Arrangements, Flexible Working, and Childcare",
+    "author": [
+      {
+        "family": "Kuang",
+        "given": "Bernice"
+      },
+      {
+        "family": "Perelli-Harris",
+        "given": "Brienna"
+      },
+      {
+        "family": "Berrington",
+        "given": "Ann"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Journal of Marriage and Family",
+    "volume": "87",
+    "issue": "5",
+    "page": "1947–1962",
+    "DOI": "10.1111/jomf.13112",
+    "URL": "https://doi.org/10.1111/jomf.13112"
+  },
+  {
+    "id": "W0159",
+    "type": "article-journal",
+    "title": "Who You Gonna Call? Gender Inequality in External Demands for Parental Involvement",
+    "author": [
+      {
+        "family": "Buzard",
+        "given": "Kristy"
+      },
+      {
+        "family": "Gee",
+        "given": "Laura K."
+      },
+      {
+        "family": "Stoddard",
+        "given": "Olga"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "The Quarterly Journal of Economics",
+    "volume": "140",
+    "issue": "4",
+    "page": "2805–2849",
+    "DOI": "10.1093/qje/qjaf027",
+    "URL": "https://doi.org/10.1093/qje/qjaf027",
+    "note": "采用原课纲和期刊页面共同确认的2025年QJE正式发表版本；排除Crossref题名查询命中的2023年SSRN版本。"
+  },
+  {
+    "id": "W0160",
+    "type": "article-journal",
+    "title": "The Persistence of Power despite the Changing Meaning of Homeownership: An Age-Period-Cohort Analysis of Urban Housing Tenure in China, 1989–2011",
+    "author": [
+      {
+        "family": "Fu",
+        "given": "Qiang"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "container-title": "Urban Studies",
+    "volume": "53",
+    "issue": "6",
+    "page": "1225–1243",
+    "DOI": "10.1177/0042098015571240",
+    "URL": "https://doi.org/10.1177/0042098015571240",
+    "note": "从保留来源S033的住房制度单元提取，新增T04制度比较接口；这属于阅读用途扩展，原来源主归属仍为T03/T01。"
+  },
+  {
+    "id": "W0161",
+    "type": "book",
+    "title": "Social Stratification: Class, Race, and Gender in Sociological Perspective",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "publisher": "Westview Press",
+    "URL": "https://www.routledge.com/Social-Stratification-Class-Race-and-Gender-in-Sociological-Perspective/Grusky/p/book/9780813346717",
+    "note": "使用课纲指定的第4版2014年；不是当前新版；Grusky为编者。",
+    "editor": [
+      {
+        "family": "Grusky",
+        "given": "David B."
+      }
+    ],
+    "edition": "4"
+  },
+  {
+    "id": "W0162",
+    "type": "article-journal",
+    "title": "The social space and the genesis of groups",
+    "author": [
+      {
+        "family": "Bourdieu",
+        "given": "Pierre"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1985
+        ]
+      ]
+    },
+    "container-title": "Theory and Society",
+    "publisher": "Springer Science and Business Media LLC",
+    "volume": "14",
+    "issue": "6",
+    "page": "723–744",
+    "DOI": "10.1007/BF00174048",
+    "URL": "https://doi.org/10.1007/BF00174048",
+    "note": "同题另有Social Science Information版本；本条遵循课纲，选Theory and Society 14(6):723–744及其DOI。"
+  },
+  {
+    "id": "W0163",
+    "type": "article-journal",
+    "title": "Inequality and Social Stratification in Postsocialist China",
+    "author": [
+      {
+        "family": "Wu",
+        "given": "Xiaogang"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "container-title": "Annual Review of Sociology",
+    "publisher": "Annual Reviews",
+    "volume": "45",
+    "issue": "1",
+    "page": "363-382",
+    "DOI": "10.1146/annurev-soc-073018-022516",
+    "URL": "https://doi.org/10.1146/annurev-soc-073018-022516"
+  },
+  {
+    "id": "W0164",
+    "type": "article-journal",
+    "title": "Analyses of Intergenerational Mobility: An Interdisciplinary Review",
+    "author": [
+      {
+        "family": "Torche",
+        "given": "Florencia"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "container-title": "The ANNALS of the American Academy of Political and Social Science",
+    "publisher": "SAGE Publications",
+    "volume": "657",
+    "issue": "1",
+    "page": "37-62",
+    "DOI": "10.1177/0002716214547476",
+    "URL": "https://doi.org/10.1177/0002716214547476",
+    "note": "原课纲写2014；正式卷期657(1)是2015，2014为在线发布日期。"
+  },
+  {
+    "id": "W0165",
+    "type": "article-journal",
+    "title": "Wealth as One of the “Big Four” SES Dimensions in Intergenerational Transmissions",
+    "author": [
+      {
+        "family": "Hällsten",
+        "given": "Martin"
+      },
+      {
+        "family": "Thaning",
+        "given": "Max"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "container-title": "Social Forces",
+    "publisher": "Oxford University Press (OUP)",
+    "volume": "100",
+    "issue": "4",
+    "page": "1533-1560",
+    "DOI": "10.1093/sf/soab080",
+    "URL": "https://doi.org/10.1093/sf/soab080"
+  },
+  {
+    "id": "W0166",
+    "type": "article-journal",
+    "title": "Is a College Degree Still the Great Equalizer? Intergenerational Mobility across Levels of Schooling in the United States",
+    "author": [
+      {
+        "family": "Torche",
+        "given": "Florencia"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "container-title": "American Journal of Sociology",
+    "publisher": "University of Chicago Press",
+    "volume": "117",
+    "issue": "3",
+    "page": "763-807",
+    "DOI": "10.1086/661904",
+    "URL": "https://doi.org/10.1086/661904"
+  },
+  {
+    "id": "W0167",
+    "type": "article-journal",
+    "title": "Equalization or Selection? Reassessing the “Meritocratic Power” of a College Degree in Intergenerational Income Mobility",
+    "author": [
+      {
+        "family": "Zhou",
+        "given": "Xiang"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "container-title": "American Sociological Review",
+    "volume": "84",
+    "issue": "3",
+    "page": "459–485",
+    "DOI": "10.1177/0003122419844992",
+    "URL": "https://doi.org/10.1177/0003122419844992"
+  },
+  {
+    "id": "W0168",
+    "type": "article-journal",
+    "title": "Market Transition, Industrialization, and Social Mobility Trends in Postrevolution China",
+    "author": [
+      {
+        "family": "Zhou",
+        "given": "Xiang"
+      },
+      {
+        "family": "Xie",
+        "given": "Yu"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "container-title": "American Journal of Sociology",
+    "publisher": "University of Chicago Press",
+    "volume": "124",
+    "issue": "6",
+    "page": "1810-1847",
+    "DOI": "10.1086/703346",
+    "URL": "https://doi.org/10.1086/703346"
+  },
+  {
+    "id": "W0169",
+    "type": "article-journal",
+    "title": "Effectively Maintained Inequality: Education Transitions, Track Mobility, and Social Background Effects",
+    "author": [
+      {
+        "family": "Lucas",
+        "given": "Samuel R."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2001
+        ]
+      ]
+    },
+    "container-title": "American Journal of Sociology",
+    "publisher": "University of Chicago Press",
+    "volume": "106",
+    "issue": "6",
+    "page": "1642-1690",
+    "DOI": "10.1086/321300",
+    "URL": "https://doi.org/10.1086/321300"
+  },
+  {
+    "id": "W0170",
+    "type": "article-journal",
+    "title": "Horizontal Stratification in Postsecondary Education: Forms, Explanations, and Implications",
+    "author": [
+      {
+        "family": "Gerber",
+        "given": "Theodore P."
+      },
+      {
+        "family": "Cheung",
+        "given": "Sin Yi"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "container-title": "Annual Review of Sociology",
+    "publisher": "Annual Reviews",
+    "volume": "34",
+    "issue": "1",
+    "page": "299-318",
+    "DOI": "10.1146/annurev.soc.34.040507.134604",
+    "URL": "https://doi.org/10.1146/annurev.soc.34.040507.134604"
+  },
+  {
+    "id": "W0171",
+    "type": "article-journal",
+    "title": "Maximally Maintained Inequality: Expansion, Reform, and Opportunity in Irish Education, 1921–75",
+    "author": [
+      {
+        "family": "Raftery",
+        "given": "Adrian E."
+      },
+      {
+        "family": "Hout",
+        "given": "Michael"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1993
+        ]
+      ]
+    },
+    "container-title": "Sociology of Education",
+    "volume": "66",
+    "issue": "1",
+    "page": "41–62",
+    "DOI": "10.2307/2112784",
+    "URL": "https://doi.org/10.2307/2112784"
+  },
+  {
+    "id": "W0172",
+    "type": "chapter",
+    "title": "Introduction: How Is Inequality of Educational Opportunity Generated? The Case for Primary and Secondary Effects",
+    "author": [
+      {
+        "family": "Jackson",
+        "given": "Michelle"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "container-title": "Determined to Succeed? Performance versus Choice in Educational Attainment",
+    "publisher": "Stanford University Press",
+    "page": "1-33",
+    "DOI": "10.11126/stanford/9780804783026.003.0001",
+    "URL": "https://doi.org/10.11126/stanford/9780804783026.003.0001",
+    "note": "原课纲题名写The case of；出版社章节全题为Introduction: How Is Inequality of Educational Opportunity Generated? The Case for Primary and Secondary Effects；Crossref简写Introduction。"
+  },
+  {
+    "id": "W0173",
+    "type": "article-journal",
+    "title": "Why Do Some Occupations Pay More than Others? Social Closure and Earnings Inequality in the United States",
+    "author": [
+      {
+        "family": "Weeden",
+        "given": "Kim A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2002
+        ]
+      ]
+    },
+    "container-title": "American Journal of Sociology",
+    "volume": "108",
+    "issue": "1",
+    "page": "55–101",
+    "DOI": "10.1086/344121",
+    "URL": "https://doi.org/10.1086/344121"
+  },
+  {
+    "id": "W0174",
+    "type": "article-journal",
+    "title": "Occupations, Organizations, and Intragenerational Career Mobility",
+    "author": [
+      {
+        "family": "Kalleberg",
+        "given": "Arne L."
+      },
+      {
+        "family": "Mouw",
+        "given": "Ted"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "container-title": "Annual Review of Sociology",
+    "volume": "44",
+    "page": "283–303",
+    "DOI": "10.1146/annurev-soc-073117-041249",
+    "URL": "https://doi.org/10.1146/annurev-soc-073117-041249"
+  },
+  {
+    "id": "W0175",
+    "type": "article-journal",
+    "title": "Hiring as Cultural Matching: The Case of Elite Professional Service Firms",
+    "author": [
+      {
+        "family": "Rivera",
+        "given": "Lauren A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "container-title": "American Sociological Review",
+    "volume": "77",
+    "issue": "6",
+    "page": "999–1022",
+    "DOI": "10.1177/0003122412463213",
+    "URL": "https://doi.org/10.1177/0003122412463213"
+  },
+  {
+    "id": "W0176",
+    "type": "article-journal",
+    "title": "Inequality Regimes: Gender, Class, and Race in Organizations",
+    "author": [
+      {
+        "family": "Acker",
+        "given": "Joan"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "container-title": "Gender & Society",
+    "volume": "20",
+    "issue": "4",
+    "page": "441–464",
+    "DOI": "10.1177/0891243206289499",
+    "URL": "https://doi.org/10.1177/0891243206289499"
+  },
+  {
+    "id": "W0177",
+    "type": "article-journal",
+    "title": "Wealth Inequality and Accumulation",
+    "author": [
+      {
+        "family": "Killewald",
+        "given": "Alexandra"
+      },
+      {
+        "family": "Pfeffer",
+        "given": "Fabian T."
+      },
+      {
+        "family": "Schachner",
+        "given": "Jared N."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "container-title": "Annual Review of Sociology",
+    "volume": "43",
+    "page": "379–404",
+    "DOI": "10.1146/annurev-soc-060116-053331",
+    "URL": "https://doi.org/10.1146/annurev-soc-060116-053331"
+  },
+  {
+    "id": "W0178",
+    "type": "article-journal",
+    "title": "The One Percent",
+    "author": [
+      {
+        "family": "Keister",
+        "given": "Lisa A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "container-title": "Annual Review of Sociology",
+    "volume": "40",
+    "page": "347–367",
+    "DOI": "10.1146/annurev-soc-070513-075314",
+    "URL": "https://doi.org/10.1146/annurev-soc-070513-075314"
+  },
+  {
+    "id": "W0179",
+    "type": "article-journal",
+    "title": "Durable Wealth: Institutions, Mechanisms, and Practices of Wealth Perpetuation",
+    "author": [
+      {
+        "family": "Beckert",
+        "given": "Jens"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "container-title": "Annual Review of Sociology",
+    "publisher": "Annual Reviews",
+    "volume": "48",
+    "issue": "1",
+    "page": "233-255",
+    "DOI": "10.1146/annurev-soc-030320-115024",
+    "URL": "https://doi.org/10.1146/annurev-soc-030320-115024"
+  },
+  {
+    "id": "W0180",
+    "type": "book",
+    "title": "Black Wealth/White Wealth: A New Perspective on Racial Inequality",
+    "author": [
+      {
+        "family": "Oliver",
+        "given": "Melvin L."
+      },
+      {
+        "family": "Shapiro",
+        "given": "Thomas M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "publisher": "Routledge",
+    "URL": "https://www.routledge.com/Black-Wealth--White-Wealth-A-New-Perspective-on-Racial-Inequality/Oliver-Shapiro/p/book/9780203707425",
+    "edition": "2"
+  },
+  {
+    "id": "W0181",
+    "type": "article-journal",
+    "title": "Generations of Advantage: Multigenerational Correlations in Family Wealth",
+    "author": [
+      {
+        "family": "Pfeffer",
+        "given": "Fabian T."
+      },
+      {
+        "family": "Killewald",
+        "given": "Alexandra"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "container-title": "Social Forces",
+    "volume": "96",
+    "issue": "4",
+    "page": "1411–1442",
+    "DOI": "10.1093/sf/sox086",
+    "URL": "https://doi.org/10.1093/sf/sox086",
+    "note": "规范为Social Forces 2018正式发表版，未采用同题SocArXiv DOI。"
+  },
+  {
+    "id": "W0182",
+    "type": "book",
+    "title": "Inherited Wealth",
+    "author": [
+      {
+        "family": "Beckert",
+        "given": "Jens"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "publisher": "Princeton University Press",
+    "DOI": "10.2307/j.ctv346s2j",
+    "URL": "https://www.jstor.org/stable/j.ctv346s2j",
+    "note": "Jens Beckert为作者，Thomas Dunlap为译者；原书版权年2008，出版社另有2018再版页面。"
+  },
+  {
+    "id": "W0183",
+    "type": "article-journal",
+    "title": "Reversed accounting: legal professionals, families and the gender wealth gap in France",
+    "author": [
+      {
+        "family": "Bessière",
+        "given": "Céline"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "container-title": "Socio-Economic Review",
+    "publisher": "Oxford University Press (OUP)",
+    "volume": "20",
+    "issue": "1",
+    "page": "233-256",
+    "DOI": "10.1093/ser/mwz036",
+    "URL": "https://doi.org/10.1093/ser/mwz036",
+    "note": "原课纲写2023但卷20(1)对应2022；采用正式卷期年2022。"
+  },
+  {
+    "id": "W0184",
+    "type": "article-journal",
+    "title": "The false promise of homeownership: Homeowner societies in an era of declining access and rising inequality",
+    "author": [
+      {
+        "family": "Arundel",
+        "given": "Rowan"
+      },
+      {
+        "family": "Ronald",
+        "given": "Richard"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "container-title": "Urban Studies",
+    "volume": "58",
+    "issue": "6",
+    "page": "1120–1140",
+    "DOI": "10.1177/0042098019895227",
+    "URL": "https://doi.org/10.1177/0042098019895227"
+  },
+  {
+    "id": "W0185",
+    "type": "article-journal",
+    "title": "Public housing into private assets: Wealth creation in urban China",
+    "author": [
+      {
+        "family": "Walder",
+        "given": "Andrew G."
+      },
+      {
+        "family": "He",
+        "given": "Xiaobin"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "container-title": "Social Science Research",
+    "publisher": "Elsevier BV",
+    "volume": "46",
+    "page": "85-99",
+    "DOI": "10.1016/j.ssresearch.2014.02.008",
+    "URL": "https://doi.org/10.1016/j.ssresearch.2014.02.008"
+  },
+  {
+    "id": "W0186",
+    "type": "article-journal",
+    "title": "Cultural Knowledge and Social Inequality",
+    "author": [
+      {
+        "family": "Lareau",
+        "given": "Annette"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "container-title": "American Sociological Review",
+    "volume": "80",
+    "issue": "1",
+    "page": "1–27",
+    "DOI": "10.1177/0003122414565814",
+    "URL": "https://doi.org/10.1177/0003122414565814"
+  },
+  {
+    "id": "W0187",
+    "type": "article-journal",
+    "title": "Learning to own: Cross-generational meanings of wealth and class-making in wealthy Finnish families",
+    "author": [
+      {
+        "family": "Kuusela",
+        "given": "Hanna"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "container-title": "The Sociological Review",
+    "publisher": "SAGE Publications",
+    "volume": "66",
+    "issue": "6",
+    "page": "1161-1176",
+    "DOI": "10.1177/0038026118777698",
+    "URL": "https://doi.org/10.1177/0038026118777698"
+  },
+  {
+    "id": "W0188",
+    "type": "article-journal",
+    "title": "The paradox of inequality: income inequality and belief in meritocracy go hand in hand",
+    "author": [
+      {
+        "family": "Mijs",
+        "given": "Jonathan J. B."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "container-title": "Socio-Economic Review",
+    "volume": "19",
+    "issue": "1",
+    "page": "7–35",
+    "DOI": "10.1093/ser/mwy051",
+    "URL": "https://doi.org/10.1093/ser/mwy051"
+  },
+  {
+    "id": "W0189",
+    "type": "article-journal",
+    "title": "Cumulative Advantage as a Mechanism for Inequality: A Review of Theoretical and Empirical Developments",
+    "author": [
+      {
+        "family": "DiPrete",
+        "given": "Thomas A."
+      },
+      {
+        "family": "Eirich",
+        "given": "Gregory M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "container-title": "Annual Review of Sociology",
+    "publisher": "Annual Reviews",
+    "volume": "32",
+    "issue": "1",
+    "page": "271-297",
+    "DOI": "10.1146/annurev.soc.32.061604.123127",
+    "URL": "https://doi.org/10.1146/annurev.soc.32.061604.123127"
+  },
+  {
+    "id": "W0190",
+    "type": "article-journal",
+    "title": "Wealth Accumulation and Opportunity Hoarding: Class-Origin Wealth Gaps over a Quarter of a Century in a Scandinavian Country",
+    "author": [
+      {
+        "family": "Hansen",
+        "given": "Marianne Nordli"
+      },
+      {
+        "family": "Toft",
+        "given": "Maren"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "container-title": "American Sociological Review",
+    "publisher": "SAGE Publications",
+    "volume": "86",
+    "issue": "4",
+    "page": "603-638",
+    "DOI": "10.1177/00031224211020012",
+    "URL": "https://doi.org/10.1177/00031224211020012"
+  },
+  {
+    "id": "W0191",
+    "type": "article-journal",
+    "title": "Socioeconomic Indexes for Occupations: A Review, Update, and Critique",
+    "author": [
+      {
+        "family": "Hauser",
+        "given": "Robert M."
+      },
+      {
+        "family": "Warren",
+        "given": "John Robert"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1997
+        ]
+      ]
+    },
+    "container-title": "Sociological Methodology",
+    "publisher": "SAGE Publications",
+    "volume": "27",
+    "issue": "1",
+    "page": "177-298",
+    "DOI": "10.1111/1467-9531.271028",
+    "URL": "https://doi.org/10.1111/1467-9531.271028"
+  },
+  {
+    "id": "W0192",
+    "type": "article-journal",
+    "title": "Intergenerational mobility, intergenerational effects, sibling correlations, and equality of opportunity: A comparison of four approaches",
+    "author": [
+      {
+        "family": "Björklund",
+        "given": "Anders"
+      },
+      {
+        "family": "Jäntti",
+        "given": "Markus"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Research in Social Stratification and Mobility",
+    "publisher": "Elsevier BV",
+    "volume": "70",
+    "page": "100455",
+    "DOI": "10.1016/j.rssm.2019.100455",
+    "URL": "https://doi.org/10.1016/j.rssm.2019.100455"
+  },
+  {
+    "id": "W0193",
+    "type": "article-journal",
+    "title": "Gradationalism Revisited: Intergenerational Occupational Mobility along Axes of Occupational Characteristics",
+    "author": [
+      {
+        "family": "York",
+        "given": "Hunter"
+      },
+      {
+        "family": "Song",
+        "given": "Xi"
+      },
+      {
+        "family": "Xie",
+        "given": "Yu"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "American Journal of Sociology",
+    "volume": "130",
+    "issue": "4",
+    "page": "976–1027",
+    "DOI": "10.1086/733122",
+    "URL": "https://doi.org/10.1086/733122"
+  },
+  {
+    "id": "W0194",
+    "type": "article-journal",
+    "title": "The multiverse of social class: a large-scale assessment of macro-level, meso-level and micro-level approaches to class analysis",
+    "author": [
+      {
+        "family": "Hertel",
+        "given": "Florian R."
+      },
+      {
+        "family": "Barone",
+        "given": "Carlo"
+      },
+      {
+        "family": "Smallenbroek",
+        "given": "Oscar"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "European Societies",
+    "publisher": "MIT Press",
+    "volume": "27",
+    "issue": "5",
+    "page": "840-888",
+    "DOI": "10.1162/euso_a_00044",
+    "URL": "https://doi.org/10.1162/euso_a_00044"
+  },
+  {
+    "id": "W0195",
+    "type": "chapter",
+    "title": "Compensation and other forms of accumulation in intergenerational social inequality",
+    "author": [
+      {
+        "family": "Erola",
+        "given": "Jani"
+      },
+      {
+        "family": "Kilpi-Jakonen",
+        "given": "Elina"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "container-title": "Social Inequality Across the Generations: The Role of Compensation and Multiplication in Resource Accumulation",
+    "publisher": "Edward Elgar Publishing",
+    "DOI": "10.4337/9781786432568.00006",
+    "URL": "https://www.e-elgar.com/shop/usd/social-inequality-across-the-generations-9781786432551.html"
+  },
+  {
+    "id": "W0196",
+    "type": "article-journal",
+    "title": "Emerging adulthood: A theory of development from the late teens through the twenties",
+    "author": [
+      {
+        "family": "Arnett",
+        "given": "Jeffrey Jensen"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2000
+        ]
+      ]
+    },
+    "container-title": "American Psychologist",
+    "volume": "55",
+    "issue": "5",
+    "page": "469–480",
+    "DOI": "10.1037/0003-066X.55.5.469",
+    "URL": "https://doi.org/10.1037/0003-066X.55.5.469"
+  },
+  {
+    "id": "W0197",
+    "type": "article-journal",
+    "title": "The Dangerous Myth of Emerging Adulthood: An Evidence-Based Critique of a Flawed Developmental Theory",
+    "author": [
+      {
+        "family": "Côté",
+        "given": "James E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "container-title": "Applied Developmental Science",
+    "publisher": "Informa UK Limited",
+    "volume": "18",
+    "issue": "4",
+    "page": "177-188",
+    "DOI": "10.1080/10888691.2014.954451",
+    "URL": "https://doi.org/10.1080/10888691.2014.954451"
+  },
+  {
+    "id": "W0198",
+    "type": "book",
+    "title": "Youth Sociology",
+    "author": [
+      {
+        "family": "France",
+        "given": "Alan"
+      },
+      {
+        "family": "Coffey",
+        "given": "Julia"
+      },
+      {
+        "family": "Roberts",
+        "given": "Steven"
+      },
+      {
+        "family": "Waite",
+        "given": "Catherine"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "publisher": "Bloomsbury Academic",
+    "URL": "https://www.bloomsbury.com/uk/youth-sociology-9781137490414/",
+    "note": "出版社署名顺序为France、Coffey、Roberts、Waite，原模块书目把中间两位次序倒置；已按出版社纠正。"
+  },
+  {
+    "id": "W0199",
+    "type": "book",
+    "title": "Youth and Generation: Rethinking Change and Inequality in the Lives of Young People",
+    "author": [
+      {
+        "family": "Woodman",
+        "given": "Dan"
+      },
+      {
+        "family": "Wyn",
+        "given": "Johanna"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "publisher": "SAGE",
+    "DOI": "10.4135/9781473910591",
+    "URL": "https://doi.org/10.4135/9781473910591",
+    "note": "课纲及电子书元数据为2015；SAGE产品页显示2014年末发行，保留版本差异。"
+  },
+  {
+    "id": "W0200",
+    "type": "article-journal",
+    "title": "Trajectories of Union Transition in Emerging Adulthood: Socioeconomic Status and Race/Ethnicity Differences in the National Longitudinal Survey of Youth 1997 Cohort",
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Yang"
+      },
+      {
+        "family": "Ang",
+        "given": "Shannon"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Journal of Marriage and Family",
+    "publisher": "Wiley",
+    "volume": "82",
+    "issue": "2",
+    "page": "713-732",
+    "DOI": "10.1111/jomf.12662",
+    "URL": "https://doi.org/10.1111/jomf.12662"
+  },
+  {
+    "id": "W0201",
+    "type": "article-journal",
+    "title": "A distaste for insecurity: job preferences of young people in the transition to adulthood",
+    "author": [
+      {
+        "family": "Rouvroye",
+        "given": "Lin"
+      },
+      {
+        "family": "van Dalen",
+        "given": "Hendrik P."
+      },
+      {
+        "family": "Henkens",
+        "given": "Kène"
+      },
+      {
+        "family": "Schippers",
+        "given": "Joop J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": "European Sociological Review",
+    "volume": "40",
+    "issue": "3",
+    "page": "434–449",
+    "DOI": "10.1093/esr/jcad041",
+    "URL": "https://pure.rug.nl/ws/portalfiles/portal/1158818988/jcad041.pdf"
+  },
+  {
+    "id": "W0202",
+    "type": "book",
+    "title": "Pedigree: How Elite Students Get Elite Jobs",
+    "author": [
+      {
+        "family": "Rivera",
+        "given": "Lauren A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "publisher": "Princeton University Press",
+    "DOI": "10.1515/9781400865895",
+    "URL": "https://doi.org/10.1515/9781400865895"
+  },
+  {
+    "id": "W0203",
+    "type": "book",
+    "title": "The Privileged Poor: How Elite Colleges Are Failing Disadvantaged Students",
+    "author": [
+      {
+        "family": "Jack",
+        "given": "Anthony Abraham"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "publisher": "Harvard University Press",
+    "DOI": "10.4159/9780674239647",
+    "URL": "https://doi.org/10.4159/9780674239647"
+  },
+  {
+    "id": "W0204",
+    "type": "article-journal",
+    "title": "Living with parents or attaining residential independence? A comparative study of young adults’ living arrangements in China and South Korea",
+    "author": [
+      {
+        "family": "Yoon",
+        "given": "Soo-Yeon"
+      },
+      {
+        "family": "Lian",
+        "given": "Bin"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Chinese Sociological Review",
+    "publisher": "Informa UK Limited",
+    "volume": "57",
+    "issue": "4",
+    "page": "424-451",
+    "DOI": "10.1080/21620555.2024.2383617",
+    "URL": "https://doi.org/10.1080/21620555.2024.2383617",
+    "note": "原课纲使用2024在线发表年；Crossref正式卷期记录为2025，采用正式卷期年。"
+  },
+  {
+    "id": "W0205",
+    "type": "article-journal",
+    "title": "Parental socioeconomic status and age at leaving home in Europe: Exploring regional differences",
+    "author": [
+      {
+        "family": "Ferraretto",
+        "given": "Valeria"
+      },
+      {
+        "family": "Vitali",
+        "given": "Agnese"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "Population, Space and Place",
+    "publisher": "Wiley",
+    "volume": "29",
+    "issue": "6",
+    "page": "e2679",
+    "DOI": "10.1002/psp.2679",
+    "URL": "https://doi.org/10.1002/psp.2679"
+  },
+  {
+    "id": "W0206",
+    "type": "article-journal",
+    "title": "Young Adults’ Gendered Trajectories of Routine Housework Time When Leaving Home",
+    "author": [
+      {
+        "family": "Schulz",
+        "given": "Florian"
+      },
+      {
+        "family": "Raab",
+        "given": "Marcel"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Journal of Marriage and Family",
+    "publisher": "Wiley",
+    "volume": "87",
+    "issue": "2",
+    "page": "547-565",
+    "DOI": "10.1111/jomf.13053",
+    "URL": "https://doi.org/10.1111/jomf.13053"
+  },
+  {
+    "id": "W0207",
+    "type": "article-journal",
+    "title": "A Generation Indebted: Young Adult Debt across Three Cohorts",
+    "author": [
+      {
+        "family": "Houle",
+        "given": "Jason N."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "container-title": "Social Problems",
+    "publisher": "Oxford University Press (OUP)",
+    "volume": "61",
+    "issue": "3",
+    "page": "448-465",
+    "DOI": "10.1525/sp.2014.12110",
+    "URL": "https://doi.org/10.1525/sp.2014.12110"
+  },
+  {
+    "id": "W0208",
+    "type": "article-journal",
+    "title": "Inequality and Socio-Economic Divides in Parental Transfers to Young Adults in the United States",
+    "author": [
+      {
+        "family": "Floridi",
+        "given": "G."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Social Forces",
+    "volume": "103",
+    "issue": "4",
+    "page": "1282–1306",
+    "DOI": "10.1093/sf/soae148",
+    "URL": "https://doi.org/10.1093/sf/soae148"
+  },
+  {
+    "id": "W0209",
+    "type": "article-journal",
+    "title": "Parents’ Socioeconomic Status and Support to Adult Children across the Life Course",
+    "author": [
+      {
+        "family": "Kalmijn",
+        "given": "Matthijs"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": "Journal of Marriage and Family",
+    "volume": "86",
+    "issue": "1",
+    "page": "7–29",
+    "DOI": "10.1111/jomf.12928",
+    "URL": "https://doi.org/10.1111/jomf.12928"
+  },
+  {
+    "id": "W0210",
+    "type": "article-journal",
+    "title": "Young Adult Caregivers for Older Family Members: Setting a New Research Agenda",
+    "author": [
+      {
+        "family": "Fingerman",
+        "given": "Karen L"
+      },
+      {
+        "family": "Zhou",
+        "given": "Zexi"
+      },
+      {
+        "family": "Haley",
+        "given": "William E"
+      },
+      {
+        "family": "Zarit",
+        "given": "Steven H"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Innovation in Aging",
+    "publisher": "Oxford University Press (OUP)",
+    "volume": "9",
+    "issue": "4",
+    "page": "igae112",
+    "DOI": "10.1093/geroni/igae112",
+    "URL": "https://doi.org/10.1093/geroni/igae112"
+  },
+  {
+    "id": "W0211",
+    "type": "article-journal",
+    "title": "Family Dynamics During Emerging Adulthood: Reviewing, Integrating, and Challenging the Field",
+    "author": [
+      {
+        "family": "Oliveira",
+        "given": "Carolina"
+      },
+      {
+        "family": "Fonseca",
+        "given": "Gabriela"
+      },
+      {
+        "family": "Sotero",
+        "given": "Luciana"
+      },
+      {
+        "family": "Crespo",
+        "given": "Carla"
+      },
+      {
+        "family": "Relvas",
+        "given": "Ana Paula"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Journal of Family Theory & Review",
+    "publisher": "Wiley",
+    "volume": "12",
+    "issue": "3",
+    "page": "350-367",
+    "DOI": "10.1111/jftr.12386",
+    "URL": "https://doi.org/10.1111/jftr.12386"
+  },
+  {
+    "id": "W0212",
+    "type": "article-journal",
+    "title": "“Marriage Is More Than Being Together”: The Meaning of Marriage for Young Adults",
+    "author": [
+      {
+        "family": "Kefalas",
+        "given": "Maria J."
+      },
+      {
+        "family": "Furstenberg",
+        "given": "Frank F."
+      },
+      {
+        "family": "Carr",
+        "given": "Patrick J."
+      },
+      {
+        "family": "Napolitano",
+        "given": "Laura"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "container-title": "Journal of Family Issues",
+    "publisher": "SAGE Publications",
+    "volume": "32",
+    "issue": "7",
+    "page": "845-875",
+    "DOI": "10.1177/0192513x10397277",
+    "URL": "https://doi.org/10.1177/0192513x10397277"
+  },
+  {
+    "id": "W0213",
+    "type": "article-journal",
+    "title": "Parents, Partners, and Professions: Reproduction and Mobility in a Cohort of College Women",
+    "author": [
+      {
+        "family": "Hamilton",
+        "given": "Laura T."
+      },
+      {
+        "family": "Armstrong",
+        "given": "Elizabeth A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "container-title": "American Journal of Sociology",
+    "publisher": "University of Chicago Press",
+    "volume": "127",
+    "issue": "1",
+    "page": "102-151",
+    "DOI": "10.1086/714850",
+    "URL": "https://doi.org/10.1086/714850",
+    "note": "Dartmouth课纲把卷号写为171；规范为American Journal of Sociology 127(1):102–151。"
+  },
+  {
+    "id": "W0214",
+    "type": "article-journal",
+    "title": "Latent Profiles of Koreans’ Attitudes Toward Alternatives to Traditional Marital Formation",
+    "author": [
+      {
+        "family": "Lee",
+        "given": "Jaerim"
+      },
+      {
+        "family": "Park",
+        "given": "Jane"
+      },
+      {
+        "family": "Son",
+        "given": "Seohee"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "container-title": "Journal of Marriage and Family",
+    "publisher": "Wiley",
+    "volume": "87",
+    "issue": "4",
+    "page": "1387-1406",
+    "DOI": "10.1111/jomf.13098",
+    "URL": "https://doi.org/10.1111/jomf.13098"
+  },
+  {
+    "id": "W0215",
+    "type": "book",
+    "title": "Coming Up Short: Working-Class Adulthood in an Age of Uncertainty",
+    "author": [
+      {
+        "family": "Silva",
+        "given": "Jennifer M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "publisher": "Oxford University Press",
+    "DOI": "10.1093/acprof:oso/9780199931460.001.0001",
+    "URL": "https://doi.org/10.1093/acprof:oso/9780199931460.001.0001",
+    "note": "Dartmouth指定2015平装版；统一作品身份为2013原出版年，原指定版本仍保留在出处字段。"
+  },
+  {
+    "id": "W0216",
+    "type": "article-journal",
+    "title": "Race, Ethnicity, and Emerging Adulthood: Retrospect and Prospects",
+    "author": [
+      {
+        "family": "Syed",
+        "given": "Moin"
+      },
+      {
+        "family": "Mitchell",
+        "given": "Lauren L."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "container-title": "Emerging Adulthood",
+    "publisher": "SAGE Publications",
+    "volume": "1",
+    "issue": "2",
+    "page": "83-95",
+    "DOI": "10.1177/2167696813480503",
+    "URL": "https://doi.org/10.1177/2167696813480503"
+  },
+  {
+    "id": "W0217",
+    "type": "article-journal",
+    "title": "Childhood Adultification in Economically Disadvantaged Families: A Conceptual Model",
+    "author": [
+      {
+        "family": "Burton",
+        "given": "Linda"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "container-title": "Family Relations",
+    "volume": "56",
+    "issue": "4",
+    "page": "329–345",
+    "DOI": "10.1111/j.1741-3729.2007.00463.x",
+    "URL": "https://doi.org/10.1111/j.1741-3729.2007.00463.x"
+  },
+  {
+    "id": "W0218",
+    "type": "article-journal",
+    "title": "Work Primacy and the Social Incorporation of Unaccompanied, Undocumented Latinx Youth in the United States",
+    "author": [
+      {
+        "family": "Canizales",
+        "given": "Stephanie L."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "Social Forces",
+    "volume": "101",
+    "issue": "3",
+    "page": "1372–1395",
+    "DOI": "10.1093/sf/soab152",
+    "URL": "https://doi.org/10.1093/sf/soab152"
+  },
+  {
+    "id": "W0219",
+    "type": "article-journal",
+    "title": "Identity and Agency in Emerging Adulthood: Two Developmental Routes in the Individualization Process",
+    "author": [
+      {
+        "family": "Schwartz",
+        "given": "Seth J."
+      },
+      {
+        "family": "Côté",
+        "given": "James E."
+      },
+      {
+        "family": "Arnett",
+        "given": "Jeffrey Jensen"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2005
+        ]
+      ]
+    },
+    "container-title": "Youth & Society",
+    "publisher": "SAGE Publications",
+    "volume": "37",
+    "issue": "2",
+    "page": "201-229",
+    "DOI": "10.1177/0044118x05275965",
+    "URL": "https://doi.org/10.1177/0044118x05275965"
+  },
+  {
+    "id": "W0220",
+    "type": "article-journal",
+    "title": "How economic inequality shapes mobility expectations and behaviour in disadvantaged youth",
+    "author": [
+      {
+        "family": "Browman",
+        "given": "Andrew S."
+      },
+      {
+        "family": "Destin",
+        "given": "Mesmin"
+      },
+      {
+        "family": "Kearney",
+        "given": "Melissa S."
+      },
+      {
+        "family": "Levine",
+        "given": "Phillip B."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "container-title": "Nature Human Behaviour",
+    "volume": "3",
+    "issue": "3",
+    "page": "214–220",
+    "DOI": "10.1038/s41562-018-0523-0",
+    "URL": "https://doi.org/10.1038/s41562-018-0523-0"
+  },
+  {
+    "id": "W0221",
+    "type": "article-journal",
+    "title": "Sticky educational expectations: A cross-country comparison",
+    "author": [
+      {
+        "family": "Bernardi",
+        "given": "Fabrizio"
+      },
+      {
+        "family": "Valdés",
+        "given": "Manuel T."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "container-title": "Research in Social Stratification and Mobility",
+    "publisher": "Elsevier BV",
+    "volume": "75",
+    "page": "100624",
+    "DOI": "10.1016/j.rssm.2021.100624",
+    "URL": "https://doi.org/10.1016/j.rssm.2021.100624"
+  },
+  {
+    "id": "W0222",
+    "type": "article-journal",
+    "title": "Conceptualizing Individual Agency in the Transition from School to Work: A Social-Ecological Developmental Perspective",
+    "author": [
+      {
+        "family": "Schoon",
+        "given": "Ingrid"
+      },
+      {
+        "family": "Heckhausen",
+        "given": "Jutta"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "container-title": "Adolescent Research Review",
+    "publisher": "Springer Science and Business Media LLC",
+    "volume": "4",
+    "issue": "2",
+    "page": "135-148",
+    "DOI": "10.1007/s40894-019-00111-3",
+    "URL": "https://doi.org/10.1007/s40894-019-00111-3",
+    "note": "为补足青年能动性的概念框架而另加；不是已保留课纲的指定阅读。"
+  },
+  {
+    "id": "W0223",
+    "type": "article-journal",
+    "title": "Empowering, Pragmatic, or Disappointing: Appraisals of Singlehood During Emerging and Established Adulthood",
+    "author": [
+      {
+        "family": "Beckmeyer",
+        "given": "Jonathon J."
+      },
+      {
+        "family": "Jamison",
+        "given": "Tyler B."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "container-title": "Emerging Adulthood",
+    "publisher": "SAGE Publications",
+    "volume": "11",
+    "issue": "1",
+    "page": "103-109",
+    "DOI": "10.1177/21676968221099123",
+    "URL": "https://doi.org/10.1177/21676968221099123"
+  },
+  {
+    "id": "W0224",
+    "type": "article-journal",
+    "title": "Inequality: Causes and Consequences",
+    "author": [
+      {
+        "family": "Neckerman",
+        "given": "Kathryn M."
+      },
+      {
+        "family": "Torche",
+        "given": "Florencia"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "container-title": "Annual Review of Sociology",
+    "volume": "33",
+    "page": "335–357",
+    "DOI": "10.1146/annurev.soc.33.040406.131755",
+    "URL": "https://doi.org/10.1146/annurev.soc.33.040406.131755"
+  },
+  {
+    "id": "W0225",
+    "type": "article-journal",
+    "title": "The life course cube: A tool for studying lives",
+    "author": [
+      {
+        "family": "Bernardi",
+        "given": "Laura"
+      },
+      {
+        "family": "Huinink",
+        "given": "Johannes"
+      },
+      {
+        "family": "Settersten",
+        "given": "Richard A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "container-title": "Advances in Life Course Research",
+    "volume": "41",
+    "page": "100258",
+    "DOI": "10.1016/j.alcr.2018.11.004",
+    "URL": "https://doi.org/10.1016/j.alcr.2018.11.004"
+  },
+  {
+    "id": "W0226",
+    "type": "article-journal",
+    "title": "Life Course Risks or Cumulative Disadvantage? The Structuring Effect of Social Stratification Determinants and Life Course Events on Poverty Transitions in Europe",
+    "author": [
+      {
+        "family": "Vandecasteele",
+        "given": "Leen"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "container-title": "European Sociological Review",
+    "volume": "27",
+    "issue": "2",
+    "page": "246–263",
+    "DOI": "10.1093/esr/jcq005",
+    "URL": "https://doi.org/10.1093/esr/jcq005"
+  },
+  {
+    "id": "W0227",
+    "type": "chapter",
+    "title": "The Concept(s) of Culture",
+    "author": [
+      {
+        "family": "Sewell",
+        "given": "William H."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1999
+        ]
+      ]
+    },
+    "container-title": "Beyond the Cultural Turn: New Directions in the Study of Society and Culture",
+    "publisher": "University of California Press",
+    "page": "35–61",
+    "DOI": "10.1525/9780520922167-003",
+    "URL": "https://doi.org/10.1525/9780520922167-003",
+    "note": "原课纲指定pp.35–61；本清单保存为章节，非整本书。",
+    "editor": [
+      {
+        "family": "Bonnell",
+        "given": "Victoria E."
+      },
+      {
+        "family": "Hunt",
+        "given": "Lynn"
+      }
+    ]
+  },
+  {
+    "id": "W0228",
+    "type": "article-journal",
+    "title": "Culture in Action: Symbols and Strategies",
+    "author": [
+      {
+        "family": "Swidler",
+        "given": "Ann"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1986
+        ]
+      ]
+    },
+    "container-title": "American Sociological Review",
+    "volume": "51",
+    "issue": "2",
+    "page": "273–286",
+    "DOI": "10.2307/2095521",
+    "URL": "https://doi.org/10.2307/2095521"
+  },
+  {
+    "id": "W0229",
+    "type": "book",
+    "title": "The Interpretation of Cultures: Selected Essays",
+    "author": [
+      {
+        "family": "Geertz",
+        "given": "Clifford"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1973
+        ]
+      ]
+    },
+    "container-title": "Basic Books",
+    "publisher": "Basic Books",
+    "URL": "https://wellcomecollection.org/works/dr4jm9yf"
+  },
+  {
+    "id": "W0230",
+    "type": "book",
+    "title": "Distinction: A Social Critique of the Judgement of Taste",
+    "author": [
+      {
+        "family": "Bourdieu",
+        "given": "Pierre"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1984
+        ]
+      ]
+    },
+    "container-title": "Harvard University Press",
+    "publisher": "Harvard University Press",
+    "URL": "https://koha.arcadia.edu/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=594563",
+    "note": "采用Richard Nice英译本1984年；其他课纲中的1987为版本信息，不混作法文初版1979。"
+  },
+  {
+    "id": "W0231",
+    "type": "article-journal",
+    "title": "The Production of Culture Perspective",
+    "author": [
+      {
+        "family": "Peterson",
+        "given": "Richard A."
+      },
+      {
+        "family": "Anand",
+        "given": "N."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "container-title": "Annual Review of Sociology",
+    "volume": "30",
+    "issue": "1",
+    "page": "311-334",
+    "DOI": "10.1146/annurev.soc.30.012703.110557",
+    "URL": "https://doi.org/10.1146/annurev.soc.30.012703.110557"
+  },
+  {
+    "id": "W0232",
+    "type": "article-journal",
+    "title": "The Field of Cultural Production, or: The Economic World Reversed",
+    "author": [
+      {
+        "family": "Bourdieu",
+        "given": "Pierre"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1983
+        ]
+      ]
+    },
+    "container-title": "Poetics",
+    "volume": "12",
+    "issue": "4–5",
+    "page": "311–356",
+    "DOI": "10.1016/0304-422X(83)90012-8",
+    "URL": "https://doi.org/10.1016/0304-422X(83)90012-8",
+    "note": "使用课纲列示的1983年Poetics论文，区别于1993年同名论文集。"
+  },
+  {
+    "id": "W0233",
+    "type": "article-journal",
+    "title": "The Study of Boundaries in the Social Sciences",
+    "author": [
+      {
+        "family": "Lamont",
+        "given": "Michèle"
+      },
+      {
+        "family": "Molnár",
+        "given": "Virág"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2002
+        ]
+      ]
+    },
+    "container-title": "Annual Review of Sociology",
+    "volume": "28",
+    "page": "167–195",
+    "DOI": "10.1146/annurev.soc.28.110601.141107",
+    "URL": "https://doi.org/10.1146/annurev.soc.28.110601.141107"
+  },
+  {
+    "id": "W0234",
+    "type": "article-journal",
+    "title": "What Is Missing? Cultural Processes and Causal Pathways to Inequality",
+    "author": [
+      {
+        "family": "Lamont",
+        "given": "Michèle"
+      },
+      {
+        "family": "Beljean",
+        "given": "Stefan"
+      },
+      {
+        "family": "Clair",
+        "given": "Matthew"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "container-title": "Socio-Economic Review",
+    "volume": "12",
+    "issue": "3",
+    "page": "573–608",
+    "DOI": "10.1093/ser/mwu011",
+    "URL": "https://doi.org/10.1093/ser/mwu011"
+  },
+  {
+    "id": "W0235",
+    "type": "article-journal",
+    "title": "Culture and Cognition",
+    "author": [
+      {
+        "family": "DiMaggio",
+        "given": "Paul"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1997
+        ]
+      ]
+    },
+    "container-title": "Annual Review of Sociology",
+    "volume": "23",
+    "page": "263–287",
+    "DOI": "10.1146/annurev.soc.23.1.263",
+    "URL": "https://doi.org/10.1146/annurev.soc.23.1.263",
+    "note": "原 Wisconsin 课纲卷号写 24；正式出版信息为 23，已按期刊官网校正。"
+  },
+  {
+    "id": "W0236",
+    "type": "article-journal",
+    "title": "Motivation and Justification: A Dual-Process Model of Culture in Action",
+    "author": [
+      {
+        "family": "Vaisey",
+        "given": "Stephen"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "container-title": "American Journal of Sociology",
+    "volume": "114",
+    "issue": "6",
+    "page": "1675–1715",
+    "DOI": "10.1086/597179",
+    "URL": "https://doi.org/10.1086/597179",
+    "note": "UCLA同条写作Toward a Dual-Process Theory，采用期刊正式题名。"
+  },
+  {
+    "id": "W0237",
+    "type": "article-journal",
+    "title": "Talk Is Cheap: Ethnography and the Attitudinal Fallacy",
+    "author": [
+      {
+        "family": "Jerolmack",
+        "given": "Colin"
+      },
+      {
+        "family": "Khan",
+        "given": "Shamus"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "container-title": "Sociological Methods & Research",
+    "volume": "43",
+    "issue": "2",
+    "page": "178–209",
+    "DOI": "10.1177/0049124114523396",
+    "URL": "https://doi.org/10.1177/0049124114523396"
+  },
+  {
+    "id": "W0238",
+    "type": "article-journal",
+    "title": "Culture in Interaction",
+    "author": [
+      {
+        "family": "Eliasoph",
+        "given": "Nina"
+      },
+      {
+        "family": "Lichterman",
+        "given": "Paul"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2003
+        ]
+      ]
+    },
+    "container-title": "American Journal of Sociology",
+    "volume": "108",
+    "issue": "4",
+    "page": "735-794",
+    "DOI": "10.1086/367920",
+    "URL": "https://doi.org/10.1086/367920"
+  },
+  {
+    "id": "W0239",
+    "type": "article-journal",
+    "title": "Improving Cultural Analysis: Considering Personal Culture in Its Declarative and Nondeclarative Modes",
+    "author": [
+      {
+        "family": "Lizardo",
+        "given": "Omar"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "container-title": "American Sociological Review",
+    "volume": "82",
+    "issue": "1",
+    "page": "88–115",
+    "DOI": "10.1177/0003122416675175",
+    "URL": "https://doi.org/10.1177/0003122416675175"
+  },
+  {
+    "id": "W0240",
+    "type": "article-journal",
+    "title": "Rethinking Culture and Cognition",
+    "author": [
+      {
+        "family": "Cerulo",
+        "given": "Karen A."
+      },
+      {
+        "family": "Leschziner",
+        "given": "Vanina"
+      },
+      {
+        "family": "Shepherd",
+        "given": "Hana"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "container-title": "Annual Review of Sociology",
+    "volume": "47",
+    "issue": "1",
+    "page": "63-85",
+    "DOI": "10.1146/annurev-soc-072320-095202",
+    "URL": "https://doi.org/10.1146/annurev-soc-072320-095202",
+    "note": "Rutgers列forthcoming 2021及稿件页码；此处采用正式发表版。"
+  },
+  {
+    "id": "W0241",
+    "type": "article-journal",
+    "title": "Cultural Schemas: What They Are, How to Find Them, and What to Do Once You’ve Caught One",
+    "author": [
+      {
+        "family": "Boutyline",
+        "given": "Andrei"
+      },
+      {
+        "family": "Soter",
+        "given": "Laura K."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "container-title": "American Sociological Review",
+    "volume": "86",
+    "issue": "4",
+    "page": "728–758",
+    "DOI": "10.1177/00031224211024525",
+    "URL": "https://doi.org/10.1177/00031224211024525",
+    "note": "原 Wisconsin 课纲姓氏拼作 Boutilyne，已按正式期刊记录校正为 Boutyline。"
+  },
+  {
+    "id": "W0242",
+    "type": "article-journal",
+    "title": "What Properties of Culture Should We Measure?",
+    "author": [
+      {
+        "family": "Jepperson",
+        "given": "Ronald L."
+      },
+      {
+        "family": "Swidler",
+        "given": "Ann"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1994
+        ]
+      ]
+    },
+    "container-title": "Poetics",
+    "volume": "22",
+    "issue": "4",
+    "page": "359-371",
+    "DOI": "10.1016/0304-422x(94)90014-0",
+    "URL": "https://doi.org/10.1016/0304-422x(94)90014-0",
+    "note": "原 Wisconsin 课纲起始页写 350；Crossref 正式记录为 359–371，已校正。"
+  },
+  {
+    "id": "W0243",
+    "type": "book",
+    "title": "Measuring Culture",
+    "author": [
+      {
+        "family": "Mohr",
+        "given": "John W."
+      },
+      {
+        "family": "Bail",
+        "given": "Christopher A."
+      },
+      {
+        "family": "Frye",
+        "given": "Margaret"
+      },
+      {
+        "family": "Lena",
+        "given": "Jennifer C."
+      },
+      {
+        "family": "Lizardo",
+        "given": "Omar"
+      },
+      {
+        "family": "McDonnell",
+        "given": "Terence E."
+      },
+      {
+        "family": "Mische",
+        "given": "Ann"
+      },
+      {
+        "family": "Tavory",
+        "given": "Iddo"
+      },
+      {
+        "family": "Wherry",
+        "given": "Frederick F."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Columbia University Press",
+    "publisher": "Columbia University Press",
+    "DOI": "10.7312/mohr18028",
+    "URL": "https://doi.org/10.7312/mohr18028",
+    "note": "出版社确认 2020；Wisconsin 课纲写 2021，Rutgers 写 2020。此条用整书 DOI，未将第1章或后期重印单独误作原书。 原课程仅指定部分页/章，本项目将其作为方法工具书，不声称整本必读。"
+  },
+  {
+    "id": "W0244",
+    "type": "article-journal",
+    "title": "Mapping Shared Understandings Using Relational Class Analysis: The Case of the Cultural Omnivore Reexamined",
+    "author": [
+      {
+        "family": "Goldberg",
+        "given": "Amir"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "container-title": "American Journal of Sociology",
+    "volume": "116",
+    "issue": "5",
+    "page": "1397–1436",
+    "DOI": "10.1086/657976",
+    "URL": "https://doi.org/10.1086/657976"
+  },
+  {
+    "id": "W0245",
+    "type": "article-journal",
+    "title": "Mapping Cultural Schemas: From Theory to Method",
+    "author": [
+      {
+        "family": "Hunzaker",
+        "given": "M. B. Fallin"
+      },
+      {
+        "family": "Valentino",
+        "given": "Lauren"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "container-title": "American Sociological Review",
+    "volume": "84",
+    "issue": "5",
+    "page": "950-981",
+    "DOI": "10.1177/0003122419875638",
+    "URL": "https://doi.org/10.1177/0003122419875638"
+  },
+  {
+    "id": "W0246",
+    "type": "article-journal",
+    "title": "Cultural Sentiments and Schema-Consistency Bias in Information Transmission",
+    "author": [
+      {
+        "family": "Hunzaker",
+        "given": "M. B. Fallin"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "container-title": "American Sociological Review",
+    "volume": "81",
+    "issue": "6",
+    "page": "1223-1250",
+    "DOI": "10.1177/0003122416671742",
+    "URL": "https://doi.org/10.1177/0003122416671742"
+  },
+  {
+    "id": "W0247",
+    "type": "article-journal",
+    "title": "Cross-National Cultural Diffusion: The Global Spread of Cricket",
+    "author": [
+      {
+        "family": "Kaufman",
+        "given": "Jason"
+      },
+      {
+        "family": "Patterson",
+        "given": "Orlando"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2005
+        ]
+      ]
+    },
+    "container-title": "American Sociological Review",
+    "volume": "70",
+    "issue": "1",
+    "page": "82-110",
+    "DOI": "10.1177/000312240507000105",
+    "URL": "https://doi.org/10.1177/000312240507000105"
+  },
+  {
+    "id": "W0248",
+    "type": "book",
+    "title": "Unequal Childhoods: Class, Race, and Family Life",
+    "author": [
+      {
+        "family": "Lareau",
+        "given": "Annette"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "container-title": "University of California Press",
+    "publisher": "University of California Press",
+    "URL": "https://www.ucpress.edu/books/unequal-childhoods/paper",
+    "note": "采用2011年第2版，区别2003年初版。",
+    "edition": "2nd"
+  },
+  {
+    "id": "W0249",
+    "type": "article-journal",
+    "title": "Politics across Generations: Family Transmission Reexamined",
+    "author": [
+      {
+        "family": "Jennings",
+        "given": "M. Kent"
+      },
+      {
+        "family": "Stoker",
+        "given": "Laura"
+      },
+      {
+        "family": "Bowers",
+        "given": "Jake"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "container-title": "The Journal of Politics",
+    "volume": "71",
+    "issue": "3",
+    "page": "782–799",
+    "DOI": "10.1017/S0022381609090719",
+    "URL": "https://doi.org/10.1017/S0022381609090719"
+  },
+  {
+    "id": "W0250",
+    "type": "article-journal",
+    "title": "Measuring Stability and Change in Personal Culture Using Panel Data",
+    "author": [
+      {
+        "family": "Kiley",
+        "given": "Kevin"
+      },
+      {
+        "family": "Vaisey",
+        "given": "Stephen"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "American Sociological Review",
+    "volume": "85",
+    "issue": "3",
+    "page": "477–506",
+    "DOI": "10.1177/0003122420921538",
+    "URL": "https://doi.org/10.1177/0003122420921538",
+    "note": "必须连同 2022 Corrigendum（American Sociological Review 87(2):373–381，DOI 10.1177/00031224221078847）阅读。原 R 版本 nls/logLik 中调查权重重复计入影响 BIC 比较、部分题项模型分类及年龄关联；作者报告总体模式和主要结论不变。 方法扩展：Vaisey and Kiley 2021, A Model-Based Method for Detecting Persistent Cultural Change Using Panel Data, Sociological Science 8:83–95, DOI 10.15195/v8.a5。此扩展仅作为伴读提示，不冒充原课纲条目。"
+  },
+  {
+    "id": "W0251",
+    "type": "article-journal",
+    "title": "Pluralistic Collapse: The “Oil Spill” Model of Mass Opinion Polarization",
+    "author": [
+      {
+        "family": "DellaPosta",
+        "given": "Daniel"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "American Sociological Review",
+    "volume": "85",
+    "issue": "3",
+    "page": "507–536",
+    "DOI": "10.1177/0003122420922989",
+    "URL": "https://doi.org/10.1177/0003122420922989"
+  },
+  {
+    "id": "W0252",
+    "type": "article-journal",
+    "title": "Have Americans' Social Attitudes Become More Polarized?",
+    "author": [
+      {
+        "family": "DiMaggio",
+        "given": "Paul"
+      },
+      {
+        "family": "Evans",
+        "given": "John"
+      },
+      {
+        "family": "Bryson",
+        "given": "Bethany"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1996
+        ]
+      ]
+    },
+    "container-title": "American Journal of Sociology",
+    "volume": "102",
+    "issue": "3",
+    "page": "690–755",
+    "DOI": "10.1086/230995",
+    "URL": "https://doi.org/10.1086/230995",
+    "note": "原课纲略去 Social；已补全题名。出版社及 Crossref 元数据将所有格写作 American's，本清单统一用通常引文中的 Americans'，该拼写差异不表示另一篇作品。"
+  },
+  {
+    "id": "W0253",
+    "type": "article-journal",
+    "title": "Attitudinal Change, Cohort Replacement, and the Liberalization of Attitudes about Same-sex Relationships, 1973–2018",
+    "author": [
+      {
+        "family": "Kranjac",
+        "given": "Ashley Wendell"
+      },
+      {
+        "family": "Wagmiller",
+        "given": "Robert L."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "container-title": "Sociological Perspectives",
+    "volume": "65",
+    "issue": "2",
+    "page": "262-277",
+    "DOI": "10.1177/0731121421994858",
+    "URL": "https://doi.org/10.1177/0731121421994858",
+    "note": "采用 2022 年卷期版（65(2):262–277），区别 2021 年先行网络发表；补全题名中的 1973–2018。第一作者按正式注册记录为 Ashley Wendell Kranjac。"
+  },
+  {
+    "id": "W0254",
+    "type": "book",
+    "title": "Talk of Love: How Culture Matters",
+    "author": [
+      {
+        "family": "Swidler",
+        "given": "Ann"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2001
+        ]
+      ]
+    },
+    "container-title": "University of Chicago Press",
+    "publisher": "University of Chicago Press",
+    "URL": "https://press.uchicago.edu/ucp/books/book/chicago/T/bo3637950.html"
+  },
+  {
+    "id": "W0255",
+    "type": "article-journal",
+    "title": "“It Could Turn Ugly”: Selective Disclosure of Attitudes in Political Discussion Networks",
+    "author": [
+      {
+        "family": "Cowan",
+        "given": "Sarah K."
+      },
+      {
+        "family": "Baldassarri",
+        "given": "Delia"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "container-title": "Social Networks",
+    "volume": "52",
+    "page": "1–17",
+    "DOI": "10.1016/j.socnet.2017.04.002",
+    "URL": "https://doi.org/10.1016/j.socnet.2017.04.002",
+    "note": "采用 2018 年 Social Networks 正式期刊版，排除 Crossref 搜索优先返回的 2017 年 SocArXiv 预印本（10.31235/osf.io/uy3k5）。"
+  },
+  {
+    "id": "W0256",
+    "type": "article-journal",
+    "title": "Modernization, Cultural Change, and the Persistence of Traditional Values",
+    "author": [
+      {
+        "family": "Inglehart",
+        "given": "Ronald"
+      },
+      {
+        "family": "Baker",
+        "given": "Wayne E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2000
+        ]
+      ]
+    },
+    "container-title": "American Sociological Review",
+    "volume": "65",
+    "issue": "1",
+    "page": "19–51",
+    "DOI": "10.1177/000312240006500103",
+    "URL": "https://doi.org/10.1177/000312240006500103",
+    "note": "该课原记录仅精选极化和世代读物；本条为本轮重新核原件后新增相关读物。 同一文章还有 JSTOR 标识 10.2307/2657288；主 DOI 采用期刊官网 10.1177/000312240006500103，勿重复计条。"
+  },
+  {
+    "id": "W0257",
+    "type": "article-journal",
+    "title": "Cultural Meanings and the Aggregation of Actions: The Case of Sex and Schooling in Malawi",
+    "author": [
+      {
+        "family": "Frye",
+        "given": "Margaret"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "container-title": "American Sociological Review",
+    "volume": "82",
+    "issue": "5",
+    "page": "945-976",
+    "DOI": "10.1177/0003122417720466",
+    "URL": "https://doi.org/10.1177/0003122417720466",
+    "note": "原课纲把 Actions 写成单数 Action；依据正式元数据校正题名。"
+  },
+  {
+    "id": "W0258",
+    "type": "book",
+    "title": "Sociology as a Population Science",
+    "author": [
+      {
+        "family": "Goldthorpe",
+        "given": "John H."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "container-title": "Cambridge University Press",
+    "publisher": "Cambridge University Press",
+    "DOI": "10.1017/CBO9781316412565",
+    "URL": "https://doi.org/10.1017/CBO9781316412565",
+    "note": "课程书评选项写 2015；出版社在线日期为 2015 年，纸质版为 2016，本条采用正式书版年份 2016。"
+  },
+  {
+    "id": "W0259",
+    "type": "article-journal",
+    "title": "Integrating Macro- and Micro-Level Approaches in the Explanation of Population Change",
+    "author": [
+      {
+        "family": "Billari",
+        "given": "Francesco C."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "container-title": "Population Studies",
+    "volume": "69",
+    "issue": "sup1",
+    "page": "S11-S20",
+    "DOI": "10.1080/00324728.2015.1009712",
+    "URL": "https://doi.org/10.1080/00324728.2015.1009712"
+  },
+  {
+    "id": "W0260",
+    "type": "article-journal",
+    "title": "Demography: Past, Present, and Future",
+    "author": [
+      {
+        "family": "Xie",
+        "given": "Yu"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2000
+        ]
+      ]
+    },
+    "container-title": "Journal of the American Statistical Association",
+    "volume": "95",
+    "issue": "450",
+    "page": "670–673",
+    "DOI": "10.1080/01621459.2000.10474248",
+    "URL": "https://doi.org/10.1080/01621459.2000.10474248"
+  },
+  {
+    "id": "W0261",
+    "type": "article-journal",
+    "title": "The Demographic Transition: Three Centuries of Fundamental Change",
+    "author": [
+      {
+        "family": "Lee",
+        "given": "Ronald"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2003
+        ]
+      ]
+    },
+    "container-title": "Journal of Economic Perspectives",
+    "volume": "17",
+    "issue": "4",
+    "page": "167–190",
+    "DOI": "10.1257/089533003772034943",
+    "URL": "https://doi.org/10.1257/089533003772034943"
+  },
+  {
+    "id": "W0262",
+    "type": "article-journal",
+    "title": "A Theory of Culture for Demography",
+    "author": [
+      {
+        "family": "Hammel",
+        "given": "Eugene A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1990
+        ]
+      ]
+    },
+    "container-title": "Population and Development Review",
+    "volume": "16",
+    "issue": "3",
+    "page": "455–485",
+    "DOI": "10.2307/1972832",
+    "URL": "https://doi.org/10.2307/1972832"
+  },
+  {
+    "id": "W0263",
+    "type": "article-journal",
+    "title": "Culture and Demography: From Reluctant Bedfellows to Committed Partners",
+    "author": [
+      {
+        "family": "Bachrach",
+        "given": "Christine A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "container-title": "Demography",
+    "volume": "51",
+    "issue": "1",
+    "page": "3–25",
+    "DOI": "10.1007/s13524-013-0257-6",
+    "URL": "https://doi.org/10.1007/s13524-013-0257-6"
+  },
+  {
+    "id": "W0264",
+    "type": "chapter",
+    "title": "The Problem of Generations",
+    "author": [
+      {
+        "family": "Mannheim",
+        "given": "Karl"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1952
+        ]
+      ]
+    },
+    "container-title": "Essays on the Sociology of Knowledge",
+    "publisher": "Routledge & Kegan Paul",
+    "page": "276–321",
+    "URL": "https://www.princeton.edu/~sociolog/grad/courses/soc530w-syllabus.html",
+    "note": "1928 年德文原作，保存 1952 年英文文集章节。Princeton 课纲页码 276–321；学术引文另有 276–320、276–322，原扫描本末页尚未核对。 不采用 Crossref 首项 2017 年重印章节 DOI 作为 1952 原版 DOI。原课纲编辑名 D. Kecskemeti 已按出版信息校为 Paul Kecskemeti。",
+    "editor": [
+      {
+        "family": "Kecskemeti",
+        "given": "Paul"
+      }
+    ]
+  },
+  {
+    "id": "W0265",
+    "type": "article-journal",
+    "title": "The Cohort as a Concept in the Study of Social Change",
+    "author": [
+      {
+        "family": "Ryder",
+        "given": "Norman B."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1965
+        ]
+      ]
+    },
+    "container-title": "American Sociological Review",
+    "volume": "30",
+    "issue": "6",
+    "page": "843–861",
+    "DOI": "10.2307/2090964",
+    "URL": "https://doi.org/10.2307/2090964",
+    "note": "保存 1965 年 ASR 原刊，排除 1985 年重印章节（10.1007/978-1-4613-8536-3_2）。"
+  },
+  {
+    "id": "W0266",
+    "type": "article-journal",
+    "title": "The Historicality of Individuals",
+    "author": [
+      {
+        "family": "Abbott",
+        "given": "Andrew"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2005
+        ]
+      ]
+    },
+    "container-title": "Social Science History",
+    "volume": "29",
+    "issue": "1",
+    "page": "1–13",
+    "DOI": "10.1215/01455532-29-1-1",
+    "URL": "https://doi.org/10.1215/01455532-29-1-1"
+  },
+  {
+    "id": "W0267",
+    "type": "article-journal",
+    "title": "The Easterlin Effect",
+    "author": [
+      {
+        "family": "Pampel",
+        "given": "Fred C."
+      },
+      {
+        "family": "Peters",
+        "given": "H. Elizabeth"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1995
+        ]
+      ]
+    },
+    "container-title": "Annual Review of Sociology",
+    "volume": "21",
+    "issue": "1",
+    "page": "163-194",
+    "DOI": "10.1146/annurev.so.21.080195.001115",
+    "URL": "https://doi.org/10.1146/annurev.so.21.080195.001115"
+  },
+  {
+    "id": "W0268",
+    "type": "article-journal",
+    "title": "Generations and Collective Memories",
+    "author": [
+      {
+        "family": "Schuman",
+        "given": "Howard"
+      },
+      {
+        "family": "Scott",
+        "given": "Jacqueline"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1989
+        ]
+      ]
+    },
+    "container-title": "American Sociological Review",
+    "volume": "54",
+    "issue": "3",
+    "page": "359–381",
+    "DOI": "10.2307/2095611",
+    "URL": "https://doi.org/10.2307/2095611"
+  },
+  {
+    "id": "W0269",
+    "type": "book",
+    "title": "Advanced Introduction to Demography",
+    "author": [
+      {
+        "family": "Lutz",
+        "given": "Wolfgang"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "container-title": "Edward Elgar Publishing",
+    "publisher": "Edward Elgar Publishing",
+    "URL": "https://www.e-elgar.com/shop/gbp/advanced-introduction-to-demography-9781789901467.html"
+  },
+  {
+    "id": "W0270",
+    "type": "article-journal",
+    "title": "Demographic Metabolism: A Predictive Theory of Socioeconomic Change",
+    "author": [
+      {
+        "family": "Lutz",
+        "given": "Wolfgang"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "container-title": "Population and Development Review",
+    "volume": "38",
+    "issue": "s1",
+    "page": "283-301",
+    "DOI": "10.1111/j.1728-4457.2013.00564.x",
+    "URL": "https://doi.org/10.1111/j.1728-4457.2013.00564.x",
+    "note": "为R3-059课程明确的人口新陈代谢主题补充原理论论文；未声称原网页逐篇指定。 本项目补充文献，未声称原课程指定。 卷 38 增刊的发表日期为 2013 年 2 月；常见文献也按卷年引用为 2012，应按 DOI 合并而非当作两篇。"
+  },
+  {
+    "id": "W0271",
+    "type": "article-journal",
+    "title": "The Demography of Educational Attainment and Economic Growth",
+    "author": [
+      {
+        "family": "Lutz",
+        "given": "Wolfgang"
+      },
+      {
+        "family": "Crespo Cuaresma",
+        "given": "Jesús"
+      },
+      {
+        "family": "Sanderson",
+        "given": "Warren"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "container-title": "Science",
+    "volume": "319",
+    "issue": "5866",
+    "page": "1047–1048",
+    "DOI": "10.1126/science.1151753",
+    "URL": "https://doi.org/10.1126/science.1151753",
+    "note": "为教育构成主题补充，原课程网页未逐篇列示。 本项目补充文献，未声称原课程指定。"
+  },
+  {
+    "id": "W0272",
+    "type": "article-journal",
+    "title": "Methods for Estimating Cohort Replacement Effects",
+    "author": [
+      {
+        "family": "Firebaugh",
+        "given": "Glenn"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1989
+        ]
+      ]
+    },
+    "container-title": "Sociological Methodology",
+    "volume": "19",
+    "page": "243–262",
+    "DOI": "10.2307/270954",
+    "URL": "https://doi.org/10.2307/270954",
+    "note": "本项目补充的原方法论文，未声称是原课纲逐篇指定；与 ASA 课纲明确指定的 Firebaugh 1992 配读。"
+  },
+  {
+    "id": "W0273",
+    "type": "article-journal",
+    "title": "Where Does Social Change Come From? Estimating the Relative Contributions of Individual Change and Population Turnover",
+    "author": [
+      {
+        "family": "Firebaugh",
+        "given": "Glenn"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1992
+        ]
+      ]
+    },
+    "container-title": "Population Research and Policy Review",
+    "volume": "11",
+    "issue": "1",
+    "page": "1–20",
+    "DOI": "10.1007/BF00136392",
+    "URL": "https://doi.org/10.1007/BF00136392",
+    "note": "Springer 网页主标题后另列副标题；Crossref 主 title 字段仅含问句。本清单保留原网页及课程列出的完整题名。"
+  },
+  {
+    "id": "W0274",
+    "type": "book",
+    "title": "On Collective Memory",
+    "author": [
+      {
+        "family": "Halbwachs",
+        "given": "Maurice"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1992
+        ]
+      ]
+    },
+    "container-title": "University of Chicago Press",
+    "publisher": "University of Chicago Press",
+    "URL": "https://press.uchicago.edu/ucp/books/book/chicago/O/bo3619875.html",
+    "note": "保存 1992 年英译选集，Lewis A. Coser 为编者及译者，不误列为共同作者。",
+    "editor": [
+      {
+        "family": "Coser",
+        "given": "Lewis A."
+      }
+    ]
+  },
+  {
+    "id": "W0275",
+    "type": "article-journal",
+    "title": "Collective Memory: The Two Cultures",
+    "author": [
+      {
+        "family": "Olick",
+        "given": "Jeffrey K."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1999
+        ]
+      ]
+    },
+    "container-title": "Sociological Theory",
+    "volume": "17",
+    "issue": "3",
+    "page": "333–348",
+    "DOI": "10.1111/0735-2751.00083",
+    "URL": "https://doi.org/10.1111/0735-2751.00083",
+    "note": "采用 1999 年 Sociological Theory 原刊，排除搜索中同题的 2018/2019 年翻译版本。"
+  },
+  {
+    "id": "W0276",
+    "type": "article-journal",
+    "title": "The Demographic Drivers of Grief and Memory After Genocide in Guatemala",
+    "author": [
+      {
+        "family": "Alburez-Gutierrez",
+        "given": "Diego"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "container-title": "Demography",
+    "volume": "59",
+    "issue": "3",
+    "page": "1173-1194",
+    "DOI": "10.1215/00703370-9975747",
+    "URL": "https://doi.org/10.1215/00703370-9975747",
+    "note": "已核正式刊版，替代2021 MPIDR工作论文；原课程未列，填补人口记忆专题缺口。 本项目补充文献，未声称原课程指定。"
+  },
+  {
+    "id": "W0277",
+    "type": "article-journal",
+    "title": "We Are Our Memory: A Flexible Framework for Quantifying the Demographic Imprints of the Past",
+    "author": [
+      {
+        "family": "Gaddy",
+        "given": "Hampton"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "container-title": "Population and Development Review",
+    "volume": "52",
+    "issue": "2",
+    "page": "265–298",
+    "DOI": "10.1111/padr.70074",
+    "URL": "https://doi.org/10.1111/padr.70074",
+    "note": "已找到2026正式发表版，不以会议稿或旧工作论文重复计条。 本项目补充文献，未声称原课程指定。"
+  },
+  {
+    "id": "W0278",
+    "type": "article-journal",
+    "title": "Links Between Demographic and Kinship Transitions",
+    "author": [
+      {
+        "family": "Verdery",
+        "given": "Ashton M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "container-title": "Population and Development Review",
+    "volume": "41",
+    "issue": "3",
+    "page": "465–484",
+    "DOI": "10.1111/j.1728-4457.2015.00068.x",
+    "URL": "https://doi.org/10.1111/j.1728-4457.2015.00068.x"
+  },
+  {
+    "id": "W0279",
+    "type": "book",
+    "title": "The Demographic Dividend: A New Perspective on the Economic Consequences of Population Change",
+    "author": [
+      {
+        "family": "Bloom",
+        "given": "David E."
+      },
+      {
+        "family": "Canning",
+        "given": "David"
+      },
+      {
+        "family": "Sevilla",
+        "given": "Jaypee"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2003
+        ]
+      ]
+    },
+    "container-title": "RAND Corporation",
+    "publisher": "RAND Corporation",
+    "DOI": "10.7249/mr1274",
+    "URL": "https://doi.org/10.7249/mr1274",
+    "note": "Chicago 课纲写 2003；Penn 课纲写 2002，Crossref 正式书版为 2003。本条保存为 RAND 专著，不拆为两本。"
+  },
+  {
+    "id": "W0280",
+    "type": "article-journal",
+    "title": "Immigrant Selectivity Effects on Health, Labor Market, and Educational Outcomes",
+    "author": [
+      {
+        "family": "Feliciano",
+        "given": "Cynthia"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "container-title": "Annual Review of Sociology",
+    "volume": "46",
+    "issue": "1",
+    "page": "315-334",
+    "DOI": "10.1146/annurev-soc-121919-054639",
+    "URL": "https://doi.org/10.1146/annurev-soc-121919-054639"
+  },
+  {
+    "id": "W0281",
+    "type": "article-journal",
+    "title": "Trends in Life Expectancy and Lifespan Variation by Educational Attainment: United States, 1990–2010",
+    "author": [
+      {
+        "family": "Sasson",
+        "given": "Isaac"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "container-title": "Demography",
+    "volume": "53",
+    "issue": "2",
+    "page": "269-293",
+    "DOI": "10.1007/s13524-015-0453-7",
+    "URL": "https://doi.org/10.1007/s13524-015-0453-7"
+  },
+  {
+    "id": "W0282",
+    "type": "article-journal",
+    "title": "How the World Survived the Population Bomb: Lessons From 50 Years of Extraordinary Demographic History",
+    "author": [
+      {
+        "family": "Lam",
+        "given": "David"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "container-title": "Demography",
+    "volume": "48",
+    "issue": "4",
+    "page": "1231-1262",
+    "DOI": "10.1007/s13524-011-0070-z",
+    "URL": "https://doi.org/10.1007/s13524-011-0070-z"
+  },
+  {
+    "id": "W0283",
+    "type": "article-journal",
+    "title": "Time, Human Agency, and Social Change: Perspectives on the Life Course",
+    "author": [
+      {
+        "family": "Elder",
+        "given": "Glen H."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1994
+        ]
+      ]
+    },
+    "container-title": "Social Psychology Quarterly",
+    "volume": "57",
+    "issue": "1",
+    "page": "4–15",
+    "DOI": "10.2307/2786971",
+    "URL": "https://doi.org/10.2307/2786971",
+    "note": "用于补强生命历程核心理论；本轮未能读取S079原课纲，不声称它列有此文。 本项目补充文献，未声称原课程指定。 Crossref 人名字段误将 Jr. 识别为姓，已按原刊目录校为 Glen H. Elder Jr.。"
+  },
+  {
+    "id": "W0284",
+    "type": "article-journal",
+    "title": "Generational Economics in a Changing World",
+    "author": [
+      {
+        "family": "Lee",
+        "given": "Ronald D."
+      },
+      {
+        "family": "Mason",
+        "given": "Andrew"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "container-title": "Population and Development Review",
+    "volume": "37",
+    "issue": "s1",
+    "page": "115–142",
+    "DOI": "10.1111/j.1728-4457.2011.00380.x",
+    "URL": "https://doi.org/10.1111/j.1728-4457.2011.00380.x"
+  },
+  {
+    "id": "W0285",
+    "type": "article-journal",
+    "title": "Six Ways Population Change Will Affect the Global Economy",
+    "author": [
+      {
+        "family": "Mason",
+        "given": "Andrew"
+      },
+      {
+        "family": "Lee",
+        "given": "Ronald"
+      },
+      {
+        "family": "members of the NTA Network",
+        "given": ""
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "container-title": "Population and Development Review",
+    "volume": "48",
+    "issue": "1",
+    "page": "51–73",
+    "DOI": "10.1111/padr.12469",
+    "URL": "https://doi.org/10.1111/padr.12469",
+    "note": "共同作者名单包括NTA Network成员，按出版社正式作者字段保留。"
+  },
+  {
+    "id": "W0286",
+    "type": "article-journal",
+    "title": "How Does Mortality Contribute to Lifetime Pension Inequality? Evidence From Five Decades of Swedish Taxation Data",
+    "author": [
+      {
+        "family": "Shi",
+        "given": "Jiaxin"
+      },
+      {
+        "family": "Kolk",
+        "given": "Martin"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "container-title": "Demography",
+    "volume": "59",
+    "issue": "5",
+    "page": "1843–1871",
+    "DOI": "10.1215/00703370-10218779",
+    "URL": "https://doi.org/10.1215/00703370-10218779"
+  },
+  {
+    "id": "W0287",
+    "type": "article-journal",
+    "title": "Is Low Fertility Really a Problem? Population Aging, Dependency, and Consumption",
+    "author": [
+      {
+        "family": "Lee",
+        "given": "Ronald"
+      },
+      {
+        "family": "Mason",
+        "given": "Andrew"
+      },
+      {
+        "family": "members of the NTA Network",
+        "given": ""
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "container-title": "Science",
+    "volume": "346",
+    "issue": "6206",
+    "page": "229–234",
+    "DOI": "10.1126/science.1250542",
+    "URL": "https://doi.org/10.1126/science.1250542",
+    "note": "共同作者名单包括NTA Network成员，按出版社正式作者字段保留。"
+  }
+]
